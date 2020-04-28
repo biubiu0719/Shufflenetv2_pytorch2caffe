@@ -1,0 +1,2 @@
+# Shufflenetv2_pytorch2caffe
+shufflenetv2使用pytorch训练2分类模型，转换为caffe，可压缩模型简化网络
