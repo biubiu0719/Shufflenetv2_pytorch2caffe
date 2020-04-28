@@ -1,0 +1,5298 @@
+2020-04-23 04:08:04 [INFO]: Set criterion to <class 'torch.nn.modules.loss.CrossEntropyLoss'>
+2020-04-23 04:08:04 [INFO]: Set optimizer to <class 'torch.optim.sgd.SGD'>
+2020-04-23 04:08:04 [INFO]: Set lr_scheduler to <class 'torch.optim.lr_scheduler.ReduceLROnPlateau'>
+2020-04-23 04:08:04 [INFO]: Set output dir to ./models/models_new_all_data/models_0.25/
+2020-04-23 04:08:12 [INFO]: Load ckpt from ./models/models_all_data/models_0.25/ckpt_epoch_1000_95.58344113842173.pth
+2020-04-23 04:08:12 [INFO]: Set CUDA_VISIBLE_DEVICES to 0,3...
+Setting up a new session...
+2020-04-23 04:08:12 [INFO]: Start training epoch 1
+Loading dataset...
+train dataset len: 1277302
+val dataset len: 646480
+Training with sgd
+2020-04-23 04:12:08 [INFO]: Val on validation set...
+2020-04-23 04:13:19 [INFO]: Found a better ckpt (inf -> 0.081), 
+2020-04-23 04:13:20 [INFO]: Start training epoch 2
+acc is 95
+pos is 99.254
+neg is 85.139
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_1_95.22908674668976.pth
+2020-04-23 04:17:30 [INFO]: Val on validation set...
+2020-04-23 04:18:30 [INFO]: Found a better ckpt (0.081 -> 0.078), 
+2020-04-23 04:18:30 [INFO]: Start training epoch 3
+acc is 96
+pos is 99.062
+neg is 89.849
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_2_96.43531122385843.pth
+2020-04-23 04:22:21 [INFO]: Val on validation set...
+2020-04-23 04:23:31 [INFO]: Found a better ckpt (0.078 -> 0.077), 
+2020-04-23 04:23:31 [INFO]: Start training epoch 4
+acc is 95
+pos is 99.197
+neg is 87.387
+2020-04-23 04:27:21 [INFO]: Val on validation set...
+2020-04-23 04:28:21 [INFO]: Found a better ckpt (0.077 -> 0.076), 
+2020-04-23 04:28:22 [INFO]: Start training epoch 5
+acc is 96
+pos is 97.138
+neg is 95.706
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_4_96.72982922905581.pth
+2020-04-23 04:32:06 [INFO]: Val on validation set...
+2020-04-23 04:33:06 [INFO]: Start training epoch 6
+acc is 97
+pos is 98.589
+neg is 93.460
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_5_97.12659324341047.pth
+2020-04-23 04:36:51 [INFO]: Val on validation set...
+2020-04-23 04:37:49 [INFO]: Found a better ckpt (0.076 -> 0.075), 
+2020-04-23 04:37:49 [INFO]: Start training epoch 7
+acc is 94
+pos is 99.278
+neg is 83.437
+2020-04-23 04:41:34 [INFO]: Val on validation set...
+2020-04-23 04:42:36 [INFO]: Found a better ckpt (0.075 -> 0.075), 
+2020-04-23 04:42:36 [INFO]: Start training epoch 8
+acc is 96
+pos is 97.150
+neg is 96.351
+2020-04-23 04:46:17 [INFO]: Val on validation set...
+2020-04-23 04:47:17 [INFO]: Found a better ckpt (0.075 -> 0.075), 
+2020-04-23 04:47:17 [INFO]: Start training epoch 9
+acc is 97
+pos is 98.901
+neg is 92.597
+2020-04-23 04:51:02 [INFO]: Val on validation set...
+2020-04-23 04:52:02 [INFO]: Found a better ckpt (0.075 -> 0.074), 
+2020-04-23 04:52:02 [INFO]: Start training epoch 10
+acc is 97
+pos is 98.052
+neg is 95.026
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_9_97.18924019304542.pth
+2020-04-23 04:55:51 [INFO]: Val on validation set...
+2020-04-23 04:57:00 [INFO]: Found a better ckpt (0.074 -> 0.074), 
+2020-04-23 04:57:00 [INFO]: Start training epoch 11
+acc is 95
+pos is 99.213
+neg is 86.227
+2020-04-23 05:01:03 [INFO]: Val on validation set...
+2020-04-23 05:02:09 [INFO]: Found a better ckpt (0.074 -> 0.074), 
+2020-04-23 05:02:09 [INFO]: Start training epoch 12
+acc is 96
+pos is 99.159
+neg is 88.920
+2020-04-23 05:05:58 [INFO]: Val on validation set...
+2020-04-23 05:07:08 [INFO]: Found a better ckpt (0.074 -> 0.074), 
+2020-04-23 05:07:08 [INFO]: Start training epoch 13
+acc is 97
+pos is 97.657
+neg is 95.783
+2020-04-23 05:11:16 [INFO]: Val on validation set...
+2020-04-23 05:12:18 [INFO]: Found a better ckpt (0.074 -> 0.074), 
+2020-04-23 05:12:18 [INFO]: Start training epoch 14
+acc is 97
+pos is 98.886
+neg is 92.762
+2020-04-23 05:16:15 [INFO]: Val on validation set...
+2020-04-23 05:17:17 [INFO]: Found a better ckpt (0.074 -> 0.073), 
+2020-04-23 05:17:17 [INFO]: Start training epoch 15
+acc is 95
+pos is 94.714
+neg is 97.206
+2020-04-23 05:20:59 [INFO]: Val on validation set...
+2020-04-23 05:21:57 [INFO]: Found a better ckpt (0.073 -> 0.073), 
+2020-04-23 05:21:57 [INFO]: Start training epoch 16
+acc is 95
+pos is 94.075
+neg is 97.371
+2020-04-23 05:25:40 [INFO]: Val on validation set...
+2020-04-23 05:26:43 [INFO]: Found a better ckpt (0.073 -> 0.073), 
+2020-04-23 05:26:43 [INFO]: Start training epoch 17
+acc is 96
+pos is 96.302
+neg is 97.036
+2020-04-23 05:30:21 [INFO]: Val on validation set...
+2020-04-23 05:31:24 [INFO]: Found a better ckpt (0.073 -> 0.073), 
+2020-04-23 05:31:24 [INFO]: Start training epoch 18
+acc is 95
+pos is 99.298
+neg is 84.910
+2020-04-23 05:35:08 [INFO]: Val on validation set...
+2020-04-23 05:36:06 [INFO]: Found a better ckpt (0.073 -> 0.072), 
+2020-04-23 05:36:06 [INFO]: Start training epoch 19
+acc is 97
+pos is 97.603
+neg is 95.509
+2020-04-23 05:39:58 [INFO]: Val on validation set...
+2020-04-23 05:40:57 [INFO]: Start training epoch 20
+acc is 93
+pos is 99.353
+neg is 79.303
+2020-04-23 05:44:57 [INFO]: Val on validation set...
+2020-04-23 05:45:57 [INFO]: Found a better ckpt (0.072 -> 0.072), 
+2020-04-23 05:45:57 [INFO]: Start training epoch 21
+acc is 97
+pos is 98.633
+neg is 93.645
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_20_97.21074124489543.pth
+2020-04-23 05:49:55 [INFO]: Val on validation set...
+2020-04-23 05:51:05 [INFO]: Found a better ckpt (0.072 -> 0.072), 
+2020-04-23 05:51:05 [INFO]: Start training epoch 22
+acc is 97
+pos is 97.464
+neg is 96.061
+2020-04-23 05:54:55 [INFO]: Val on validation set...
+2020-04-23 05:55:52 [INFO]: Start training epoch 23
+acc is 97
+pos is 98.022
+neg is 95.846
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_22_97.40146640267294.pth
+2020-04-23 05:59:33 [INFO]: Val on validation set...
+2020-04-23 06:00:33 [INFO]: Found a better ckpt (0.072 -> 0.072), 
+2020-04-23 06:00:33 [INFO]: Start training epoch 24
+acc is 97
+pos is 98.873
+neg is 92.396
+2020-04-23 06:04:06 [INFO]: Val on validation set...
+2020-04-23 06:05:10 [INFO]: Start training epoch 25
+acc is 97
+pos is 98.700
+neg is 93.364
+2020-04-23 06:08:54 [INFO]: Val on validation set...
+2020-04-23 06:09:53 [INFO]: Found a better ckpt (0.072 -> 0.072), 
+2020-04-23 06:09:53 [INFO]: Start training epoch 26
+acc is 96
+pos is 99.030
+neg is 91.710
+2020-04-23 06:13:39 [INFO]: Val on validation set...
+2020-04-23 06:14:36 [INFO]: Found a better ckpt (0.072 -> 0.071), 
+2020-04-23 06:14:36 [INFO]: Start training epoch 27
+acc is 96
+pos is 99.294
+neg is 87.962
+2020-04-23 06:18:26 [INFO]: Val on validation set...
+2020-04-23 06:19:29 [INFO]: Found a better ckpt (0.071 -> 0.071), 
+2020-04-23 06:19:29 [INFO]: Start training epoch 28
+acc is 97
+pos is 98.821
+neg is 93.728
+2020-04-23 06:23:16 [INFO]: Val on validation set...
+2020-04-23 06:24:15 [INFO]: Start training epoch 29
+acc is 94
+pos is 99.328
+neg is 81.706
+2020-04-23 06:27:54 [INFO]: Val on validation set...
+2020-04-23 06:28:58 [INFO]: Found a better ckpt (0.071 -> 0.071), 
+2020-04-23 06:28:58 [INFO]: Start training epoch 30
+acc is 97
+pos is 97.568
+neg is 95.946
+2020-04-23 06:32:38 [INFO]: Val on validation set...
+2020-04-23 06:33:40 [INFO]: Found a better ckpt (0.071 -> 0.071), 
+2020-04-23 06:33:40 [INFO]: Start training epoch 31
+acc is 94
+pos is 99.340
+neg is 82.966
+2020-04-23 06:37:25 [INFO]: Val on validation set...
+2020-04-23 06:38:24 [INFO]: Found a better ckpt (0.071 -> 0.071), 
+2020-04-23 06:38:24 [INFO]: Start training epoch 32
+acc is 97
+pos is 98.623
+neg is 94.241
+2020-04-23 06:42:12 [INFO]: Val on validation set...
+2020-04-23 06:43:18 [INFO]: Start training epoch 33
+acc is 97
+pos is 98.334
+neg is 94.083
+2020-04-23 06:46:56 [INFO]: Val on validation set...
+2020-04-23 06:48:05 [INFO]: Start training epoch 34
+acc is 97
+pos is 98.533
+neg is 94.534
+2020-04-23 06:51:57 [INFO]: Val on validation set...
+2020-04-23 06:53:02 [INFO]: Found a better ckpt (0.071 -> 0.070), 
+2020-04-23 06:53:02 [INFO]: Start training epoch 35
+acc is 97
+pos is 98.245
+neg is 95.318
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_34_97.41043806459597.pth
+2020-04-23 06:57:15 [INFO]: Val on validation set...
+2020-04-23 06:58:27 [INFO]: Start training epoch 36
+acc is 96
+pos is 99.150
+neg is 90.136
+2020-04-23 07:02:29 [INFO]: Val on validation set...
+2020-04-23 07:03:27 [INFO]: Start training epoch 37
+acc is 95
+pos is 99.115
+neg is 87.099
+2020-04-23 07:07:20 [INFO]: Val on validation set...
+2020-04-23 07:08:31 [INFO]: Start training epoch 38
+acc is 96
+pos is 97.304
+neg is 95.138
+2020-04-23 07:12:29 [INFO]: Val on validation set...
+2020-04-23 07:13:31 [INFO]: Found a better ckpt (0.070 -> 0.070), 
+2020-04-23 07:13:31 [INFO]: Start training epoch 39
+acc is 94
+pos is 99.246
+neg is 83.420
+2020-04-23 07:17:22 [INFO]: Val on validation set...
+2020-04-23 07:18:27 [INFO]: Found a better ckpt (0.070 -> 0.070), 
+2020-04-23 07:18:27 [INFO]: Start training epoch 40
+acc is 94
+pos is 99.337
+neg is 83.454
+2020-04-23 07:22:11 [INFO]: Val on validation set...
+2020-04-23 07:23:24 [INFO]: Start training epoch 41
+acc is 97
+pos is 98.817
+neg is 93.840
+2020-04-23 07:27:07 [INFO]: Val on validation set...
+2020-04-23 07:28:04 [INFO]: Start training epoch 42
+acc is 97
+pos is 98.729
+neg is 93.987
+2020-04-23 07:31:48 [INFO]: Val on validation set...
+2020-04-23 07:32:47 [INFO]: Found a better ckpt (0.070 -> 0.070), 
+2020-04-23 07:32:47 [INFO]: Start training epoch 43
+acc is 92
+pos is 99.405
+neg is 76.807
+2020-04-23 07:36:31 [INFO]: Val on validation set...
+2020-04-23 07:37:31 [INFO]: Found a better ckpt (0.070 -> 0.070), 
+2020-04-23 07:37:31 [INFO]: Start training epoch 44
+acc is 96
+pos is 97.023
+neg is 96.479
+2020-04-23 07:41:17 [INFO]: Val on validation set...
+2020-04-23 07:42:22 [INFO]: Start training epoch 45
+acc is 96
+pos is 98.901
+neg is 92.157
+2020-04-23 07:46:19 [INFO]: Val on validation set...
+2020-04-23 07:47:24 [INFO]: Found a better ckpt (0.070 -> 0.069), 
+2020-04-23 07:47:24 [INFO]: Start training epoch 46
+acc is 97
+pos is 98.401
+neg is 94.689
+2020-04-23 07:51:30 [INFO]: Val on validation set...
+2020-04-23 07:52:39 [INFO]: Start training epoch 47
+acc is 94
+pos is 99.369
+neg is 82.157
+2020-04-23 07:56:39 [INFO]: Val on validation set...
+2020-04-23 07:57:38 [INFO]: Start training epoch 48
+acc is 95
+pos is 99.282
+neg is 87.551
+2020-04-23 08:01:43 [INFO]: Val on validation set...
+2020-04-23 08:022020-04-23 08:31:09 [INFO]: Val on validation set...
+2020-04-23 08:37:25 [INFO]: Found a better ckpt (0.105 -> 0.105), 
+2020-04-23 08:37:25 [INFO]: Start training epoch 46
+acc is 95
+pos is 98.938
+neg is 85.515
+2020-04-23 09:32:05 [INFO]: Val on validation set...
+2020-04-23 09:38:14 [INFO]: Found a better ckpt (0.105 -> 0.105), 
+2020-04-23 09:38:14 [INFO]: Start training epoch 47
+acc is 90
+pos is 99.517
+neg is 66.141
+2020-04-23 10:43:02 [INFO]: Val on validation set...
+2020-04-23 10:51:43 [INFO]: Found a better ckpt (0.105 -> 0.105), 
+2020-04-23 10:51:43 [INFO]: Start training epoch 48
+acc is 95
+pos is 97.462
+neg is 90.997
+2020-04-23 11:53:06 [INFO]: Val on validation set...
+2020-04-23 12:01:52 [INFO]: Start training epoch 49
+acc is 95
+pos is 98.123
+neg is 90.180
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_48_95.85849523573815.pth
+2020-04-23 13:06:47 [INFO]: Val on validation set...
+2020-04-23 13:16:16 [INFO]: Found a better ckpt (0.105 -> 0.105), 
+2020-04-23 13:16:16 [INFO]: Start training epoch 50
+acc is 95
+pos is 98.816
+neg is 87.116
+2020-04-23 14:25:01 [INFO]: Val on validation set...
+2020-04-23 14:35:07 [INFO]: Found a better ckpt (0.105 -> 0.104), 
+2020-04-23 14:35:07 [INFO]: Start training epoch 51
+acc is 91
+pos is 99.505
+neg is 71.558
+save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_50_91.53709318153693.pth
+2020-04-23 15:24:05 [INFO]: Val on validation set...
+2020-04-23 15:29:33 [INFO]: Found a better ckpt (0.104 -> 0.104), 
+2020-04-23 15:29:33 [INFO]: Start training epoch 52
+acc is 91
+pos is 99.499
+neg is 71.778
+2020-04-23 16:15:51 [INFO]: Val on validation set...
+2020-04-23 16:21:25 [INFO]: Found a better ckpt (0.104 -> 0.104), 
+2020-04-23 16:21:25 [INFO]: Start training epoch 53
+acc is 94
+pos is 98.966
+neg is 83.906
+2020-04-23 17:08:29 [INFO]: Val on validation set...
+2020-04-23 17:14:13 [INFO]: Start training epoch 54
+acc is 93
+pos is 99.345
+neg is 79.776
+2020-04-23 17:58:42 [INFO]: Val on validation set...
+2020-04-23 18:03:43 [INFO]: Found a better ckpt (0.104 -> 0.104), 
+2020-04-23 18:03:43 [INFO]: Start training epoch 55
+acc is 93
+pos is 93.081
+neg is 93.707
+2020-04-23 18:44:18 [INFO]: Val on validation set...
+2020-04-23 18:49:03 [INFO]: Start training epoch 56
+acc is 95
+pos is 98.826
+neg is 86.780
+2020-04-23 19:29:52 [INFO]: Val on validation set...
+2020-04-23 19:34:34 [INFO]: Start training epoch 57
+acc is 93
+pos is 99.444
+neg is 78.734
+2020-04-23 20:14:37 [INFO]: Val on validation set...
+2020-04-23 20:19:20 [INFO]: Found a better ckpt (0.104 -> 0.103), 
+2020-04-23 20:19:20 [INFO]: Start training epoch 58
+acc is 95
+pos is 98.076
+neg is 90.067
+2020-04-23 20:58:52 [INFO]: Val on validation set...
+2020-04-23 21:04:12 [INFO]: Found a better ckpt (0.103 -> 0.103), 
+2020-04-23 21:04:12 [INFO]: Start training epoch 59
+acc is 95
+pos is 97.220
+neg is 90.951
+2020-04-23 21:43:19 [INFO]: Val on validation set...
+2020-04-23 21:48:28 [INFO]: Found a better ckpt (0.103 -> 0.103), 
+2020-04-23 21:48:29 [INFO]: Start training epoch 60
+acc is 94
+pos is 99.085
+neg is 81.604
+2020-04-23 22:27:38 [INFO]: Val on validation set...
+2020-04-23 22:32:23 [INFO]: Start training epoch 61
+acc is 94
+pos is 99.189
+neg is 82.655
+2020-04-23 23:12:24 [INFO]: Val on validation set...
+2020-04-23 23:17:03 [INFO]: Found a better ckpt (0.103 -> 0.103), 
+2020-04-23 23:17:03 [INFO]: Start training epoch 62
+acc is 93
+pos is 99.085
+neg is 80.867
+2020-04-23 23:56:54 [INFO]: Val on validation set...
+2020-04-24 00:01:43 [INFO]: Start training epoch 63
+acc is 95
+pos is 98.778
+neg is 86.574
+2020-04-24 00:42:52 [INFO]: Val on validation set...
+2020-04-24 00:47:37 [INFO]: Start training epoch 64
+acc is 92
+pos is 99.530
+neg is 73.207
+2020-04-24 01:28:47 [INFO]: Val on validation set...
+2020-04-24 01:33:29 [INFO]: Found a better ckpt (0.103 -> 0.103), 
+2020-04-24 01:33:29 [INFO]: Start training epoch 65
+acc is 95
+pos is 98.847
+neg is 86.876
+2020-04-24 02:13:28 [INFO]: Val on validation set...
+2020-04-24 02:18:22 [INFO]: Found a better ckpt (0.103 -> 0.102), 
+2020-04-24 02:18:22 [INFO]: Start training epoch 66
+acc is 93
+pos is 99.379
+neg is 80.049
+2020-04-24 02:58:10 [INFO]: Val on validation set...
+2020-04-24 03:03:14 [INFO]: Found a better ckpt (0.102 -> 0.102), 
+2020-04-24 03:03:14 [INFO]: Start training epoch 67
+acc is 95
+pos is 97.883
+neg is 90.719
+2020-04-24 03:42:38 [INFO]: Val on validation set...
+2020-04-24 03:47:55 [INFO]: Start training epoch 68
+acc is 95
+pos is 98.229
+neg is 89.672
+2020-04-24 04:28:42 [INFO]: Val on validation set...
+2020-04-24 04:34:19 [INFO]: Found a better ckpt (0.102 -> 0.102), 
+2020-04-24 04:34:19 [INFO]: Start training epoch 69
+acc is 95
+pos is 98.227
+neg is 89.414
+2020-04-24 05:13:45 [INFO]: Val on validation set...
+2020-04-24 05:19:25 [INFO]: Found a better ckpt (0.102 -> 0.102), 
+2020-04-24 05:19:25 [INFO]: Start training epoch 70
+acc is 95
+pos is 98.504
+neg is 89.156
+2020-04-24 05:59:50 [INFO]: Val on validation set...
+2020-04-24 06:04:40 [INFO]: Start training epoch 71
+acc is 94
+pos is 99.221
+neg is 83.279
+2020-04-24 06:45:19 [INFO]: Val on validation set...
+2020-04-24 06:50:11 [INFO]: Start training epoch 72
+acc is 94
+pos is 99.077
+neg is 84.273
+2020-04-24 07:30:48 [INFO]: Val on validation set...
+2020-04-24 07:35:33 [INFO]: Start training epoch 73
+acc is 95
+pos is 98.777
+neg is 87.106
+2020-04-24 08:26:24 [INFO]: Val on validation set...
+2020-04-24 08:31:17 [INFO]: Start training epoch 74
+acc is 93
+pos is 99.181
+neg is 80.026
+2020-04-24 09:11:20 [INFO]: Val on validation set...
+2020-04-24 09:16:02 [INFO]: Found a better ckpt (0.102 -> 0.102), 
+2020-04-24 09:16:02 [INFO]: Start training epoch 75
+acc is 95
+pos is 98.036
+neg is 90.015
+2020-04-24 09:55:36 [INFO]: Val on validation set...
+2020-04-24 10:00:22 [INFO]: Found a better ckpt (0.102 -> 0.101), 
+2020-04-24 10:00:22 [INFO]: Start training epoch 76
+acc is 94
+pos is 99.169
+neg is 83.885
+2020-04-24 10:40:32 [INFO]: Val on validation set...
+2020-04-24 10:45:14 [INFO]: Start training epoch 77
+acc is 95
+pos is 98.995
+neg is 85.328
+2020-04-24 11:24:47 [INFO]: Val on validation set...
+2020-04-24 11:29:30 [INFO]: Start training epoch 78
+acc is 95
+pos is 99.038
+neg is 85.324
+2020-04-24 12:09:28 [INFO]: Val on validation set...
+2020-04-24 12:14:31 [INFO]: Start training epoch 79
+acc is 95
+pos is 98.753
+neg is 87.693
+2020-04-24 12:54:14 [INFO]: Val on validation set...
+2020-04-24 12:59:43 [INFO]: Found a better ckpt (0.101 -> 0.101), 
+2020-04-24 12:59:43 [INFO]: Start training epoch 80
+acc is 95
+pos is 97.987
+neg is 90.798
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_79_95.93722930330405.pth
+2020-04-24 13:38:47 [INFO]: Val on validation set...
+2020-04-24 13:43:50 [INFO]: Start training epoch 81
+acc is 95
+pos is 97.802
+neg is 90.398
+2020-04-24 14:24:01 [INFO]: Val on validation set...
+2020-04-24 14:28:45 [INFO]: Found a better ckpt (0.101 -> 0.101), 
+2020-04-24 14:28:45 [INFO]: Start training epoch 82
+acc is 95
+pos is 98.923
+neg is 87.226
+2020-04-24 15:09:32 [INFO]: Val on validation set...
+2020-04-24 15:14:13 [INFO]: Found a better ckpt (0.101 -> 0.101), 
+2020-04-24 15:14:13 [INFO]: Start training epoch 83
+acc is 95
+pos is 97.762
+neg is 90.627
+2020-04-24 15:55:21 [INFO]: Val on validation set...
+2020-04-24 16:00:10 [INFO]: Start training epoch 84
+acc is 93
+pos is 99.284
+neg is 77.679
+2020-04-24 16:40:56 [INFO]: Val on validation set...
+2020-04-24 16:45:41 [INFO]: Start training epoch 85
+acc is 95
+pos is 98.138
+neg is 89.933
+2020-04-24 17:26:28 [INFO]: Val on validation set...
+2020-04-24 17:31:22 [INFO]: Start training epoch 86
+acc is 95
+pos is 98.447
+neg is 88.782
+2020-04-24 18:11:07 [INFO]: Val on validation set...
+2020-04-24 18:17:01 [INFO]: Start training epoch 87
+acc is 95
+pos is 98.081
+neg is 90.422
+2020-04-24 18:57:01 [INFO]: Val on validation set...
+2020-04-24 19:02:23 [INFO]: Found a better ckpt (0.101 -> 0.101), 
+2020-04-24 19:02:24 [INFO]: Start training epoch 88
+acc is 95
+pos is 98.578
+neg is 89.018
+2020-04-24 19:42:36 [INFO]: Val on validation set...
+2020-04-24 19:47:25 [INFO]: Found a better ckpt (0.101 -> 0.100), 
+2020-04-24 19:47:25 [INFO]: Start training epoch 89
+acc is 95
+pos is 98.508
+neg is 88.883
+2020-04-24 20:28:35 [INFO]: Val on validation set...
+2020-04-24 20:33:26 [INFO]: Start training epoch 90
+acc is 95
+pos is 98.020
+neg is 90.508
+2020-04-24 21:14:40 [INFO]: Val on validation set...
+2020-04-24 21:19:27 [INFO]: Start training epoch 91
+acc is 94
+pos is 99.234
+neg is 82.406
+2020-04-24 22:00:01 [INFO]: Val on validation set...
+2020-04-24 22:04:53 [INFO]: Start training epoch 92
+acc is 95
+pos is 98.672
+neg is 88.442
+2020-04-24 22:45:00 [INFO]: Val on validation set...
+2020-04-24 22:49:48 [INFO]: Found a better ckpt (0.100 -> 0.100), 
+2020-04-24 22:49:48 [INFO]: Start training epoch 93
+acc is 95
+pos is 98.470
+neg is 88.572
+2020-04-24 23:30:07 [INFO]: Val on validation set...
+2020-04-24 23:35:39 [INFO]: Found a better ckpt (0.100 -> 0.100), 
+2020-04-24 23:35:39 [INFO]: Start training epoch 94
+acc is 95
+pos is 98.280
+neg is 89.938
+2020-04-25 00:15:05 [INFO]: Val on validation set...
+2020-04-25 00:20:57 [INFO]: Start training epoch 95
+acc is 94
+pos is 99.081
+neg is 84.374
+2020-04-25 01:00:24 [INFO]: Val on validation set...
+2020-04-25 01:05:30 [INFO]: Found a better ckpt (0.100 -> 0.100), 
+2020-04-25 01:05:30 [INFO]: Start training epoch 96
+acc is 95
+pos is 99.056
+neg is 85.547
+2020-04-25 01:46:42 [INFO]: Val on validation set...
+2020-04-25 01:51:42 [INFO]: Start training epoch 97
+acc is 95
+pos is 99.079
+neg is 84.952
+2020-04-25 02:32:33 [INFO]: Val on validation set...
+2020-04-25 02:37:25 [INFO]: Start training epoch 98
+acc is 95
+pos is 97.514
+neg is 91.584
+2020-04-25 03:18:00 [INFO]: Val on validation set...
+2020-04-25 03:22:55 [INFO]: Found a better ckpt (0.100 -> 0.100), 
+2020-04-25 03:22:55 [INFO]: Start training epoch 99
+acc is 95
+pos is 98.884
+neg is 85.299
+2020-04-25 04:03:48 [INFO]: Val on validation set...
+2020-04-25 04:08:39 [INFO]: Start training epoch 100
+acc is 93
+pos is 99.438
+neg is 78.456
+2020-04-25 04:48:33 [INFO]: Val on validation set...
+2020-04-25 04:53:26 [INFO]: Found a better ckpt (0.100 -> 0.100), 
+2020-04-25 04:53:26 [INFO]: Start training epoch 101
+acc is 95
+pos is 98.859
+neg is 87.184
+save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_100_95.53010147259003.pth
+2020-04-25 05:33:45 [INFO]: Val on validation set...
+2020-04-25 05:38:43 [INFO]: Found a better ckpt (0.100 -> 0.100), 
+2020-04-25 05:38:43 [INFO]: Start training epoch 102
+acc is 95
+pos is 99.011
+neg is 85.892
+2020-04-25 06:18:51 [INFO]: Val on validation set...
+2020-04-25 06:24:16 [INFO]: Start training epoch 103
+acc is 94
+pos is 99.197
+neg is 83.661
+2020-04-25 07:03:35 [INFO]: Val on validation set...
+2020-04-25 07:09:05 [INFO]: Start training epoch 104
+acc is 94
+pos is 99.117
+neg is 83.315
+2020-04-25 07:49:03 [INFO]: Val on validation set...
+2020-04-25 07:53:39 [INFO]: Start training epoch 105
+acc is 94
+pos is 94.182
+neg is 94.155
+2020-04-25 08:31:43 [INFO]: Val on validation set...
+2020-04-25 08:36:19 [INFO]: Found a better ckpt (0.100 -> 0.099), 
+2020-04-25 08:36:20 [INFO]: Start training epoch 106
+acc is 95
+pos is 98.569
+neg is 89.373
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_105_95.94712906818464.pth
+2020-04-25 09:14:20 [INFO]: Val on validation set...
+2020-04-25 09:19:05 [INFO]: Start training epoch 107
+acc is 94
+pos is 99.236
+neg is 81.753
+2020-04-25 09:56:56 [INFO]: Val on validation set...
+2020-04-25 10:01:32 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 10:01:32 [INFO]: Start training epoch 108
+acc is 95
+pos is 98.667
+neg is 88.358
+2020-04-25 10:39:41 [INFO]: Val on validation set...
+2020-04-25 10:44:15 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 10:44:15 [INFO]: Start training epoch 109
+acc is 95
+pos is 98.929
+neg is 86.965
+2020-04-25 11:22:13 [INFO]: Val on validation set...
+2020-04-25 11:26:53 [INFO]: Start training epoch 110
+acc is 95
+pos is 98.711
+neg is 87.999
+2020-04-25 12:04:56 [INFO]: Val on validation set...
+2020-04-25 12:09:30 [INFO]: Start training epoch 111
+acc is 95
+pos is 98.956
+neg is 85.991
+2020-04-25 12:47:25 [INFO]: Val on validation set...
+2020-04-25 12:52:06 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 12:52:06 [INFO]: Start training epoch 112
+acc is 95
+pos is 98.191
+neg is 90.378
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_111_95.9635255537681.pth
+2020-04-25 13:30:03 [INFO]: Val on validation set...
+2020-04-25 13:34:43 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 13:34:43 [INFO]: Start training epoch 113
+acc is 94
+pos is 99.207
+neg is 82.299
+2020-04-25 14:12:34 [INFO]: Val on validation set...
+2020-04-25 14:17:12 [INFO]: Start training epoch 114
+acc is 95
+pos is 98.996
+neg is 85.916
+2020-04-25 14:55:23 [INFO]: Val on validation set...
+2020-04-25 15:00:05 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 15:00:05 [INFO]: Start training epoch 115
+acc is 95
+pos is 98.942
+neg is 86.322
+2020-04-25 15:38:25 [INFO]: Val on validation set...
+2020-04-25 15:43:08 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 15:43:08 [INFO]: Start training epoch 116
+acc is 95
+pos is 98.789
+neg is 87.334
+2020-04-25 16:20:55 [INFO]: Val on validation set...
+2020-04-25 16:25:34 [INFO]: Start training epoch 117
+acc is 94
+pos is 99.156
+neg is 84.311
+2020-04-25 17:03:38 [INFO]: Val on validation set...
+2020-04-25 17:08:15 [INFO]: Start training epoch 118
+acc is 95
+pos is 98.494
+neg is 89.228
+2020-04-25 17:46:03 [INFO]: Val on validation set...
+2020-04-25 17:50:47 [INFO]: Start training epoch 119
+acc is 95
+pos is 98.614
+neg is 88.228
+2020-04-25 18:28:58 [INFO]: Val on validation set...
+2020-04-25 18:33:37 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 18:33:37 [INFO]: Start training epoch 120
+acc is 95
+pos is 98.928
+neg is 86.083
+2020-04-25 19:11:40 [INFO]: Val on validation set...
+2020-04-25 19:16:18 [INFO]: Start training epoch 121
+acc is 95
+pos is 97.509
+neg is 91.550
+2020-04-25 19:54:07 [INFO]: Val on validation set...
+2020-04-25 19:58:49 [INFO]: Start training epoch 122
+acc is 95
+pos is 98.804
+neg is 87.634
+2020-04-25 20:37:22 [INFO]: Val on validation set...
+2020-04-25 20:41:58 [INFO]: Start training epoch 123
+acc is 96
+pos is 98.519
+neg is 89.694
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_122_96.00296992946417.pth
+2020-04-25 21:20:17 [INFO]: Val on validation set...
+2020-04-25 21:25:09 [INFO]: Start training epoch 124
+acc is 95
+pos is 98.706
+neg is 88.107
+2020-04-25 22:03:05 [INFO]: Val on validation set...
+2020-04-25 22:07:45 [INFO]: Start training epoch 125
+acc is 95
+pos is 98.930
+neg is 87.324
+2020-04-25 22:45:19 [INFO]: Val on validation set...
+2020-04-25 22:49:59 [INFO]: Found a better ckpt (0.099 -> 0.099), 
+2020-04-25 22:49:59 [INFO]: Start training epoch 126
+acc is 95
+pos is 98.581
+neg is 89.442
+2020-04-25 23:28:05 [INFO]: Val on validation set...
+2020-04-25 23:32:52 [INFO]: Start training epoch 127
+acc is 95
+pos is 98.642
+neg is 88.532
+2020-04-26 00:10:38 [INFO]: Val on validation set...
+2020-04-26 00:15:30 [INFO]: Found a better ckpt (0.099 -> 0.098), 
+2020-04-26 00:15:30 [INFO]: Start training epoch 128
+acc is 95
+pos is 99.081
+neg is 85.264
+2020-04-26 00:53:42 [INFO]: Val on validation set...
+2020-04-26 00:58:19 [INFO]: Start training epoch 129
+acc is 95
+pos is 98.811
+neg is 87.348
+2020-04-26 01:30:20 [INFO]: Val on validation set...
+2020-04-26 01:34:08 [INFO]: Start training epoch 130
+acc is 95
+pos is 98.912
+neg is 86.962
+2020-04-26 02:06:21 [INFO]: Val on validation set...
+2020-04-26 02:10:05 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 02:10:05 [INFO]: Start training epoch 131
+acc is 96
+pos is 98.005
+neg is 91.041
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_130_96.01936641504764.pth
+2020-04-26 02:42:05 [INFO]: Val on validation set...
+2020-04-26 02:45:54 [INFO]: Start training epoch 132
+acc is 95
+pos is 98.398
+neg is 89.617
+2020-04-26 03:18:13 [INFO]: Val on validation set...
+2020-04-26 03:21:58 [INFO]: Start training epoch 133
+acc is 95
+pos is 98.626
+neg is 88.842
+2020-04-26 03:53:50 [INFO]: Val on validation set...
+2020-04-26 03:57:39 [INFO]: Start training epoch 134
+acc is 95
+pos is 98.566
+neg is 89.307
+2020-04-26 04:29:32 [INFO]: Val on validation set...
+2020-04-26 04:33:19 [INFO]: Start training epoch 135
+acc is 95
+pos is 98.976
+neg is 86.697
+2020-04-26 05:05:36 [INFO]: Val on validation set...
+2020-04-26 05:09:22 [INFO]: Start training epoch 136
+acc is 95
+pos is 97.400
+neg is 91.437
+2020-04-26 05:41:27 [INFO]: Val on validation set...
+2020-04-26 05:45:16 [INFO]: Start training epoch 137
+acc is 95
+pos is 98.782
+neg is 88.667
+2020-04-26 06:16:43 [INFO]: Val on validation set...
+2020-04-26 06:20:30 [INFO]: Start training epoch 138
+acc is 95
+pos is 98.609
+neg is 88.183
+2020-04-26 06:52:54 [INFO]: Val on validation set...
+2020-04-26 06:56:41 [INFO]: Start training epoch 139
+acc is 96
+pos is 98.401
+neg is 90.085
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_138_96.02957554758075.pth
+2020-04-26 07:28:19 [INFO]: Val on validation set...
+2020-04-26 07:32:07 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 07:32:08 [INFO]: Start training epoch 140
+acc is 96
+pos is 97.998
+neg is 91.395
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_139_96.1152703873283.pth
+2020-04-26 08:03:51 [INFO]: Val on validation set...
+2020-04-26 08:07:42 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 08:07:42 [INFO]: Start training epoch 141
+acc is 96
+pos is 97.934
+neg is 91.577
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_140_96.1213030565524.pth
+2020-04-26 08:39:32 [INFO]: Val on validation set...
+2020-04-26 08:43:19 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 08:43:19 [INFO]: Start training epoch 142
+acc is 95
+pos is 97.236
+neg is 92.094
+2020-04-26 09:15:21 [INFO]: Val on validation set...
+2020-04-26 09:19:06 [INFO]: Start training epoch 143
+acc is 95
+pos is 98.773
+neg is 88.270
+2020-04-26 09:50:33 [INFO]: Val on validation set...
+2020-04-26 09:54:27 [INFO]: Start training epoch 144
+acc is 95
+pos is 98.577
+neg is 89.034
+2020-04-26 10:26:04 [INFO]: Val on validation set...
+2020-04-26 10:29:52 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 10:29:52 [INFO]: Start training epoch 145
+acc is 95
+pos is 97.693
+neg is 91.623
+2020-04-26 11:02:12 [INFO]: Val on validation set...
+2020-04-26 11:05:59 [INFO]: Start training epoch 146
+acc is 95
+pos is 99.083
+neg is 85.777
+2020-04-26 11:37:56 [INFO]: Val on validation set...
+2020-04-26 11:41:46 [INFO]: Start training epoch 147
+acc is 95
+pos is 98.675
+neg is 89.171
+2020-04-26 12:13:30 [INFO]: Val on validation set...
+2020-04-26 12:17:18 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 12:17:18 [INFO]: Start training epoch 148
+acc is 95
+pos is 98.882
+neg is 87.396
+2020-04-26 12:49:33 [INFO]: Val on validation set...
+2020-04-26 12:53:18 [INFO]: Start training epoch 149
+acc is 95
+pos is 98.385
+neg is 89.983
+2020-04-26 13:25:34 [INFO]: Val on validation set...
+2020-04-26 13:29:25 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 13:29:25 [INFO]: Start training epoch 150
+acc is 95
+pos is 98.557
+neg is 89.458
+2020-04-26 14:01:13 [INFO]: Val on validation set...
+2020-04-26 14:05:01 [INFO]: Start training epoch 151
+acc is 93
+pos is 99.363
+neg is 79.624
+save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_150_93.73499566885286.pth
+2020-04-26 14:37:06 [INFO]: Val on validation set...
+2020-04-26 14:40:54 [INFO]: Start training epoch 152
+acc is 94
+pos is 99.152
+neg is 83.897
+2020-04-26 15:13:26 [INFO]: Val on validation set...
+2020-04-26 15:17:12 [INFO]: Start training epoch 153
+acc is 95
+pos is 98.920
+neg is 87.516
+2020-04-26 15:49:40 [INFO]: Val on validation set...
+2020-04-26 15:53:32 [INFO]: Start training epoch 154
+acc is 95
+pos is 98.656
+neg is 89.283
+2020-04-26 16:25:36 [INFO]: Val on validation set...
+2020-04-26 16:29:27 [INFO]: Start training epoch 155
+acc is 96
+pos is 98.443
+neg is 90.054
+2020-04-26 17:01:36 [INFO]: Val on validation set...
+2020-04-26 17:05:24 [INFO]: Start training epoch 156
+acc is 95
+pos is 98.697
+neg is 88.846
+2020-04-26 17:37:52 [INFO]: Val on validation set...
+2020-04-26 17:41:40 [INFO]: Start training epoch 157
+acc is 95
+pos is 98.522
+neg is 89.664
+2020-04-26 18:13:53 [INFO]: Val on validation set...
+2020-04-26 18:17:38 [INFO]: Start training epoch 158
+acc is 96
+pos is 98.397
+neg is 90.356
+2020-04-26 18:49:54 [INFO]: Val on validation set...
+2020-04-26 18:53:46 [INFO]: Found a better ckpt (0.098 -> 0.098), 
+2020-04-26 18:53:46 [INFO]: Start training epoch 159
+acc is 95
+pos is 99.222
+neg is 84.422
+2020-04-26 19:25:41 [INFO]: Val on validation set...
+2020-04-26 19:29:29 [INFO]: Found a better ckpt (0.098 -> 0.097), 
+2020-04-26 19:29:29 [INFO]: Start training epoch 160
+acc is 95
+pos is 99.032
+neg is 86.422
+2020-04-26 20:01:59 [INFO]: Val on validation set...
+2020-04-26 20:07:16 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-26 20:07:16 [INFO]: Start training epoch 161
+acc is 95
+pos is 99.040
+neg is 86.579
+2020-04-26 20:38:54 [INFO]: Val on validation set...
+2020-04-26 20:45:43 [INFO]: Start training epoch 162
+acc is 95
+pos is 98.941
+neg is 86.079
+2020-04-26 21:17:34 [INFO]: Val on validation set...
+2020-04-26 21:25:34 [INFO]: Start training epoch 163
+acc is 95
+pos is 98.971
+neg is 86.902
+2020-04-26 21:58:10 [INFO]: Val on validation set...
+2020-04-26 22:02:12 [INFO]: Start training epoch 164
+acc is 96
+pos is 98.482
+neg is 90.092
+2020-04-26 22:34:17 [INFO]: Val on validation set...
+2020-04-26 22:38:10 [INFO]: Start training epoch 165
+acc is 95
+pos is 98.785
+neg is 87.368
+2020-04-26 23:10:05 [INFO]: Val on validation set...
+2020-04-26 23:13:54 [INFO]: Start training epoch 166
+acc is 96
+pos is 98.634
+neg is 89.505
+2020-04-26 23:46:17 [INFO]: Val on validation set...
+2020-04-26 23:50:10 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-26 23:50:10 [INFO]: Start training epoch 167
+acc is 95
+pos is 98.891
+neg is 87.501
+2020-04-27 00:22:14 [INFO]: Val on validation set...
+2020-04-27 00:26:00 [INFO]: Start training epoch 168
+acc is 94
+pos is 99.218
+neg is 82.701
+2020-04-27 00:58:15 [INFO]: Val on validation set...
+2020-04-27 01:02:07 [INFO]: Start training epoch 169
+acc is 95
+pos is 98.730
+neg is 88.507
+2020-04-27 01:34:05 [INFO]: Val on validation set...
+2020-04-27 01:37:53 [INFO]: Start training epoch 170
+acc is 95
+pos is 98.932
+neg is 86.117
+2020-04-27 02:10:07 [INFO]: Val on validation set...
+2020-04-27 02:13:53 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 02:13:53 [INFO]: Start training epoch 171
+acc is 96
+pos is 98.631
+neg is 89.555
+2020-04-27 02:46:00 [INFO]: Val on validation set...
+2020-04-27 02:49:51 [INFO]: Start training epoch 172
+acc is 94
+pos is 99.168
+neg is 82.184
+2020-04-27 03:21:56 [INFO]: Val on validation set...
+2020-04-27 03:25:44 [INFO]: Start training epoch 173
+acc is 95
+pos is 98.652
+neg is 88.233
+2020-04-27 03:58:28 [INFO]: Val on validation set...
+2020-04-27 04:02:14 [INFO]: Start training epoch 174
+acc is 95
+pos is 98.824
+neg is 88.291
+2020-04-27 04:34:33 [INFO]: Val on validation set...
+2020-04-27 04:38:26 [INFO]: Start training epoch 175
+acc is 95
+pos is 98.460
+neg is 89.690
+2020-04-27 05:10:16 [INFO]: Val on validation set...
+2020-04-27 05:14:06 [INFO]: Start training epoch 176
+acc is 95
+pos is 98.766
+neg is 87.202
+2020-04-27 05:46:16 [INFO]: Val on validation set...
+2020-04-27 05:50:02 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 05:50:02 [INFO]: Start training epoch 177
+acc is 95
+pos is 98.352
+neg is 90.027
+2020-04-27 06:22:25 [INFO]: Val on validation set...
+2020-04-27 06:26:18 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 06:26:18 [INFO]: Start training epoch 178
+acc is 96
+pos is 98.602
+neg is 89.589
+2020-04-27 06:58:18 [INFO]: Val on validation set...
+2020-04-27 07:02:06 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 07:02:06 [INFO]: Start training epoch 179
+acc is 95
+pos is 98.817
+neg is 88.203
+2020-04-27 07:34:36 [INFO]: Val on validation set...
+2020-04-27 07:38:21 [INFO]: Start training epoch 180
+acc is 95
+pos is 98.795
+neg is 87.835
+2020-04-27 08:10:45 [INFO]: Val on validation set...
+2020-04-27 08:14:38 [INFO]: Start training epoch 181
+acc is 95
+pos is 98.868
+neg is 88.012
+2020-04-27 08:46:15 [INFO]: Val on validation set...
+2020-04-27 08:50:03 [INFO]: Start training epoch 182
+acc is 95
+pos is 99.003
+neg is 86.679
+2020-04-27 09:22:30 [INFO]: Val on validation set...
+2020-04-27 09:26:16 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 09:26:16 [INFO]: Start training epoch 183
+acc is 96
+pos is 97.984
+neg is 91.378
+2020-04-27 09:58:14 [INFO]: Val on validation set...
+2020-04-27 10:02:05 [INFO]: Start training epoch 184
+acc is 95
+pos is 98.743
+neg is 88.694
+2020-04-27 10:33:54 [INFO]: Val on validation set...
+2020-04-27 10:37:43 [INFO]: Start training epoch 185
+acc is 94
+pos is 99.224
+neg is 83.013
+2020-04-27 11:10:10 [INFO]: Val on validation set...
+2020-04-27 11:13:57 [INFO]: Start training epoch 186
+acc is 95
+pos is 98.830
+neg is 88.170
+2020-04-27 11:46:23 [INFO]: Val on validation set...
+2020-04-27 11:50:16 [INFO]: Start training epoch 187
+acc is 95
+pos is 98.932
+neg is 87.203
+2020-04-27 12:22:23 [INFO]: Val on validation set...
+2020-04-27 12:26:13 [INFO]: Start training epoch 188
+acc is 95
+pos is 98.840
+neg is 87.248
+2020-04-27 12:59:01 [INFO]: Val on validation set...
+2020-04-27 13:02:47 [INFO]: Start training epoch 189
+acc is 96
+pos is 98.533
+neg is 89.784
+2020-04-27 13:35:11 [INFO]: Val on validation set...
+2020-04-27 13:39:05 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 13:39:05 [INFO]: Start training epoch 190
+acc is 96
+pos is 98.471
+neg is 90.186
+2020-04-27 14:11:06 [INFO]: Val on validation set...
+2020-04-27 14:14:56 [INFO]: Start training epoch 191
+acc is 95
+pos is 98.908
+neg is 86.991
+2020-04-27 14:47:40 [INFO]: Val on validation set...
+2020-04-27 14:51:26 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 14:51:26 [INFO]: Start training epoch 192
+acc is 95
+pos is 98.863
+neg is 87.806
+2020-04-27 15:24:07 [INFO]: Val on validation set...
+2020-04-27 15:27:59 [INFO]: Start training epoch 193
+acc is 94
+pos is 99.177
+neg is 84.416
+2020-04-27 16:02:12 [INFO]: Val on validation set...
+2020-04-27 16:06:08 [INFO]: Start training epoch 194
+acc is 95
+pos is 98.777
+neg is 88.784
+2020-04-27 16:41:42 [INFO]: Val on validation set...
+2020-04-27 16:45:34 [INFO]: Start training epoch 195
+acc is 96
+pos is 98.343
+neg is 90.552
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_194_96.12161242420493.pth
+2020-04-27 17:20:39 [INFO]: Val on validation set...
+2020-04-27 17:24:25 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 17:24:26 [INFO]: Start training epoch 196
+acc is 96
+pos is 98.520
+neg is 90.157
+Found a better model save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_195_96.13599802004703.pth
+2020-04-27 17:56:38 [INFO]: Val on validation set...
+2020-04-27 18:00:23 [INFO]: Start training epoch 197
+acc is 95
+pos is 98.867
+neg is 87.598
+2020-04-27 18:32:08 [INFO]: Val on validation set...
+2020-04-27 18:36:00 [INFO]: Start training epoch 198
+acc is 94
+pos is 99.015
+neg is 84.145
+2020-04-27 19:07:43 [INFO]: Val on validation set...
+2020-04-27 19:11:31 [INFO]: Start training epoch 199
+acc is 96
+pos is 98.654
+neg is 89.351
+2020-04-27 19:43:26 [INFO]: Val on validation set...
+2020-04-27 19:47:12 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 19:47:12 [INFO]: Start training epoch 200
+acc is 94
+pos is 99.104
+neg is 84.158
+2020-04-27 20:19:07 [INFO]: Val on validation set...
+2020-04-27 20:24:43 [INFO]: Start training epoch 201
+acc is 95
+pos is 98.662
+neg is 89.200
+save model: ./models/models_new_all_data/models_0.021/ckpt_epoch_200_95.96445365672565.pth
+2020-04-27 20:56:35 [INFO]: Val on validation set...
+2020-04-27 21:03:20 [INFO]: Start training epoch 202
+acc is 95
+pos is 98.877
+neg is 88.132
+2020-04-27 21:35:30 [INFO]: Val on validation set...
+2020-04-27 21:43:41 [INFO]: Start training epoch 203
+acc is 96
+pos is 98.078
+neg is 91.230
+2020-04-27 22:15:37 [INFO]: Val on validation set...
+2020-04-27 22:19:43 [INFO]: Start training epoch 204
+acc is 95
+pos is 98.799
+neg is 87.906
+2020-04-27 22:51:56 [INFO]: Val on validation set...
+2020-04-27 22:55:46 [INFO]: Found a better ckpt (0.097 -> 0.097), 
+2020-04-27 22:55:46 [INFO]: Start training epoch 205
+acc is 96
+pos is 98.697
+neg is 89.373
+2020-04-27 23:27:53 [INFO]: Val on validation set...
+2020-04-27 23:31:48 [INFO]: Start training epoch 206
+acc is 94
+pos is 99.202
+neg is 84.306
+2020-04-28 00:03:32 [INFO]: Val on validation set...
+2020-04-28 00:07:22 [INFO]: Found a better ckpt (0.097 -> 0.096), 
+2020-04-28 00:07:22 [INFO]: Start training epoch 207
+acc is 95
+pos is 98.633
+neg is 89.185
+2020-04-28 00:39:50 [INFO]: Val on validation set...
+2020-04-28 00:43:37 [INFO]: Start training epoch 208
+acc is 95
+pos is 98.829
+neg is 87.772
+2020-04-28 01:16:06 [INFO]: Val on validation set...
+2020-04-28 01:19:59 [INFO]: Start training epoch 209
+acc is 94
+pos is 99.337
+neg is 80.973
+2020-04-28 01:51:50 [INFO]: Val on validation set...
+2020-04-28 01:55:40 [INFO]: Start training epoch 210
+acc is 95
+pos is 98.974
+neg is 87.374
+20-04-23 20:23:56 [INFO]: Val on validation set...
+2020-04-23 20:24:55 [INFO]: Start training epoch 217
+acc is 97
+pos is 97.829
+neg is 96.504
+2020-04-23 20:28:02 [INFO]: Val on validation set...
+2020-04-23 20:28:49 [INFO]: Start training epoch 218
+acc is 96
+pos is 96.625
+neg is 96.908
+2020-04-23 20:31:53 [INFO]: Val on validation set...
+2020-04-23 20:32:45 [INFO]: Start training epoch 219
+acc is 97
+pos is 97.659
+neg is 96.461
+2020-04-23 20:35:59 [INFO]: Val on validation set...
+2020-04-23 20:36:55 [INFO]: Found a better ckpt (0.061 -> 0.061), 
+2020-04-23 20:36:55 [INFO]: Start training epoch 220
+acc is 97
+pos is 99.101
+neg is 93.080
+2020-04-23 20:40:11 [INFO]: Val on validation set...
+2020-04-23 20:41:10 [INFO]: Start training epoch 221
+acc is 94
+pos is 99.497
+neg is 81.164
+2020-04-23 20:44:18 [INFO]: Val on validation set...
+2020-04-23 20:45:08 [INFO]: Found a better ckpt (0.061 -> 0.061), 
+2020-04-23 20:45:08 [INFO]: Start training epoch 222
+acc is 97
+pos is 98.058
+neg is 96.107
+2020-04-23 20:48:09 [INFO]: Val on validation set...
+2020-04-23 20:48:58 [INFO]: Found a better ckpt (0.061 -> 0.060), 
+2020-04-23 20:48:58 [INFO]: Start training epoch 223
+acc is 97
+pos is 99.081
+neg is 93.625
+2020-04-23 20:52:05 [INFO]: Val on validation set...
+2020-04-23 20:52:57 [INFO]: Start training epoch 224
+acc is 97
+pos is 99.012
+neg is 94.095
+2020-04-23 20:56:03 [INFO]: Val on validation set...
+2020-04-23 20:57:05 [INFO]: Found a better ckpt (0.060 -> 0.060), 
+2020-04-23 20:57:05 [INFO]: Start training epoch 225
+acc is 91
+pos is 99.483
+neg is 71.867
+2020-04-23 21:00:21 [INFO]: Val on validation set...
+2020-04-23 21:01:18 [INFO]: Start training epoch 226
+acc is 95
+pos is 95.277
+neg is 97.625
+2020-04-23 21:04:34 [INFO]: Val on validation set...
+2020-04-23 21:05:22 [INFO]: Start training epoch 227
+acc is 97
+pos is 98.946
+neg is 94.318
+2020-04-23 21:08:36 [INFO]: Val on validation set...
+2020-04-23 21:09:39 [INFO]: Start training epoch 228
+acc is 97
+pos is 98.429
+neg is 95.519
+2020-04-23 21:12:47 [INFO]: Val on validation set...
+2020-04-23 21:13:39 [INFO]: Found a better ckpt (0.060 -> 0.060), 
+2020-04-23 21:13:39 [INFO]: Start training epoch 229
+acc is 97
+pos is 98.588
+neg is 95.377
+2020-04-23 21:16:47 [INFO]: Val on validation set...
+2020-04-23 21:17:36 [INFO]: Start training epoch 230
+acc is 97
+pos is 98.373
+neg is 95.820
+2020-04-23 21:20:45 [INFO]: Val on validation set...
+2020-04-23 21:21:42 [INFO]: Start training epoch 231
+acc is 97
+pos is 98.648
+neg is 95.523
+2020-04-23 21:24:59 [INFO]: Val on validation set...
+2020-04-23 21:25:55 [INFO]: Start training epoch 232
+acc is 96
+pos is 99.238
+neg is 90.805
+2020-04-23 21:29:13 [INFO]: Val on validation set...
+2020-04-23 21:30:04 [INFO]: Found a better ckpt (0.060 -> 0.060), 
+2020-04-23 21:30:04 [INFO]: Start training epoch 233
+acc is 97
+pos is 98.964
+neg is 94.335
+2020-04-23 21:33:08 [INFO]: Val on validation set...
+2020-04-23 21:33:59 [INFO]: Found a better ckpt (0.060 -> 0.060), 
+2020-04-23 21:33:59 [INFO]: Start training epoch 234
+acc is 96
+pos is 99.275
+neg is 88.438
+2020-04-23 21:37:01 [INFO]: Val on validation set...
+2020-04-23 21:37:47 [INFO]: Start training epoch 235
+acc is 97
+pos is 97.835
+neg is 96.053
+2020-04-23 21:40:53 [INFO]: Val on validation set...
+2020-04-23 21:41:40 [INFO]: Start training epoch 236
+acc is 97
+pos is 97.913
+neg is 96.413
+2020-04-23 21:44:44 [INFO]: Val on validation set...
+2020-04-23 21:45:33 [INFO]: Start training epoch 237
+acc is 97
+pos is 99.041
+neg is 93.318
+2020-04-23 21:48:54 [INFO]: Val on validation set...
+2020-04-23 21:49:50 [INFO]: Start training epoch 238
+acc is 97
+pos is 99.035
+neg is 94.255
+2020-04-23 21:53:08 [INFO]: Val on validation set...
+2020-04-23 21:53:56 [INFO]: Start training epoch 239
+acc is 97
+pos is 97.381
+neg is 96.931
+2020-04-23 21:57:03 [INFO]: Val on validation set...
+2020-04-23 21:57:55 [INFO]: Start training epoch 240
+acc is 97
+pos is 98.965
+neg is 94.671
+2020-04-23 22:01:02 [INFO]: Val on validation set...
+2020-04-23 22:01:52 [INFO]: Start training epoch 241
+acc is 97
+pos is 98.447
+neg is 95.904
+2020-04-23 22:04:58 [INFO]: Val on validation set...
+2020-04-23 22:05:47 [INFO]: Start training epoch 242
+acc is 97
+pos is 97.803
+neg is 96.666
+2020-04-23 22:08:53 [INFO]: Val on validation set...
+2020-04-23 22:09:44 [INFO]: Found a better ckpt (0.060 -> 0.060), 
+2020-04-23 22:09:44 [INFO]: Start training epoch 243
+acc is 97
+pos is 97.959
+neg is 95.966
+2020-04-23 22:13:09 [INFO]: Val on validation set...
+2020-04-23 22:14:04 [INFO]: Start training epoch 244
+acc is 95
+pos is 99.257
+neg is 87.637
+2020-04-23 22:17:13 [INFO]: Val on validation set...
+2020-04-23 22:18:02 [INFO]: Start training epoch 245
+acc is 96
+pos is 99.260
+neg is 91.316
+2020-04-23 22:21:10 [INFO]: Val on validation set...
+2020-04-23 22:21:59 [INFO]: Start training epoch 246
+acc is 97
+pos is 99.192
+neg is 93.136
+2020-04-23 22:25:04 [INFO]: Val on validation set...
+2020-04-23 22:25:54 [INFO]: Found a better ckpt (0.060 -> 0.060), 
+2020-04-23 22:25:54 [INFO]: Start training epoch 247
+acc is 97
+pos is 97.906
+neg is 96.455
+2020-04-23 22:28:59 [INFO]: Val on validation set...
+2020-04-23 22:29:46 [INFO]: Found a better ckpt (0.060 -> 0.059), 
+2020-04-23 22:29:46 [INFO]: Start training epoch 248
+acc is 92
+pos is 99.455
+neg is 76.812
+2020-04-23 22:32:57 [INFO]: Val on validation set...
+2020-04-23 22:33:49 [INFO]: Start training epoch 249
+acc is 96
+pos is 97.931
+neg is 93.610
+2020-04-23 22:37:07 [INFO]: Val on validation set...
+2020-04-23 22:38:03 [INFO]: Found a better ckpt (0.059 -> 0.059), 
+2020-04-23 22:38:03 [INFO]: Start training epoch 250
+acc is 91
+pos is 99.487
+neg is 72.315
+2020-04-23 22:41:12 [INFO]: Val on validation set...
+2020-04-23 22:42:02 [INFO]: Start training epoch 251
+acc is 97
+pos is 98.350
+neg is 95.688
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_250_97.59110877366662.pth
+2020-04-23 22:45:11 [INFO]: Val on validation set...
+2020-04-23 22:46:00 [INFO]: Start training epoch 252
+acc is 97
+pos is 97.973
+neg is 96.412
+2020-04-23 22:49:07 [INFO]: Val on validation set...
+2020-04-23 22:49:53 [INFO]: Start training epoch 253
+acc is 92
+pos is 99.545
+neg is 75.898
+2020-04-23 22:53:01 [INFO]: Val on validation set...
+2020-04-23 22:53:47 [INFO]: Start training epoch 254
+acc is 97
+pos is 98.225
+neg is 96.139
+2020-04-23 22:56:51 [INFO]: Val on validation set...
+2020-04-23 22:57:38 [INFO]: Start training epoch 255
+acc is 97
+pos is 98.481
+neg is 95.126
+2020-04-23 23:01:06 [INFO]: Val on validation set...
+2020-04-23 23:02:02 [INFO]: Start training epoch 256
+acc is 97
+pos is 98.992
+neg is 94.143
+2020-04-23 23:05:14 [INFO]: Val on validation set...
+2020-04-23 23:06:04 [INFO]: Start training epoch 257
+acc is 97
+pos is 99.099
+neg is 92.667
+2020-04-23 23:09:06 [INFO]: Val on validation set...
+2020-04-23 23:09:56 [INFO]: Start training epoch 258
+acc is 96
+pos is 99.331
+neg is 89.094
+2020-04-23 23:13:02 [INFO]: Val on validation set...
+2020-04-23 23:13:51 [INFO]: Start training epoch 259
+acc is 97
+pos is 98.985
+neg is 94.143
+2020-04-23 23:17:04 [INFO]: Val on validation set...
+2020-04-23 23:17:54 [INFO]: Start training epoch 260
+acc is 97
+pos is 98.163
+neg is 96.051
+2020-04-23 23:21:02 [INFO]: Val on validation set...
+2020-04-23 23:21:57 [INFO]: Found a better ckpt (0.059 -> 0.059), 
+2020-04-23 23:21:57 [INFO]: Start training epoch 261
+acc is 97
+pos is 97.695
+neg is 96.477
+2020-04-23 23:25:23 [INFO]: Val on validation set...
+2020-04-23 23:26:20 [INFO]: Start training epoch 262
+acc is 97
+pos is 99.118
+neg is 92.591
+2020-04-23 23:29:27 [INFO]: Val on validation set...
+2020-04-23 23:30:16 [INFO]: Start training epoch 263
+acc is 96
+pos is 97.098
+neg is 96.182
+2020-04-23 23:33:27 [INFO]: Val on validation set...
+2020-04-23 23:34:16 [INFO]: Start training epoch 264
+acc is 97
+pos is 98.190
+neg is 96.426
+2020-04-23 23:37:19 [INFO]: Val on validation set...
+2020-04-23 23:38:09 [INFO]: Start training epoch 265
+acc is 97
+pos is 98.899
+neg is 94.662
+2020-04-23 23:41:19 [INFO]: Val on validation set...
+2020-04-23 23:42:09 [INFO]: Found a better ckpt (0.059 -> 0.059), 
+2020-04-23 23:42:09 [INFO]: Start training epoch 266
+acc is 96
+pos is 96.670
+neg is 96.943
+2020-04-23 23:45:09 [INFO]: Val on validation set...
+2020-04-23 23:46:03 [INFO]: Start training epoch 267
+acc is 97
+pos is 98.824
+neg is 93.897
+2020-04-23 23:49:30 [INFO]: Val on validation set...
+2020-04-23 23:50:19 [INFO]: Found a better ckpt (0.059 -> 0.059), 
+2020-04-23 23:50:19 [INFO]: Start training epoch 268
+acc is 96
+pos is 99.255
+neg is 90.169
+2020-04-23 23:53:27 [INFO]: Val on validation set...
+2020-04-23 23:54:18 [INFO]: Found a better ckpt (0.059 -> 0.059), 
+2020-04-23 23:54:18 [INFO]: Start training epoch 269
+acc is 97
+pos is 98.696
+neg is 95.360
+2020-04-23 23:57:25 [INFO]: Val on validation set...
+2020-04-23 23:58:13 [INFO]: Found a better ckpt (0.059 -> 0.059), 
+2020-04-23 23:58:13 [INFO]: Start training epoch 270
+acc is 96
+pos is 99.284
+neg is 91.183
+2020-04-24 00:01:25 [INFO]: Val on validation set...
+2020-04-24 00:02:17 [INFO]: Start training epoch 271
+acc is 96
+pos is 96.680
+neg is 97.031
+2020-04-24 00:05:29 [INFO]: Val on validation set...
+2020-04-24 00:06:19 [INFO]: Start training epoch 272
+acc is 97
+pos is 99.305
+neg is 91.745
+2020-04-24 00:09:33 [INFO]: Val on validation set...
+2020-04-24 00:10:26 [INFO]: Start training epoch 273
+acc is 97
+pos is 99.240
+neg is 91.659
+2020-04-24 00:13:47 [INFO]: Val on validation set...
+2020-04-24 00:14:39 [INFO]: Found a better ckpt (0.059 -> 0.059), 
+2020-04-24 00:14:39 [INFO]: Start training epoch 274
+acc is 97
+pos is 98.968
+neg is 93.607
+2020-04-24 00:17:48 [INFO]: Val on validation set...
+2020-04-24 00:18:36 [INFO]: Start training epoch 275
+acc is 97
+pos is 99.037
+neg is 94.122
+2020-04-24 00:21:48 [INFO]: Val on validation set...
+2020-04-24 00:22:37 [INFO]: Start training epoch 276
+acc is 97
+pos is 97.361
+neg is 96.595
+2020-04-24 00:25:46 [INFO]: Val on validation set...
+2020-04-24 00:26:35 [INFO]: Start training epoch 277
+acc is 97
+pos is 99.082
+neg is 93.715
+2020-04-24 00:29:36 [INFO]: Val on validation set...
+2020-04-24 00:30:29 [INFO]: Start training epoch 278
+acc is 97
+pos is 99.245
+neg is 92.759
+2020-04-24 00:33:41 [INFO]: Val on validation set...
+2020-04-24 00:34:38 [INFO]: Start training epoch 279
+acc is 97
+pos is 97.345
+neg is 96.742
+2020-04-24 00:38:00 [INFO]: Val on validation set...
+2020-04-24 00:38:52 [INFO]: Start training epoch 280
+acc is 91
+pos is 99.642
+neg is 71.750
+2020-04-24 00:42:05 [INFO]: Val on validation set...
+2020-04-24 00:42:54 [INFO]: Start training epoch 281
+acc is 97
+pos is 98.888
+neg is 94.519
+2020-04-24 00:45:57 [INFO]: Val on validation set...
+2020-04-24 00:46:47 [INFO]: Found a better ckpt (0.059 -> 0.058), 
+2020-04-24 00:46:47 [INFO]: Start training epoch 282
+acc is 96
+pos is 99.324
+neg is 88.157
+2020-04-24 00:49:51 [INFO]: Val on validation set...
+2020-04-24 00:50:43 [INFO]: Start training epoch 283
+acc is 97
+pos is 99.050
+neg is 92.191
+2020-04-24 00:53:53 [INFO]: Val on validation set...
+2020-04-24 00:54:46 [INFO]: Start training epoch 284
+acc is 97
+pos is 98.922
+neg is 94.991
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_283_97.80147877737903.pth
+2020-04-24 00:58:10 [INFO]: Val on validation set...
+2020-04-24 00:59:07 [INFO]: Start training epoch 285
+acc is 95
+pos is 95.201
+neg is 97.275
+2020-04-24 01:02:23 [INFO]: Val on validation set...
+2020-04-24 01:03:14 [INFO]: Start training epoch 286
+acc is 97
+pos is 98.592
+neg is 95.608
+2020-04-24 01:06:29 [INFO]: Val on validation set...
+2020-04-24 01:07:20 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 01:07:20 [INFO]: Start training epoch 287
+acc is 97
+pos is 98.793
+neg is 95.010
+2020-04-24 01:10:28 [INFO]: Val on validation set...
+2020-04-24 01:11:18 [INFO]: Start training epoch 288
+acc is 97
+pos is 98.131
+neg is 95.159
+2020-04-24 01:14:25 [INFO]: Val on validation set...
+2020-04-24 01:15:17 [INFO]: Start training epoch 289
+acc is 97
+pos is 97.509
+neg is 96.531
+2020-04-24 01:18:26 [INFO]: Val on validation set...
+2020-04-24 01:19:17 [INFO]: Start training epoch 290
+acc is 97
+pos is 98.534
+neg is 95.470
+2020-04-24 01:22:46 [INFO]: Val on validation set...
+2020-04-24 01:23:43 [INFO]: Start training epoch 291
+acc is 94
+pos is 99.541
+neg is 80.788
+2020-04-24 01:26:51 [INFO]: Val on validation set...
+2020-04-24 01:27:41 [INFO]: Start training epoch 292
+acc is 97
+pos is 98.986
+neg is 93.118
+2020-04-24 01:30:50 [INFO]: Val on validation set...
+2020-04-24 01:31:41 [INFO]: Start training epoch 293
+acc is 96
+pos is 99.360
+neg is 88.779
+2020-04-24 01:34:56 [INFO]: Val on validation set...
+2020-04-24 01:35:46 [INFO]: Start training epoch 294
+acc is 97
+pos is 98.163
+neg is 95.818
+2020-04-24 01:38:56 [INFO]: Val on validation set...
+2020-04-24 01:39:44 [INFO]: Start training epoch 295
+acc is 94
+pos is 99.372
+neg is 80.994
+2020-04-24 01:42:55 [INFO]: Val on validation set...
+2020-04-24 01:43:54 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 01:43:54 [INFO]: Start training epoch 296
+acc is 97
+pos is 98.763
+neg is 94.577
+2020-04-24 01:47:26 [INFO]: Val on validation set...
+2020-04-24 01:48:21 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 01:48:21 [INFO]: Start training epoch 297
+acc is 97
+pos is 98.705
+neg is 94.933
+2020-04-24 01:51:29 [INFO]: Val on validation set...
+2020-04-24 01:52:18 [INFO]: Start training epoch 298
+acc is 96
+pos is 99.346
+neg is 91.039
+2020-04-24 01:55:23 [INFO]: Val on validation set...
+2020-04-24 01:56:13 [INFO]: Start training epoch 299
+acc is 97
+pos is 99.252
+neg is 92.694
+2020-04-24 01:59:23 [INFO]: Val on validation set...
+2020-04-24 02:00:11 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 02:00:11 [INFO]: Start training epoch 300
+acc is 96
+pos is 99.298
+neg is 89.467
+2020-04-24 02:03:19 [INFO]: Val on validation set...
+2020-04-24 02:04:09 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 02:04:09 [INFO]: Start training epoch 301
+acc is 97
+pos is 98.337
+neg is 95.589
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_300_97.55321123623314.pth
+2020-04-24 02:07:17 [INFO]: Val on validation set...
+2020-04-24 02:08:13 [INFO]: Start training epoch 302
+acc is 94
+pos is 99.424
+neg is 80.882
+2020-04-24 02:11:42 [INFO]: Val on validation set...
+2020-04-24 02:12:30 [INFO]: Start training epoch 303
+acc is 97
+pos is 98.946
+neg is 94.012
+2020-04-24 02:15:38 [INFO]: Val on validation set...
+2020-04-24 02:16:28 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 02:16:28 [INFO]: Start training epoch 304
+acc is 92
+pos is 99.502
+neg is 75.678
+2020-04-24 02:19:39 [INFO]: Val on validation set...
+2020-04-24 02:20:28 [INFO]: Start training epoch 305
+acc is 96
+pos is 99.291
+neg is 90.680
+2020-04-24 02:23:36 [INFO]: Val on validation set...
+2020-04-24 02:24:28 [INFO]: Start training epoch 306
+acc is 94
+pos is 99.329
+neg is 82.416
+2020-04-24 02:27:30 [INFO]: Val on validation set...
+2020-04-24 02:28:20 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 02:28:20 [INFO]: Start training epoch 307
+acc is 96
+pos is 99.212
+neg is 89.993
+2020-04-24 02:31:34 [INFO]: Val on validation set...
+2020-04-24 02:32:29 [INFO]: Start training epoch 308
+acc is 97
+pos is 98.050
+neg is 96.250
+2020-04-24 02:36:00 [INFO]: Val on validation set...
+2020-04-24 02:36:49 [INFO]: Found a better ckpt (0.058 -> 0.058), 
+2020-04-24 02:36:49 [INFO]: Start training epoch 309
+acc is 96
+pos is 96.337
+neg is 97.153
+2020-04-24 02:40:01 [INFO]: Val on validation set...
+2020-04-24 02:40:50 [INFO]: Start training epoch 310
+acc is 97
+pos is 98.162
+neg is 96.195
+2020-04-24 02:43:49 [INFO]: Val on validation set...
+2020-04-24 02:44:38 [INFO]: Start training epoch 311
+acc is 96
+pos is 99.210
+neg is 90.609
+2020-04-24 02:47:43 [INFO]: Val on validation set...
+2020-04-24 02:48:29 [INFO]: Start training epoch 312
+acc is 95
+pos is 99.373
+neg is 87.034
+2020-04-24 02:51:36 [INFO]: Val on validation set...
+2020-04-24 02:52:26 [INFO]: Found a better ckpt (0.058 -> 0.057), 
+2020-04-24 02:52:26 [INFO]: Start training epoch 313
+acc is 97
+pos is 97.210
+neg is 96.679
+2020-04-24 02:55:35 [INFO]: Val on validation set...
+2020-04-24 02:56:32 [INFO]: Start training epoch 314
+acc is 96
+pos is 99.302
+neg is 89.734
+2020-04-24 02:59:58 [INFO]: Val on validation set...
+2020-04-24 03:00:46 [INFO]: Start training epoch 315
+acc is 97
+pos is 98.754
+neg is 95.398
+2020-04-24 03:03:56 [INFO]: Val on validation set...
+2020-04-24 03:04:44 [INFO]: Start training epoch 316
+acc is 97
+pos is 98.995
+neg is 93.920
+2020-04-24 03:07:55 [INFO]: Val on validation set...
+2020-04-24 03:08:47 [INFO]: Start training epoch 317
+acc is 94
+pos is 99.342
+neg is 82.092
+2020-04-24 03:11:56 [INFO]: Val on validation set...
+2020-04-24 03:12:44 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 03:12:44 [INFO]: Start training epoch 318
+acc is 97
+pos is 98.377
+neg is 96.098
+2020-04-24 03:15:51 [INFO]: Val on validation set...
+2020-04-24 03:16:44 [INFO]: Start training epoch 319
+acc is 97
+pos is 97.947
+neg is 96.454
+2020-04-24 03:20:04 [INFO]: Val on validation set...
+2020-04-24 03:21:01 [INFO]: Start training epoch 320
+acc is 97
+pos is 99.114
+neg is 93.792
+2020-04-24 03:24:28 [INFO]: Val on validation set...
+2020-04-24 03:25:20 [INFO]: Start training epoch 321
+acc is 97
+pos is 98.124
+neg is 96.354
+2020-04-24 03:28:26 [INFO]: Val on validation set...
+2020-04-24 03:29:15 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 03:29:15 [INFO]: Start training epoch 322
+acc is 95
+pos is 99.391
+neg is 86.712
+2020-04-24 03:32:26 [INFO]: Val on validation set...
+2020-04-24 03:33:15 [INFO]: Start training epoch 323
+acc is 97
+pos is 98.882
+neg is 95.119
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_322_97.809212968692.pth
+2020-04-24 03:36:22 [INFO]: Val on validation set...
+2020-04-24 03:37:58 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 03:37:58 [INFO]: Start training epoch 324
+acc is 97
+pos is 98.722
+neg is 95.415
+2020-04-24 03:41:05 [INFO]: Val on validation set...
+2020-04-24 03:42:40 [INFO]: Start training epoch 325
+acc is 97
+pos is 98.600
+neg is 95.638
+2020-04-24 03:46:10 [INFO]: Val on validation set...
+2020-04-24 03:47:06 [INFO]: Start training epoch 326
+acc is 97
+pos is 98.327
+neg is 95.740
+2020-04-24 03:50:19 [INFO]: Val on validation set...
+2020-04-24 03:51:08 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 03:51:08 [INFO]: Start training epoch 327
+acc is 96
+pos is 96.858
+neg is 96.527
+2020-04-24 03:54:21 [INFO]: Val on validation set...
+2020-04-24 03:55:15 [INFO]: Start training epoch 328
+acc is 97
+pos is 99.099
+neg is 93.686
+2020-04-24 03:58:26 [INFO]: Val on validation set...
+2020-04-24 04:00:10 [INFO]: Start training epoch 329
+acc is 96
+pos is 99.303
+neg is 90.587
+2020-04-24 04:03:17 [INFO]: Val on validation set...
+2020-04-24 04:05:27 [INFO]: Start training epoch 330
+acc is 94
+pos is 99.502
+neg is 81.093
+2020-04-24 04:08:57 [INFO]: Val on validation set...
+2020-04-24 04:10:30 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 04:10:30 [INFO]: Start training epoch 331
+acc is 97
+pos is 98.658
+neg is 95.659
+2020-04-24 04:13:39 [INFO]: Val on validation set...
+2020-04-24 04:15:04 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 04:15:04 [INFO]: Start training epoch 332
+acc is 97
+pos is 98.424
+neg is 96.007
+2020-04-24 04:18:15 [INFO]: Val on validation set...
+2020-04-24 04:19:29 [INFO]: Start training epoch 333
+acc is 97
+pos is 99.318
+neg is 91.804
+2020-04-24 04:22:35 [INFO]: Val on validation set...
+2020-04-24 04:23:39 [INFO]: Start training epoch 334
+acc is 96
+pos is 99.205
+neg is 90.530
+2020-04-24 04:26:45 [INFO]: Val on validation set...
+2020-04-24 04:27:37 [INFO]: Start training epoch 335
+acc is 97
+pos is 98.169
+neg is 96.180
+2020-04-24 04:30:57 [INFO]: Val on validation set...
+2020-04-24 04:31:54 [INFO]: Start training epoch 336
+acc is 97
+pos is 98.588
+neg is 94.828
+2020-04-24 04:35:12 [INFO]: Val on validation set...
+2020-04-24 04:36:02 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 04:36:02 [INFO]: Start training epoch 337
+acc is 96
+pos is 99.317
+neg is 89.804
+2020-04-24 04:38:58 [INFO]: Val on validation set...
+2020-04-24 04:39:49 [INFO]: Start training epoch 338
+acc is 97
+pos is 98.848
+neg is 95.225
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_337_97.81509095408984.pth
+2020-04-24 04:43:00 [INFO]: Val on validation set...
+2020-04-24 04:43:51 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 04:43:51 [INFO]: Start training epoch 339
+acc is 94
+pos is 99.557
+neg is 81.062
+2020-04-24 04:46:55 [INFO]: Val on validation set...
+2020-04-24 04:47:46 [INFO]: Start training epoch 340
+acc is 97
+pos is 98.468
+neg is 95.735
+2020-04-24 04:50:57 [INFO]: Val on validation set...
+2020-04-24 04:51:45 [INFO]: Start training epoch 341
+acc is 97
+pos is 97.219
+neg is 97.303
+2020-04-24 04:55:05 [INFO]: Val on validation set...
+2020-04-24 04:56:04 [INFO]: Start training epoch 342
+acc is 93
+pos is 99.615
+neg is 77.117
+2020-04-24 04:59:25 [INFO]: Val on validation set...
+2020-04-24 05:00:15 [INFO]: Start training epoch 343
+acc is 96
+pos is 96.279
+neg is 96.911
+2020-04-24 05:03:28 [INFO]: Val on validation set...
+2020-04-24 05:04:19 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 05:04:19 [INFO]: Start training epoch 344
+acc is 93
+pos is 99.561
+neg is 78.023
+2020-04-24 05:07:25 [INFO]: Val on validation set...
+2020-04-24 05:08:12 [INFO]: Found a better ckpt (0.057 -> 0.057), 
+2020-04-24 05:08:12 [INFO]: Start training epoch 345
+acc is 97
+pos is 97.839
+neg is 96.288
+2020-04-24 05:11:22 [INFO]: Val on validation set...
+2020-04-24 05:12:11 [INFO]: Found a better ckpt (0.057 -> 0.056), 
+2020-04-24 05:12:11 [INFO]: Start training epoch 346
+acc is 97
+pos is 99.221
+neg is 91.683
+2020-04-24 05:15:17 [INFO]: Val on validation set...
+2020-04-24 05:16:06 [INFO]: Found a better ckpt (0.056 -> 0.056), 
+2020-04-24 05:16:07 [INFO]: Start training epoch 347
+acc is 97
+pos is 98.420
+neg is 96.152
+2020-04-24 05:19:28 [INFO]: Val on validation set...
+2020-04-24 05:20:23 [INFO]: Start training epoch 348
+acc is 97
+pos is 98.225
+neg is 96.137
+2020-04-24 05:23:43 [INFO]: Val on validation set...
+2020-04-24 05:24:34 [INFO]: Found a better ckpt (0.056 -> 0.056), 
+2020-04-24 05:24:34 [INFO]: Start training epoch 349
+acc is 97
+pos is 98.736
+neg is 94.788
+2020-04-24 05:27:35 [INFO]: Val on validation set...
+2020-04-24 05:28:25 [INFO]: Found a better ckpt (0.056 -> 0.056), 
+2020-04-24 05:28:26 [INFO]: Start training epoch 350
+acc is 95
+pos is 99.361
+neg is 85.514
+2020-04-24 05:31:24 [INFO]: Val on validation set...
+2020-04-24 05:32:13 [INFO]: Start training epoch 351
+acc is 96
+pos is 99.354
+neg is 89.771
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_350_96.62155055067443.pth
+2020-04-24 05:35:19 [INFO]: Val on validation set...
+2020-04-24 05:36:08 [INFO]: Start training epoch 352
+acc is 96
+pos is 99.373
+neg is 90.849
+2020-04-24 05:39:19 [INFO]: Val on validation set...
+2020-04-24 05:40:09 [INFO]: Start training epoch 353
+acc is 97
+pos is 99.004
+neg is 93.943
+2020-04-24 05:43:34 [INFO]: Val on validation set...
+2020-04-24 05:44:29 [INFO]: Found a better ckpt (0.056 -> 0.056), 
+2020-04-24 05:44:29 [INFO]: Start training epoch 354
+acc is 97
+pos is 99.000
+neg is 94.653
+2020-04-24 05:47:43 [INFO]: Val on validation set...
+2020-04-24 05:48:33 [INFO]: Start training epoch 355
+acc is 93
+pos is 99.583
+neg is 77.188
+2020-04-24 05:51:41 [INFO]: Val on validation set...
+2020-04-24 05:52:30 [INFO]: Start training epoch 356
+acc is 96
+pos is 99.361
+neg is 89.776
+2020-04-24 05:55:32 [INFO]: Val on validation set...
+2020-04-24 05:56:22 [INFO]: Start training epoch 357
+acc is 97
+pos is 97.574
+neg is 96.803
+2020-04-24 05:59:25 [INFO]: Val on validation set...
+2020-04-24 06:00:13 [INFO]: Start training epoch 358
+acc is 97
+pos is 98.187
+neg is 96.418
+2020-04-24 06:03:21 [INFO]: Val on validation set...
+2020-04-24 06:04:13 [INFO]: Start training epoch 359
+acc is 96
+pos is 99.366
+neg is 90.092
+2020-04-24 06:07:42 [INFO]: Val on validation set...
+2020-04-24 06:08:41 [INFO]: Start training epoch 360
+acc is 96
+pos is 99.180
+neg is 89.025
+2020-04-24 06:11:38 [INFO]: Val on validation set...
+2020-04-24 06:12:29 [INFO]: Start training epoch 361
+acc is 97
+pos is 99.017
+neg is 94.704
+2020-04-24 06:15:37 [INFO]: Val on validation set...
+2020-04-24 06:16:27 [INFO]: Start training epoch 362
+acc is 96
+pos is 99.252
+neg is 88.778
+2020-04-24 06:19:33 [INFO]: Val on validation set...
+2020-04-24 06:20:22 [INFO]: Found a better ckpt (0.056 -> 0.056), 
+2020-04-24 06:20:22 [INFO]: Start training epoch 363
+acc is 97
+pos is 98.683
+neg is 95.632
+2020-04-24 06:23:22 [INFO]: Val on validation set...
+2020-04-24 06:24:11 [INFO]: Start training epoch 364
+acc is 95
+pos is 99.302
+neg is 86.568
+2020-04-24 06:27:18 [INFO]: Val on validation set...
+2020-04-24 06:28:07 [INFO]: Start training epoch 365
+acc is 95
+pos is 99.440
+neg is 87.369
+2020-04-24 06:31:31 [INFO]: Val on validation set...
+2020-04-24 06:32:27 [INFO]: Start training epoch 366
+acc is 97
+pos is 98.610
+neg is 95.424
+2020-04-24 06:35:42 [INFO]: Val on validation set...
+2020-04-24 06:36:32 [INFO]: Found a better ckpt (0.056 -> 0.056), 
+2020-04-24 06:36:32 [INFO]: Start training epoch 367
+acc is 97
+pos is 98.614
+neg is 95.981
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_366_97.86335230788269.pth
+2020-04-24 06:39:42 [INFO]: Val on validation set...
+2020-04-24 06:40:31 [INFO]: Start training epoch 368
+acc is 96
+pos is 99.318
+neg is 90.592
+2020-04-24 06:43:35 [INFO]: Val on validation set...
+2020-04-24 06:44:23 [INFO]: Start training epoch 369
+acc is 97
+pos is 98.985
+neg is 94.581
+2020-04-24 06:47:32 [INFO]: Val on validation set...
+2020-04-24 06:48:19 [INFO]: Found a better ckpt (0.056 -> 0.056), 
+2020-04-24 06:48:19 [INFO]: Start training epoch 370
+acc is 97
+pos is 98.457
+neg is 95.847
+2020-04-24 06:51:26 [INFO]: Val on validation set...
+2020-04-24 06:52:18 [INFO]: Start training epoch 371
+acc is 97
+pos is 99.056
+neg is 94.461
+2020-04-24 06:55:42 [INFO]: Val on validation set...
+2020-04-24 06:56:38 [INFO]: Start training epoch 372
+acc is 96
+pos is 99.256
+neg is 90.963
+2020-04-24 06:59:47 [INFO]: Val on validation set...
+2020-04-24 07:00:38 [INFO]: Start training epoch 373
+acc is 97
+pos is 99.094
+neg is 94.013
+2020-04-24 07:03:38 [INFO]: Val on validation set...
+2020-04-24 07:08:39 [INFO]: Found a better ckpt (0.056 -> 0.055), 
+2020-04-24 07:08:39 [INFO]: Start training epoch 374
+acc is 96
+pos is 99.356
+neg is 89.570
+2020-04-24 07:22:00 [INFO]: Val on validation set...
+2020-04-24 07:22:57 [INFO]: Start training epoch 375
+acc is 97
+pos is 97.251
+neg is 96.659
+2020-04-24 07:25:54 [INFO]: Val on validation set...
+2020-04-24 07:26:42 [INFO]: Start training epoch 376
+acc is 97
+pos is 98.841
+neg is 95.467
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_375_97.87897537433486.pth
+2020-04-24 07:29:53 [INFO]: Val on validation set...
+2020-04-24 07:30:42 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 07:30:42 [INFO]: Start training epoch 377
+acc is 95
+pos is 99.324
+neg is 86.813
+2020-04-24 07:33:53 [INFO]: Val on validation set...
+2020-04-24 07:34:46 [INFO]: Start training epoch 378
+acc is 97
+pos is 99.211
+neg is 92.727
+2020-04-24 07:37:54 [INFO]: Val on validation set...
+2020-04-24 07:38:45 [INFO]: Start training epoch 379
+acc is 97
+pos is 99.232
+neg is 92.640
+2020-04-24 07:42:01 [INFO]: Val on validation set...
+2020-04-24 07:42:52 [INFO]: Start training epoch 380
+acc is 97
+pos is 98.143
+neg is 96.478
+2020-04-24 07:46:03 [INFO]: Val on validation set...
+2020-04-24 07:46:54 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 07:46:54 [INFO]: Start training epoch 381
+acc is 97
+pos is 99.143
+neg is 93.266
+2020-04-24 07:49:51 [INFO]: Val on validation set...
+2020-04-24 07:50:41 [INFO]: Start training epoch 382
+acc is 97
+pos is 98.955
+neg is 94.075
+2020-04-24 07:53:45 [INFO]: Val on validation set...
+2020-04-24 07:54:34 [INFO]: Start training epoch 383
+acc is 97
+pos is 98.822
+neg is 95.200
+2020-04-24 07:57:42 [INFO]: Val on validation set...
+2020-04-24 07:58:29 [INFO]: Start training epoch 384
+acc is 97
+pos is 99.267
+neg is 91.688
+2020-04-24 08:01:23 [INFO]: Val on validation set...
+2020-04-24 08:02:38 [INFO]: Start training epoch 385
+acc is 97
+pos is 98.426
+neg is 95.630
+2020-04-24 08:05:37 [INFO]: Val on validation set...
+2020-04-24 08:06:29 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 08:06:29 [INFO]: Start training epoch 386
+acc is 97
+pos is 97.575
+neg is 96.952
+2020-04-24 08:09:31 [INFO]: Val on validation set...
+2020-04-24 08:10:22 [INFO]: Start training epoch 387
+acc is 97
+pos is 98.865
+neg is 94.474
+2020-04-24 08:13:28 [INFO]: Val on validation set...
+2020-04-24 08:14:20 [INFO]: Start training epoch 388
+acc is 97
+pos is 98.081
+neg is 96.638
+2020-04-24 08:17:17 [INFO]: Val on validation set...
+2020-04-24 08:18:04 [INFO]: Start training epoch 389
+acc is 97
+pos is 99.251
+neg is 91.887
+2020-04-24 08:21:12 [INFO]: Val on validation set...
+2020-04-24 08:22:00 [INFO]: Start training epoch 390
+acc is 97
+pos is 98.113
+neg is 96.645
+2020-04-24 08:25:08 [INFO]: Val on validation set...
+2020-04-24 08:25:58 [INFO]: Start training epoch 391
+acc is 94
+pos is 99.449
+neg is 83.158
+2020-04-24 08:29:06 [INFO]: Val on validation set...
+2020-04-24 08:29:53 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 08:29:53 [INFO]: Start training epoch 392
+acc is 97
+pos is 98.936
+neg is 95.181
+2020-04-24 08:33:00 [INFO]: Val on validation set...
+2020-04-24 08:33:47 [INFO]: Start training epoch 393
+acc is 97
+pos is 98.962
+neg is 94.841
+2020-04-24 08:37:09 [INFO]: Val on validation set...
+2020-04-24 08:38:03 [INFO]: Start training epoch 394
+acc is 97
+pos is 98.618
+neg is 95.819
+2020-04-24 08:41:14 [INFO]: Val on validation set...
+2020-04-24 08:42:03 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 08:42:03 [INFO]: Start training epoch 395
+acc is 97
+pos is 97.815
+neg is 96.625
+2020-04-24 08:45:14 [INFO]: Val on validation set...
+2020-04-24 08:46:03 [INFO]: Start training epoch 396
+acc is 97
+pos is 97.865
+neg is 96.333
+2020-04-24 08:49:14 [INFO]: Val on validation set...
+2020-04-24 08:50:04 [INFO]: Start training epoch 397
+acc is 97
+pos is 98.299
+neg is 96.047
+2020-04-24 08:53:12 [INFO]: Val on validation set...
+2020-04-24 08:54:00 [INFO]: Start training epoch 398
+acc is 96
+pos is 99.164
+neg is 90.221
+2020-04-24 08:57:05 [INFO]: Val on validation set...
+2020-04-24 08:57:57 [INFO]: Start training epoch 399
+acc is 94
+pos is 99.525
+neg is 81.792
+2020-04-24 09:01:18 [INFO]: Val on validation set...
+2020-04-24 09:02:15 [INFO]: Start training epoch 400
+acc is 96
+pos is 99.379
+neg is 90.478
+2020-04-24 09:05:25 [INFO]: Val on validation set...
+2020-04-24 09:06:12 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 09:06:12 [INFO]: Start training epoch 401
+acc is 97
+pos is 99.019
+neg is 93.881
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_400_97.55398465536443.pth
+2020-04-24 09:09:22 [INFO]: Val on validation set...
+2020-04-24 09:10:11 [INFO]: Start training epoch 402
+acc is 97
+pos is 98.886
+neg is 95.339
+2020-04-24 09:13:18 [INFO]: Val on validation set...
+2020-04-24 09:14:10 [INFO]: Start training epoch 403
+acc is 97
+pos is 98.985
+neg is 94.915
+2020-04-24 09:17:18 [INFO]: Val on validation set...
+2020-04-24 09:18:09 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 09:18:09 [INFO]: Start training epoch 404
+acc is 97
+pos is 98.685
+neg is 95.627
+2020-04-24 09:21:14 [INFO]: Val on validation set...
+2020-04-24 09:22:08 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 09:22:08 [INFO]: Start training epoch 405
+acc is 97
+pos is 97.723
+neg is 96.741
+2020-04-24 09:25:30 [INFO]: Val on validation set...
+2020-04-24 09:26:25 [INFO]: Start training epoch 406
+acc is 97
+pos is 98.325
+neg is 96.115
+2020-04-24 09:29:26 [INFO]: Val on validation set...
+2020-04-24 09:30:17 [INFO]: Found a better ckpt (0.055 -> 0.055), 
+2020-04-24 09:30:17 [INFO]: Start training epoch 407
+acc is 97
+pos is 99.154
+neg is 94.230
+2020-04-24 09:33:24 [INFO]: Val on validation set...
+2020-04-24 09:34:10 [INFO]: Start training epoch 408
+acc is 97
+pos is 98.950
+neg is 94.522
+2020-04-24 09:37:20 [INFO]: Val on validation set...
+2020-04-24 09:38:08 [INFO]: Start training epoch 409
+acc is 97
+pos is 98.878
+neg is 95.285
+2020-04-24 09:41:14 [INFO]: Val on validation set...
+2020-04-24 09:42:04 [INFO]: Found a better ckpt (0.055 -> 0.054), 
+2020-04-24 09:42:04 [INFO]: Start training epoch 410
+acc is 97
+pos is 98.218
+neg is 96.021
+2020-04-24 09:45:10 [INFO]: Val on validation set...
+2020-04-24 09:46:04 [INFO]: Start training epoch 411
+acc is 95
+pos is 99.341
+neg is 84.917
+2020-04-24 09:49:31 [INFO]: Val on validation set...
+2020-04-24 09:50:20 [INFO]: Start training epoch 412
+acc is 97
+pos is 98.665
+neg is 95.659
+2020-04-24 09:53:29 [INFO]: Val on validation set...
+2020-04-24 09:54:18 [INFO]: Start training epoch 413
+acc is 97
+pos is 98.779
+neg is 95.623
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_412_97.8795941096399.pth
+2020-04-24 09:57:29 [INFO]: Val on validation set...
+2020-04-24 09:58:18 [INFO]: Start training epoch 414
+acc is 97
+pos is 98.561
+neg is 96.182
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_413_97.88284246999133.pth
+2020-04-24 10:01:24 [INFO]: Val on validation set...
+2020-04-24 10:02:12 [INFO]: Start training epoch 415
+acc is 97
+pos is 99.164
+neg is 93.677
+2020-04-24 10:05:13 [INFO]: Val on validation set...
+2020-04-24 10:06:03 [INFO]: Start training epoch 416
+acc is 97
+pos is 99.009
+neg is 94.393
+2020-04-24 10:09:17 [INFO]: Val on validation set...
+2020-04-24 10:10:11 [INFO]: Found a better ckpt (0.054 -> 0.054), 
+2020-04-24 10:10:12 [INFO]: Start training epoch 417
+acc is 97
+pos is 97.933
+neg is 96.191
+2020-04-24 10:13:26 [INFO]: Val on validation set...
+2020-04-24 10:14:14 [INFO]: Start training epoch 418
+acc is 97
+pos is 99.070
+neg is 94.477
+2020-04-24 10:17:23 [INFO]: Val on validation set...
+2020-04-24 10:18:10 [INFO]: Found a better ckpt (0.054 -> 0.054), 
+2020-04-24 10:18:10 [INFO]: Start training epoch 419
+acc is 97
+pos is 98.731
+neg is 95.462
+2020-04-24 10:21:19 [INFO]: Val on validation set...
+2020-04-24 10:22:07 [INFO]: Start training epoch 420
+acc is 93
+pos is 99.575
+neg is 76.856
+2020-04-24 10:25:14 [INFO]: Val on validation set...
+2020-04-24 10:26:03 [INFO]: Found a better ckpt (0.054 -> 0.054), 
+2020-04-24 10:26:03 [INFO]: Start training epoch 421
+acc is 97
+pos is 99.221
+neg is 93.426
+2020-04-24 10:29:11 [INFO]: Val on validation set...
+2020-04-24 10:29:59 [INFO]: Found a better ckpt (0.054 -> 0.054), 
+2020-04-24 10:30:00 [INFO]: Start training epoch 422
+acc is 97
+pos is 99.097
+neg is 93.585
+2020-04-24 10:33:16 [INFO]: Val on validation set...
+2020-04-24 10:34:12 [INFO]: Start training epoch 423
+acc is 97
+pos is 99.056
+neg is 94.779
+2020-04-24 10:37:37 [INFO]: Val on validation set...
+2020-04-24 10:38:29 [INFO]: Start training epoch 424
+acc is 97
+pos is 99.173
+neg is 92.324
+2020-04-24 10:41:40 [INFO]: Val on validation set...
+2020-04-24 10:42:32 [INFO]: Start training epoch 425
+acc is 97
+pos is 99.152
+neg is 93.853
+2020-04-24 10:45:41 [INFO]: Val on validation set...
+2020-04-24 10:46:31 [INFO]: Start training epoch 426
+acc is 97
+pos is 98.259
+neg is 96.319
+2020-04-24 10:49:36 [INFO]: Val on validation set...
+2020-04-24 10:50:28 [INFO]: Start training epoch 427
+acc is 97
+pos is 98.565
+neg is 95.846
+2020-04-24 10:53:30 [INFO]: Val on validation set...
+2020-04-24 10:54:18 [INFO]: Found a better ckpt (0.054 -> 0.054), 
+2020-04-24 10:54:18 [INFO]: Start training epoch 428
+acc is 97
+pos is 98.813
+neg is 95.461
+2020-04-24 10:57:34 [INFO]: Val on validation set...
+2020-04-24 10:58:30 [INFO]: Start training epoch 429
+acc is 97
+pos is 98.942
+neg is 94.470
+2020-04-24 11:01:45 [INFO]: Val on validation set...
+2020-04-24 11:02:34 [INFO]: Start training epoch 430
+acc is 97
+pos is 99.148
+neg is 93.835
+2020-04-24 11:05:42 [INFO]: Val on validation set...
+2020-04-24 11:06:30 [INFO]: Start training epoch 431
+acc is 97
+pos is 99.046
+neg is 93.516
+2020-04-24 11:09:38 [INFO]: Val on validation set...
+2020-04-24 11:10:28 [INFO]: Found a better ckpt (0.054 -> 0.054), 
+2020-04-24 11:10:28 [INFO]: Start training epoch 432
+acc is 95
+pos is 95.164
+neg is 96.914
+2020-04-24 11:13:34 [INFO]: Val on validation set...
+2020-04-24 11:14:24 [INFO]: Start training epoch 433
+acc is 96
+pos is 99.298
+neg is 90.198
+2020-04-24 11:17:30 [INFO]: Val on validation set...
+2020-04-24 11:18:21 [INFO]: Start training epoch 434
+acc is 97
+pos is 98.664
+neg is 95.398
+2020-04-24 11:21:42 [INFO]: Val on validation set...
+2020-04-24 11:22:38 [INFO]: Found a better ckpt (0.054 -> 0.053), 
+2020-04-24 11:22:38 [INFO]: Start training epoch 435
+acc is 97
+pos is 98.708
+neg is 94.970
+2020-04-24 11:25:51 [INFO]: Val on validation set...
+2020-04-24 11:26:40 [INFO]: Found a better ckpt (0.053 -> 0.053), 
+2020-04-24 11:26:40 [INFO]: Start training epoch 436
+acc is 97
+pos is 99.122
+neg is 93.809
+2020-04-24 11:29:49 [INFO]: Val on validation set...
+2020-04-24 11:30:41 [INFO]: Start training epoch 437
+acc is 97
+pos is 98.593
+neg is 95.808
+2020-04-24 11:33:44 [INFO]: Val on validation set...
+2020-04-24 11:34:31 [INFO]: Start training epoch 438
+acc is 97
+pos is 99.244
+neg is 92.897
+2020-04-24 11:37:39 [INFO]: Val on validation set...
+2020-04-24 11:38:31 [INFO]: Start training epoch 439
+acc is 97
+pos is 98.291
+neg is 95.990
+2020-04-24 11:41:34 [INFO]: Val on validation set...
+2020-04-24 11:42:25 [INFO]: Start training epoch 440
+acc is 97
+pos is 98.994
+neg is 94.275
+2020-04-24 11:45:49 [INFO]: Val on validation set...
+2020-04-24 11:46:45 [INFO]: Start training epoch 441
+acc is 97
+pos is 98.685
+neg is 95.790
+2020-04-24 11:49:59 [INFO]: Val on validation set...
+2020-04-24 11:50:45 [INFO]: Start training epoch 442
+acc is 96
+pos is 99.462
+neg is 88.582
+2020-04-24 11:53:49 [INFO]: Val on validation set...
+2020-04-24 11:54:36 [INFO]: Start training epoch 443
+acc is 97
+pos is 98.869
+neg is 95.456
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_442_97.89568122757085.pth
+2020-04-24 11:57:34 [INFO]: Val on validation set...
+2020-04-24 11:58:24 [INFO]: Start training epoch 444
+acc is 97
+pos is 97.233
+neg is 97.000
+2020-04-24 12:01:27 [INFO]: Val on validation set...
+2020-04-24 12:02:13 [INFO]: Start training epoch 445
+acc is 97
+pos is 99.009
+neg is 94.392
+2020-04-24 12:05:20 [INFO]: Val on validation set...
+2020-04-24 12:06:08 [INFO]: Start training epoch 446
+acc is 97
+pos is 97.254
+neg is 97.306
+2020-04-24 12:09:31 [INFO]: Val on validation set...
+2020-04-24 12:10:26 [INFO]: Start training epoch 447
+acc is 97
+pos is 98.810
+neg is 95.469
+Epoch   446: reducing learning rate of group 0 to 8.0000e-03.
+2020-04-24 12:13:42 [INFO]: Val on validation set...
+2020-04-24 12:14:30 [INFO]: Found a better ckpt (0.053 -> 0.053), 
+2020-04-24 12:14:30 [INFO]: Start training epoch 448
+acc is 97
+pos is 98.719
+neg is 95.530
+2020-04-24 12:17:39 [INFO]: Val on validation set...
+2020-04-24 12:18:28 [INFO]: Start training epoch 449
+acc is 92
+pos is 99.542
+neg is 74.248
+2020-04-24 12:21:39 [INFO]: Val on validation set...
+2020-04-24 12:22:31 [INFO]: Start training epoch 450
+acc is 94
+pos is 99.501
+neg is 81.882
+2020-04-24 12:25:43 [INFO]: Val on validation set...
+2020-04-24 12:26:31 [INFO]: Start training epoch 451
+acc is 95
+pos is 99.425
+neg is 87.332
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_450_95.97698304665265.pth
+2020-04-24 12:29:43 [INFO]: Val on validation set...
+2020-04-24 12:30:37 [INFO]: Found a better ckpt (0.053 -> 0.053), 
+2020-04-24 12:30:37 [INFO]: Start training epoch 452
+acc is 97
+pos is 98.902
+neg is 94.951
+2020-04-24 12:33:53 [INFO]: Val on validation set...
+2020-04-24 12:34:48 [INFO]: Found a better ckpt (0.053 -> 0.053), 
+2020-04-24 12:34:48 [INFO]: Start training epoch 453
+acc is 97
+pos is 98.908
+neg is 95.387
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_452_97.9041888380151.pth
+2020-04-24 12:38:00 [INFO]: Val on validation set...
+2020-04-24 12:38:48 [INFO]: Start training epoch 454
+acc is 97
+pos is 99.263
+neg is 93.006
+2020-04-24 12:41:54 [INFO]: Val on validation set...
+2020-04-24 12:42:40 [INFO]: Found a better ckpt (0.053 -> 0.053), 
+2020-04-24 12:42:41 [INFO]: Start training epoch 455
+acc is 96
+pos is 99.284
+neg is 88.590
+2020-04-24 12:45:49 [INFO]: Val on validation set...
+2020-04-24 12:46:38 [INFO]: Start training epoch 456
+acc is 97
+pos is 98.846
+neg is 95.129
+2020-04-24 12:49:46 [INFO]: Val on validation set...
+2020-04-24 12:50:35 [INFO]: Start training epoch 457
+acc is 96
+pos is 99.346
+neg is 90.863
+2020-04-24 12:53:41 [INFO]: Val on validation set...
+2020-04-24 12:54:31 [INFO]: Start training epoch 458
+acc is 97
+pos is 97.971
+neg is 96.467
+2020-04-24 12:57:50 [INFO]: Val on validation set...
+2020-04-24 12:58:41 [INFO]: Start training epoch 459
+acc is 97
+pos is 98.827
+neg is 95.204
+2020-04-24 13:01:52 [INFO]: Val on validation set...
+2020-04-24 13:02:43 [INFO]: Start training epoch 460
+acc is 96
+pos is 96.431
+neg is 97.371
+2020-04-24 13:05:54 [INFO]: Val on validation set...
+2020-04-24 13:06:45 [INFO]: Start training epoch 461
+acc is 97
+pos is 98.991
+neg is 95.113
+2020-04-24 13:09:56 [INFO]: Val on validation set...
+2020-04-24 13:10:47 [INFO]: Start training epoch 462
+acc is 97
+pos is 98.680
+neg is 95.907
+2020-04-24 13:13:43 [INFO]: Val on validation set...
+2020-04-24 13:14:28 [INFO]: Start training epoch 463
+acc is 97
+pos is 98.521
+neg is 96.062
+2020-04-24 13:17:24 [INFO]: Val on validation set...
+2020-04-24 13:18:15 [INFO]: Found a better ckpt (0.053 -> 0.053), 
+2020-04-24 13:18:15 [INFO]: Start training epoch 464
+acc is 95
+pos is 99.475
+neg is 86.923
+2020-04-24 13:21:33 [INFO]: Val on validation set...
+2020-04-24 13:22:28 [INFO]: Start training epoch 465
+acc is 97
+pos is 98.806
+neg is 95.729
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_464_97.92862888256404.pth
+2020-04-24 13:25:43 [INFO]: Val on validation set...
+2020-04-24 13:26:32 [INFO]: Start training epoch 466
+acc is 97
+pos is 98.370
+neg is 96.006
+2020-04-24 13:29:36 [INFO]: Val on validation set...
+2020-04-24 13:30:23 [INFO]: Start training epoch 467
+acc is 97
+pos is 99.137
+neg is 94.667
+2020-04-24 13:33:31 [INFO]: Val on validation set...
+2020-04-24 13:34:20 [INFO]: Found a better ckpt (0.053 -> 0.052), 
+2020-04-24 13:34:20 [INFO]: Start training epoch 468
+acc is 97
+pos is 99.103
+neg is 94.813
+2020-04-24 13:37:30 [INFO]: Val on validation set...
+2020-04-24 13:38:20 [INFO]: Start training epoch 469
+acc is 96
+pos is 99.258
+neg is 91.192
+2020-04-24 13:41:31 [INFO]: Val on validation set...
+2020-04-24 13:42:18 [INFO]: Start training epoch 470
+acc is 97
+pos is 99.301
+neg is 93.098
+2020-04-24 13:45:38 [INFO]: Val on validation set...
+2020-04-24 13:46:33 [INFO]: Start training epoch 471
+acc is 97
+pos is 99.173
+neg is 93.458
+2020-04-24 13:49:47 [INFO]: Val on validation set...
+2020-04-24 13:50:35 [INFO]: Start training epoch 472
+acc is 97
+pos is 99.114
+neg is 93.999
+2020-04-24 13:53:44 [INFO]: Val on validation set...
+2020-04-24 13:54:32 [INFO]: Start training epoch 473
+acc is 97
+pos is 98.377
+neg is 96.349
+2020-04-24 13:57:43 [INFO]: Val on validation set...
+2020-04-24 13:58:31 [INFO]: Start training epoch 474
+acc is 97
+pos is 99.033
+neg is 94.648
+2020-04-24 14:01:33 [INFO]: Val on validation set...
+2020-04-24 14:02:24 [INFO]: Start training epoch 475
+acc is 97
+pos is 98.599
+neg is 96.331
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_474_97.95245019180794.pth
+2020-04-24 14:05:31 [INFO]: Val on validation set...
+2020-04-24 14:06:18 [INFO]: Start training epoch 476
+acc is 97
+pos is 98.876
+neg is 95.254
+2020-04-24 14:09:43 [INFO]: Val on validation set...
+2020-04-24 14:10:41 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 14:10:41 [INFO]: Start training epoch 477
+acc is 97
+pos is 97.568
+neg is 95.971
+2020-04-24 14:13:57 [INFO]: Val on validation set...
+2020-04-24 14:14:49 [INFO]: Start training epoch 478
+acc is 97
+pos is 98.962
+neg is 95.496
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_477_97.97364187600544.pth
+2020-04-24 14:17:58 [INFO]: Val on validation set...
+2020-04-24 14:18:45 [INFO]: Start training epoch 479
+acc is 97
+pos is 98.920
+neg is 95.556
+2020-04-24 14:21:50 [INFO]: Val on validation set...
+2020-04-24 14:22:37 [INFO]: Start training epoch 480
+acc is 97
+pos is 98.787
+neg is 95.562
+2020-04-24 14:25:48 [INFO]: Val on validation set...
+2020-04-24 14:26:38 [INFO]: Start training epoch 481
+acc is 97
+pos is 99.101
+neg is 94.309
+2020-04-24 14:29:49 [INFO]: Val on validation set...
+2020-04-24 14:30:36 [INFO]: Start training epoch 482
+acc is 97
+pos is 99.099
+neg is 94.046
+2020-04-24 14:34:03 [INFO]: Val on validation set...
+2020-04-24 14:35:01 [INFO]: Start training epoch 483
+acc is 97
+pos is 99.195
+neg is 93.323
+2020-04-24 14:38:15 [INFO]: Val on validation set...
+2020-04-24 14:39:01 [INFO]: Start training epoch 484
+acc is 97
+pos is 99.170
+neg is 92.856
+2020-04-24 14:42:10 [INFO]: Val on validation set...
+2020-04-24 14:42:58 [INFO]: Start training epoch 485
+acc is 97
+pos is 99.380
+neg is 92.288
+2020-04-24 14:46:05 [INFO]: Val on validation set...
+2020-04-24 14:46:51 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 14:46:51 [INFO]: Start training epoch 486
+acc is 97
+pos is 98.948
+neg is 94.333
+2020-04-24 14:49:54 [INFO]: Val on validation set...
+2020-04-24 14:50:42 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 14:50:43 [INFO]: Start training epoch 487
+acc is 97
+pos is 98.763
+neg is 96.034
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_486_97.9847791114961.pth
+2020-04-24 14:53:51 [INFO]: Val on validation set...
+2020-04-24 14:54:40 [INFO]: Start training epoch 488
+acc is 96
+pos is 99.372
+neg is 88.984
+2020-04-24 14:58:07 [INFO]: Val on validation set...
+2020-04-24 14:59:02 [INFO]: Start training epoch 489
+acc is 96
+pos is 99.396
+neg is 89.255
+2020-04-24 15:02:22 [INFO]: Val on validation set...
+2020-04-24 15:03:08 [INFO]: Start training epoch 490
+acc is 97
+pos is 98.167
+neg is 96.331
+2020-04-24 15:06:20 [INFO]: Val on validation set...
+2020-04-24 15:07:07 [INFO]: Start training epoch 491
+acc is 97
+pos is 99.146
+neg is 93.950
+2020-04-24 15:10:14 [INFO]: Val on validation set...
+2020-04-24 15:11:03 [INFO]: Start training epoch 492
+acc is 97
+pos is 99.097
+neg is 94.149
+2020-04-24 15:14:14 [INFO]: Val on validation set...
+2020-04-24 15:15:02 [INFO]: Start training epoch 493
+acc is 95
+pos is 99.295
+neg is 86.700
+2020-04-24 15:18:12 [INFO]: Val on validation set...
+2020-04-24 15:19:02 [INFO]: Start training epoch 494
+acc is 97
+pos is 98.941
+neg is 92.617
+2020-04-24 15:22:20 [INFO]: Val on validation set...
+2020-04-24 15:23:15 [INFO]: Start training epoch 495
+acc is 96
+pos is 99.379
+neg is 89.688
+2020-04-24 15:26:39 [INFO]: Val on validation set...
+2020-04-24 15:27:27 [INFO]: Start training epoch 496
+acc is 97
+pos is 98.422
+neg is 95.350
+2020-04-24 15:30:37 [INFO]: Val on validation set...
+2020-04-24 15:31:25 [INFO]: Start training epoch 497
+acc is 97
+pos is 98.036
+neg is 96.413
+2020-04-24 15:34:35 [INFO]: Val on validation set...
+2020-04-24 15:35:22 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 15:35:22 [INFO]: Start training epoch 498
+acc is 97
+pos is 97.651
+neg is 96.997
+2020-04-24 15:38:27 [INFO]: Val on validation set...
+2020-04-24 15:39:15 [INFO]: Start training epoch 499
+acc is 97
+pos is 98.510
+neg is 96.368
+2020-04-24 15:42:21 [INFO]: Val on validation set...
+2020-04-24 15:43:11 [INFO]: Start training epoch 500
+acc is 97
+pos is 99.098
+neg is 94.377
+2020-04-24 15:46:30 [INFO]: Val on validation set...
+2020-04-24 15:47:25 [INFO]: Start training epoch 501
+acc is 97
+pos is 99.045
+neg is 94.396
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_500_97.71918698180919.pth
+2020-04-24 15:50:50 [INFO]: Val on validation set...
+2020-04-24 15:51:37 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 15:51:37 [INFO]: Start training epoch 502
+acc is 97
+pos is 97.159
+neg is 96.842
+2020-04-24 15:54:42 [INFO]: Val on validation set...
+2020-04-24 15:55:28 [INFO]: Start training epoch 503
+acc is 97
+pos is 99.250
+neg is 92.775
+2020-04-24 15:58:39 [INFO]: Val on validation set...
+2020-04-24 15:59:28 [INFO]: Start training epoch 504
+acc is 97
+pos is 98.670
+neg is 95.976
+2020-04-24 16:02:38 [INFO]: Val on validation set...
+2020-04-24 16:03:27 [INFO]: Start training epoch 505
+acc is 96
+pos is 99.336
+neg is 88.852
+2020-04-24 16:06:37 [INFO]: Val on validation set...
+2020-04-24 16:07:27 [INFO]: Start training epoch 506
+acc is 97
+pos is 98.907
+neg is 95.399
+2020-04-24 16:10:40 [INFO]: Val on validation set...
+2020-04-24 16:11:36 [INFO]: Start training epoch 507
+acc is 98
+pos is 98.922
+neg is 95.755
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_506_98.01927360475189.pth
+2020-04-24 16:15:02 [INFO]: Val on validation set...
+2020-04-24 16:15:51 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 16:15:51 [INFO]: Start training epoch 508
+acc is 97
+pos is 98.997
+neg is 95.450
+2020-04-24 16:19:06 [INFO]: Val on validation set...
+2020-04-24 16:19:55 [INFO]: Start training epoch 509
+acc is 97
+pos is 98.848
+neg is 95.699
+2020-04-24 16:23:05 [INFO]: Val on validation set...
+2020-04-24 16:23:53 [INFO]: Start training epoch 510
+acc is 97
+pos is 98.770
+neg is 95.925
+2020-04-24 16:27:00 [INFO]: Val on validation set...
+2020-04-24 16:27:48 [INFO]: Start training epoch 511
+acc is 97
+pos is 99.139
+neg is 92.663
+2020-04-24 16:30:58 [INFO]: Val on validation set...
+2020-04-24 16:31:47 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 16:31:47 [INFO]: Start training epoch 512
+acc is 97
+pos is 98.985
+neg is 94.985
+2020-04-24 16:35:05 [INFO]: Val on validation set...
+2020-04-24 16:36:01 [INFO]: Start training epoch 513
+acc is 97
+pos is 99.131
+neg is 94.145
+2020-04-24 16:39:25 [INFO]: Val on validation set...
+2020-04-24 16:40:14 [INFO]: Found a better ckpt (0.052 -> 0.052), 
+2020-04-24 16:40:14 [INFO]: Start training epoch 514
+acc is 97
+pos is 99.287
+neg is 93.442
+2020-04-24 16:43:10 [INFO]: Val on validation set...
+2020-04-24 16:44:00 [INFO]: Start training epoch 515
+acc is 96
+pos is 99.395
+neg is 90.669
+2020-04-24 16:47:12 [INFO]: Val on validation set...
+2020-04-24 16:48:02 [INFO]: Start training epoch 516
+acc is 96
+pos is 99.417
+neg is 90.609
+2020-04-24 16:51:08 [INFO]: Val on validation set...
+2020-04-24 16:51:57 [INFO]: Start training epoch 517
+acc is 97
+pos is 98.036
+neg is 96.478
+2020-04-24 16:55:01 [INFO]: Val on validation set...
+2020-04-24 16:55:52 [INFO]: Start training epoch 518
+acc is 95
+pos is 99.457
+neg is 85.923
+2020-04-24 16:59:10 [INFO]: Val on validation set...
+2020-04-24 17:00:07 [INFO]: Start training epoch 519
+acc is 97
+pos is 99.228
+neg is 94.053
+2020-04-24 17:03:31 [INFO]: Val on validation set...
+2020-04-24 17:04:19 [INFO]: Start training epoch 520
+acc is 97
+pos is 99.194
+neg is 93.066
+2020-04-24 17:07:29 [INFO]: Val on validation set...
+2020-04-24 17:08:18 [INFO]: Start training epoch 521
+acc is 97
+pos is 99.354
+neg is 92.176
+2020-04-24 17:11:24 [INFO]: Val on validation set...
+2020-04-24 17:12:12 [INFO]: Start training epoch 522
+acc is 97
+pos is 99.056
+neg is 94.616
+2020-04-24 17:15:20 [INFO]: Val on validation set...
+2020-04-24 17:16:12 [INFO]: Start training epoch 523
+acc is 97
+pos is 99.172
+neg is 94.012
+2020-04-24 17:19:19 [INFO]: Val on validation set...
+2020-04-24 17:20:06 [INFO]: Found a better ckpt (0.052 -> 0.051), 
+2020-04-24 17:20:06 [INFO]: Start training epoch 524
+acc is 97
+pos is 98.495
+neg is 95.972
+2020-04-24 17:23:27 [INFO]: Val on validation set...
+2020-04-24 17:24:23 [INFO]: Start training epoch 525
+acc is 97
+pos is 99.204
+neg is 94.169
+2020-04-24 17:27:42 [INFO]: Val on validation set...
+2020-04-24 17:28:30 [INFO]: Start training epoch 526
+acc is 97
+pos is 97.787
+neg is 96.596
+2020-04-24 17:31:42 [INFO]: Val on validation set...
+2020-04-24 17:32:33 [INFO]: Start training epoch 527
+acc is 96
+pos is 99.358
+neg is 88.854
+2020-04-24 17:35:32 [INFO]: Val on validation set...
+2020-04-24 17:36:22 [INFO]: Start training epoch 528
+acc is 95
+pos is 99.438
+neg is 85.495
+2020-04-24 17:39:28 [INFO]: Val on validation set...
+2020-04-24 17:40:15 [INFO]: Start training epoch 529
+acc is 97
+pos is 98.323
+neg is 95.747
+2020-04-24 17:43:27 [INFO]: Val on validation set...
+2020-04-24 17:44:16 [INFO]: Start training epoch 530
+acc is 97
+pos is 99.032
+neg is 95.189
+2020-04-24 17:47:32 [INFO]: Val on validation set...
+2020-04-24 17:48:30 [INFO]: Start training epoch 531
+acc is 97
+pos is 99.278
+neg is 93.094
+2020-04-24 17:51:52 [INFO]: Val on validation set...
+2020-04-24 17:52:41 [INFO]: Start training epoch 532
+acc is 97
+pos is 99.103
+neg is 94.376
+2020-04-24 17:55:50 [INFO]: Val on validation set...
+2020-04-24 17:56:36 [INFO]: Found a better ckpt (0.051 -> 0.051), 
+2020-04-24 17:56:36 [INFO]: Start training epoch 533
+acc is 96
+pos is 99.397
+neg is 90.476
+2020-04-24 17:59:43 [INFO]: Val on validation set...
+2020-04-24 18:00:33 [INFO]: Start training epoch 534
+acc is 97
+pos is 99.131
+neg is 94.723
+2020-04-24 18:03:41 [INFO]: Val on validation set...
+2020-04-24 18:04:28 [INFO]: Found a better ckpt (0.051 -> 0.051), 
+2020-04-24 18:04:28 [INFO]: Start training epoch 535
+acc is 97
+pos is 98.281
+neg is 96.350
+2020-04-24 18:07:36 [INFO]: Val on validation set...
+2020-04-24 18:08:24 [INFO]: Start training epoch 536
+acc is 97
+pos is 99.109
+neg is 93.446
+2020-04-24 18:11:44 [INFO]: Val on validation set...
+2020-04-24 18:12:38 [INFO]: Start training epoch 537
+acc is 97
+pos is 98.658
+neg is 96.062
+2020-04-24 18:16:00 [INFO]: Val on validation set...
+2020-04-24 18:16:47 [INFO]: Start training epoch 538
+acc is 97
+pos is 98.929
+neg is 95.024
+2020-04-24 18:19:51 [INFO]: Val on validation set...
+2020-04-24 18:20:42 [INFO]: Start training epoch 539
+acc is 97
+pos is 99.279
+neg is 92.107
+2020-04-24 18:23:48 [INFO]: Val on validation set...
+2020-04-24 18:24:40 [INFO]: Start training epoch 540
+acc is 97
+pos is 98.614
+neg is 96.200
+2020-04-24 18:27:47 [INFO]: Val on validation set...
+2020-04-24 18:28:37 [INFO]: Start training epoch 541
+acc is 97
+pos is 98.014
+neg is 96.573
+2020-04-24 18:31:50 [INFO]: Val on validation set...
+2020-04-24 18:32:40 [INFO]: Start training epoch 542
+acc is 97
+pos is 98.763
+neg is 95.704
+2020-04-24 18:35:52 [INFO]: Val on validation set...
+2020-04-24 18:36:48 [INFO]: Found a better ckpt (0.051 -> 0.051), 
+2020-04-24 18:36:48 [INFO]: Start training epoch 543
+acc is 97
+pos is 97.788
+neg is 96.376
+2020-04-24 18:40:18 [INFO]: Val on validation set...
+2020-04-24 18:41:05 [INFO]: Found a better ckpt (0.051 -> 0.051), 
+2020-04-24 18:41:05 [INFO]: Start training epoch 544
+acc is 97
+pos is 99.069
+neg is 94.946
+2020-04-24 18:44:17 [INFO]: Val on validation set...
+2020-04-24 18:45:05 [INFO]: Start training epoch 545
+acc is 97
+pos is 98.840
+neg is 95.772
+2020-04-24 18:48:12 [INFO]: Val on validation set...
+2020-04-24 18:49:01 [INFO]: Start training epoch 546
+acc is 97
+pos is 98.716
+neg is 95.773
+2020-04-24 18:52:11 [INFO]: Val on validation set...
+2020-04-24 18:53:01 [INFO]: Start training epoch 547
+acc is 97
+pos is 98.887
+neg is 95.409
+2020-04-24 18:56:09 [INFO]: Val on validation set...
+2020-04-24 18:56:55 [INFO]: Start training epoch 548
+acc is 97
+pos is 98.813
+neg is 95.868
+2020-04-24 19:00:05 [INFO]: Val on validation set...
+2020-04-24 19:01:03 [INFO]: Start training epoch 549
+acc is 97
+pos is 98.989
+neg is 94.220
+2020-04-24 19:04:20 [INFO]: Val on validation set...
+2020-04-24 19:05:10 [INFO]: Found a better ckpt (0.051 -> 0.051), 
+2020-04-24 19:05:10 [INFO]: Start training epoch 550
+acc is 97
+pos is 99.032
+neg is 95.139
+2020-04-24 19:08:22 [INFO]: Val on validation set...
+2020-04-24 19:09:13 [INFO]: Start training epoch 551
+acc is 97
+pos is 99.144
+neg is 94.633
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_550_97.85793837396362.pth
+2020-04-24 19:12:17 [INFO]: Val on validation set...
+2020-04-24 19:13:05 [INFO]: Start training epoch 552
+acc is 96
+pos is 99.297
+neg is 90.420
+2020-04-24 19:16:09 [INFO]: Val on validation set...
+2020-04-24 19:17:02 [INFO]: Start training epoch 553
+acc is 97
+pos is 97.455
+neg is 97.127
+2020-04-24 19:20:12 [INFO]: Val on validation set...
+2020-04-24 19:21:03 [INFO]: Found a better ckpt (0.051 -> 0.051), 
+2020-04-24 19:21:03 [INFO]: Start training epoch 554
+acc is 96
+pos is 99.321
+neg is 88.296
+2020-04-24 19:24:18 [INFO]: Val on validation set...
+2020-04-24 19:25:13 [INFO]: Start training epoch 555
+acc is 97
+pos is 98.176
+neg is 96.074
+2020-04-24 19:28:37 [INFO]: Val on validation set...
+2020-04-24 19:29:27 [INFO]: Start training epoch 556
+acc is 97
+pos is 98.419
+neg is 96.374
+2020-04-24 19:32:36 [INFO]: Val on validation set...
+2020-04-24 19:33:25 [INFO]: Found a better ckpt (0.051 -> 0.051), 
+2020-04-24 19:33:25 [INFO]: Start training epoch 557
+acc is 97
+pos is 98.437
+neg is 96.337
+2020-04-24 19:36:32 [INFO]: Val on validation set...
+2020-04-24 19:37:20 [INFO]: Start training epoch 558
+acc is 98
+pos is 98.966
+neg is 95.623
+2020-04-24 19:40:29 [INFO]: Val on validation set...
+2020-04-24 19:41:17 [INFO]: Start training epoch 559
+acc is 97
+pos is 98.513
+neg is 95.643
+2020-04-24 19:44:22 [INFO]: Val on validation set...
+2020-04-24 19:45:10 [INFO]: Start training epoch 560
+acc is 97
+pos is 99.337
+neg is 91.786
+2020-04-24 19:48:28 [INFO]: Val on validation set...
+2020-04-24 19:49:23 [INFO]: Start training epoch 561
+acc is 97
+pos is 98.055
+neg is 96.784
+2020-04-24 19:52:50 [INFO]: Val on validation set...
+2020-04-24 19:53:38 [INFO]: Start training epoch 562
+acc is 97
+pos is 99.121
+neg is 94.364
+2020-04-24 19:56:45 [INFO]: Val on validation set...
+2020-04-24 19:57:35 [INFO]: Start training epoch 563
+acc is 95
+pos is 99.478
+neg is 86.480
+2020-04-24 20:00:42 [INFO]: Val on validation set...
+2020-04-24 20:01:40 [INFO]: Start training epoch 564
+acc is 98
+pos is 98.814
+neg is 95.977
+2020-04-24 20:04:49 [INFO]: Val on validation set...
+2020-04-24 20:05:39 [INFO]: Start training epoch 565
+acc is 97
+pos is 98.880
+neg is 95.710
+2020-04-24 20:08:46 [INFO]: Val on validation set...
+2020-04-24 20:09:36 [INFO]: Start training epoch 566
+acc is 97
+pos is 98.095
+neg is 96.566
+2020-04-24 20:12:52 [INFO]: Val on validation set...
+2020-04-24 20:14:02 [INFO]: Start training epoch 567
+acc is 97
+pos is 99.003
+neg is 95.349
+2020-04-24 20:17:27 [INFO]: Val on validation set...
+2020-04-24 20:18:15 [INFO]: Start training epoch 568
+acc is 95
+pos is 99.463
+neg is 86.859
+Epoch   567: reducing learning rate of group 0 to 6.4000e-03.
+2020-04-24 20:21:26 [INFO]: Val on validation set...
+2020-04-24 20:22:16 [INFO]: Found a better ckpt (0.051 -> 0.050), 
+2020-04-24 20:22:16 [INFO]: Start training epoch 569
+acc is 97
+pos is 98.813
+neg is 95.415
+2020-04-24 20:25:27 [INFO]: Val on validation set...
+2020-04-24 20:26:24 [INFO]: Start training epoch 570
+acc is 97
+pos is 99.286
+neg is 93.504
+2020-04-24 20:29:37 [INFO]: Val on validation set...
+2020-04-24 20:30:28 [INFO]: Start training epoch 571
+acc is 97
+pos is 98.795
+neg is 95.900
+2020-04-24 20:33:39 [INFO]: Val on validation set...
+2020-04-24 20:34:28 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 20:34:28 [INFO]: Start training epoch 572
+acc is 97
+pos is 99.071
+neg is 95.177
+2020-04-24 20:37:48 [INFO]: Val on validation set...
+2020-04-24 20:38:45 [INFO]: Start training epoch 573
+acc is 97
+pos is 98.762
+neg is 96.030
+2020-04-24 20:42:09 [INFO]: Val on validation set...
+2020-04-24 20:43:06 [INFO]: Start training epoch 574
+acc is 96
+pos is 99.368
+neg is 88.650
+2020-04-24 20:46:19 [INFO]: Val on validation set...
+2020-04-24 20:47:08 [INFO]: Start training epoch 575
+acc is 96
+pos is 99.441
+neg is 88.715
+2020-04-24 20:50:18 [INFO]: Val on validation set...
+2020-04-24 20:51:05 [INFO]: Start training epoch 576
+acc is 97
+pos is 98.642
+neg is 96.161
+2020-04-24 20:54:15 [INFO]: Val on validation set...
+2020-04-24 20:55:03 [INFO]: Start training epoch 577
+acc is 97
+pos is 98.895
+neg is 95.676
+2020-04-24 20:58:09 [INFO]: Val on validation set...
+2020-04-24 20:59:08 [INFO]: Start training epoch 578
+acc is 97
+pos is 99.196
+neg is 93.737
+2020-04-24 21:02:24 [INFO]: Val on validation set...
+2020-04-24 21:03:31 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 21:03:31 [INFO]: Start training epoch 579
+acc is 97
+pos is 98.457
+neg is 96.441
+2020-04-24 21:06:56 [INFO]: Val on validation set...
+2020-04-24 21:07:44 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 21:07:44 [INFO]: Start training epoch 580
+acc is 97
+pos is 98.652
+neg is 95.989
+2020-04-24 21:10:56 [INFO]: Val on validation set...
+2020-04-24 21:11:58 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 21:11:58 [INFO]: Start training epoch 581
+acc is 98
+pos is 98.666
+neg is 96.395
+2020-04-24 21:15:09 [INFO]: Val on validation set...
+2020-04-24 21:16:00 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 21:16:00 [INFO]: Start training epoch 582
+acc is 96
+pos is 99.206
+neg is 91.023
+2020-04-24 21:19:11 [INFO]: Val on validation set...
+2020-04-24 21:20:02 [INFO]: Start training epoch 583
+acc is 97
+pos is 98.612
+neg is 96.092
+2020-04-24 21:23:10 [INFO]: Val on validation set...
+2020-04-24 21:24:09 [INFO]: Start training epoch 584
+acc is 97
+pos is 98.690
+neg is 95.998
+2020-04-24 21:27:22 [INFO]: Val on validation set...
+2020-04-24 21:28:16 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 21:28:16 [INFO]: Start training epoch 585
+acc is 97
+pos is 99.257
+neg is 93.249
+2020-04-24 21:31:38 [INFO]: Val on validation set...
+2020-04-24 21:32:28 [INFO]: Start training epoch 586
+acc is 97
+pos is 98.985
+neg is 95.364
+2020-04-24 21:35:37 [INFO]: Val on validation set...
+2020-04-24 21:36:25 [INFO]: Start training epoch 587
+acc is 97
+pos is 98.357
+neg is 95.902
+2020-04-24 21:39:37 [INFO]: Val on validation set...
+2020-04-24 21:40:28 [INFO]: Start training epoch 588
+acc is 97
+pos is 99.179
+neg is 94.578
+2020-04-24 21:43:33 [INFO]: Val on validation set...
+2020-04-24 21:44:19 [INFO]: Start training epoch 589
+acc is 97
+pos is 99.289
+neg is 92.847
+2020-04-24 21:47:31 [INFO]: Val on validation set...
+2020-04-24 21:48:22 [INFO]: Start training epoch 590
+acc is 97
+pos is 99.192
+neg is 94.294
+2020-04-24 21:51:34 [INFO]: Val on validation set...
+2020-04-24 21:52:32 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 21:52:32 [INFO]: Start training epoch 591
+acc is 96
+pos is 99.396
+neg is 89.656
+2020-04-24 21:56:00 [INFO]: Val on validation set...
+2020-04-24 21:56:50 [INFO]: Start training epoch 592
+acc is 97
+pos is 98.364
+neg is 96.652
+2020-04-24 21:59:56 [INFO]: Val on validation set...
+2020-04-24 22:00:43 [INFO]: Start training epoch 593
+acc is 97
+pos is 98.219
+neg is 96.548
+2020-04-24 22:03:53 [INFO]: Val on validation set...
+2020-04-24 22:04:42 [INFO]: Start training epoch 594
+acc is 97
+pos is 99.028
+neg is 94.917
+2020-04-24 22:07:50 [INFO]: Val on validation set...
+2020-04-24 22:08:38 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 22:08:38 [INFO]: Start training epoch 595
+acc is 97
+pos is 98.893
+neg is 95.611
+2020-04-24 22:11:47 [INFO]: Val on validation set...
+2020-04-24 22:12:34 [INFO]: Start training epoch 596
+acc is 97
+pos is 98.901
+neg is 95.622
+2020-04-24 22:15:49 [INFO]: Val on validation set...
+2020-04-24 22:16:47 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 22:16:47 [INFO]: Start training epoch 597
+acc is 97
+pos is 98.909
+neg is 95.479
+2020-04-24 22:20:21 [INFO]: Val on validation set...
+2020-04-24 22:21:09 [INFO]: Start training epoch 598
+acc is 97
+pos is 98.222
+neg is 96.759
+2020-04-24 22:24:21 [INFO]: Val on validation set...
+2020-04-24 22:25:09 [INFO]: Start training epoch 599
+acc is 97
+pos is 98.752
+neg is 96.083
+2020-04-24 22:28:16 [INFO]: Val on validation set...
+2020-04-24 22:29:05 [INFO]: Start training epoch 600
+acc is 97
+pos is 99.278
+neg is 93.385
+2020-04-24 22:32:08 [INFO]: Val on validation set...
+2020-04-24 22:32:58 [INFO]: Start training epoch 601
+acc is 96
+pos is 99.385
+neg is 90.137
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_600_96.74854597203317.pth
+2020-04-24 22:36:06 [INFO]: Val on validation set...
+2020-04-24 22:36:54 [INFO]: Start training epoch 602
+acc is 97
+pos is 98.361
+neg is 96.399
+2020-04-24 22:40:10 [INFO]: Val on validation set...
+2020-04-24 22:41:06 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 22:41:07 [INFO]: Start training epoch 603
+acc is 97
+pos is 98.051
+neg is 96.616
+2020-04-24 22:44:40 [INFO]: Val on validation set...
+2020-04-24 22:45:32 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 22:45:32 [INFO]: Start training epoch 604
+acc is 97
+pos is 97.869
+neg is 96.475
+2020-04-24 22:48:45 [INFO]: Val on validation set...
+2020-04-24 22:49:33 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 22:49:33 [INFO]: Start training epoch 605
+acc is 97
+pos is 99.180
+neg is 93.715
+2020-04-24 22:52:40 [INFO]: Val on validation set...
+2020-04-24 22:53:27 [INFO]: Start training epoch 606
+acc is 97
+pos is 99.260
+neg is 93.096
+2020-04-24 22:56:40 [INFO]: Val on validation set...
+2020-04-24 22:57:31 [INFO]: Start training epoch 607
+acc is 98
+pos is 98.896
+neg is 95.809
+2020-04-24 23:00:41 [INFO]: Val on validation set...
+2020-04-24 23:01:31 [INFO]: Start training epoch 608
+acc is 97
+pos is 99.327
+neg is 93.141
+2020-04-24 23:04:44 [INFO]: Val on validation set...
+2020-04-24 23:05:40 [INFO]: Start training epoch 609
+acc is 97
+pos is 98.951
+neg is 95.431
+2020-04-24 23:09:02 [INFO]: Val on validation set...
+2020-04-24 23:09:51 [INFO]: Start training epoch 610
+acc is 98
+pos is 98.899
+neg is 95.825
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_609_98.02221259745082.pth
+2020-04-24 23:12:58 [INFO]: Val on validation set...
+2020-04-24 23:13:48 [INFO]: Start training epoch 611
+acc is 97
+pos is 98.948
+neg is 95.425
+2020-04-24 23:16:56 [INFO]: Val on validation set...
+2020-04-24 23:17:42 [INFO]: Start training epoch 612
+acc is 97
+pos is 99.271
+neg is 92.449
+2020-04-24 23:20:52 [INFO]: Val on validation set...
+2020-04-24 23:21:42 [INFO]: Start training epoch 613
+acc is 97
+pos is 99.026
+neg is 94.538
+2020-04-24 23:24:53 [INFO]: Val on validation set...
+2020-04-24 23:25:40 [INFO]: Start training epoch 614
+acc is 98
+pos is 98.888
+neg is 95.782
+2020-04-24 23:28:58 [INFO]: Val on validation set...
+2020-04-24 23:29:52 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 23:29:52 [INFO]: Start training epoch 615
+acc is 97
+pos is 98.998
+neg is 95.206
+2020-04-24 23:33:05 [INFO]: Val on validation set...
+2020-04-24 23:33:55 [INFO]: Start training epoch 616
+acc is 97
+pos is 97.956
+neg is 96.948
+Epoch   615: reducing learning rate of group 0 to 5.1200e-03.
+2020-04-24 23:36:37 [INFO]: Val on validation set...
+2020-04-24 23:37:24 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 23:37:24 [INFO]: Start training epoch 617
+acc is 95
+pos is 99.458
+neg is 84.940
+2020-04-24 23:40:30 [INFO]: Val on validation set...
+2020-04-24 23:41:17 [INFO]: Start training epoch 618
+acc is 97
+pos is 99.149
+neg is 93.005
+2020-04-24 23:44:25 [INFO]: Val on validation set...
+2020-04-24 23:45:11 [INFO]: Start training epoch 619
+acc is 97
+pos is 98.962
+neg is 95.511
+2020-04-24 23:50:03 [INFO]: Val on validation set...
+2020-04-24 23:50:54 [INFO]: Start training epoch 620
+acc is 97
+pos is 98.592
+neg is 96.306
+2020-04-24 23:54:19 [INFO]: Val on validation set...
+2020-04-24 23:55:15 [INFO]: Start training epoch 621
+acc is 97
+pos is 99.218
+neg is 93.797
+2020-04-24 23:58:33 [INFO]: Val on validation set...
+2020-04-24 23:59:21 [INFO]: Found a better ckpt (0.050 -> 0.050), 
+2020-04-24 23:59:21 [INFO]: Start training epoch 622
+acc is 97
+pos is 98.650
+neg is 96.181
+2020-04-25 00:02:32 [INFO]: Val on validation set...
+2020-04-25 00:03:20 [INFO]: Found a better ckpt (0.050 -> 0.049), 
+2020-04-25 00:03:20 [INFO]: Start training epoch 623
+acc is 97
+pos is 98.885
+neg is 95.706
+2020-04-25 00:06:29 [INFO]: Val on validation set...
+2020-04-25 00:07:20 [INFO]: Start training epoch 624
+acc is 97
+pos is 99.233
+neg is 94.126
+2020-04-25 00:10:27 [INFO]: Val on validation set...
+2020-04-25 00:11:16 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 00:11:16 [INFO]: Start training epoch 625
+acc is 97
+pos is 98.369
+neg is 96.551
+2020-04-25 00:14:27 [INFO]: Val on validation set...
+2020-04-25 00:15:16 [INFO]: Start training epoch 626
+acc is 97
+pos is 99.078
+neg is 94.723
+2020-04-25 00:18:33 [INFO]: Val on validation set...
+2020-04-25 00:19:30 [INFO]: Start training epoch 627
+acc is 97
+pos is 98.950
+neg is 95.581
+2020-04-25 00:22:48 [INFO]: Val on validation set...
+2020-04-25 00:23:37 [INFO]: Start training epoch 628
+acc is 98
+pos is 98.911
+neg is 95.754
+2020-04-25 00:26:43 [INFO]: Val on validation set...
+2020-04-25 00:27:31 [INFO]: Start training epoch 629
+acc is 98
+pos is 99.128
+neg is 95.198
+2020-04-25 00:30:38 [INFO]: Val on validation set...
+2020-04-25 00:31:26 [INFO]: Start training epoch 630
+acc is 97
+pos is 98.978
+neg is 95.329
+2020-04-25 00:34:37 [INFO]: Val on validation set...
+2020-04-25 00:35:26 [INFO]: Start training epoch 631
+acc is 97
+pos is 99.319
+neg is 93.725
+2020-04-25 00:38:32 [INFO]: Val on validation set...
+2020-04-25 00:39:24 [INFO]: Start training epoch 632
+acc is 97
+pos is 98.764
+neg is 96.004
+2020-04-25 00:42:54 [INFO]: Val on validation set...
+2020-04-25 00:43:49 [INFO]: Start training epoch 633
+acc is 97
+pos is 99.171
+neg is 94.680
+2020-04-25 00:47:02 [INFO]: Val on validation set...
+2020-04-25 00:47:50 [INFO]: Start training epoch 634
+acc is 97
+pos is 99.365
+neg is 91.261
+2020-04-25 00:50:59 [INFO]: Val on validation set...
+2020-04-25 00:51:47 [INFO]: Start training epoch 635
+acc is 97
+pos is 99.300
+neg is 93.302
+2020-04-25 00:54:55 [INFO]: Val on validation set...
+2020-04-25 00:55:47 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 00:55:47 [INFO]: Start training epoch 636
+acc is 98
+pos is 99.049
+neg is 95.432
+2020-04-25 00:58:46 [INFO]: Val on validation set...
+2020-04-25 00:59:33 [INFO]: Start training epoch 637
+acc is 97
+pos is 99.259
+neg is 94.206
+2020-04-25 01:02:48 [INFO]: Val on validation set...
+2020-04-25 01:03:39 [INFO]: Start training epoch 638
+acc is 97
+pos is 98.551
+neg is 96.260
+2020-04-25 01:07:02 [INFO]: Val on validation set...
+2020-04-25 01:07:58 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 01:07:58 [INFO]: Start training epoch 639
+acc is 97
+pos is 98.749
+neg is 96.054
+2020-04-25 01:11:11 [INFO]: Val on validation set...
+2020-04-25 01:12:05 [INFO]: Start training epoch 640
+acc is 97
+pos is 99.272
+neg is 91.895
+2020-04-25 01:15:14 [INFO]: Val on validation set...
+2020-04-25 01:16:04 [INFO]: Start training epoch 641
+acc is 97
+pos is 99.236
+neg is 91.740
+2020-04-25 01:19:13 [INFO]: Val on validation set...
+2020-04-25 01:20:03 [INFO]: Start training epoch 642
+acc is 97
+pos is 98.653
+neg is 96.119
+2020-04-25 01:23:10 [INFO]: Val on validation set...
+2020-04-25 01:23:55 [INFO]: Start training epoch 643
+acc is 97
+pos is 99.246
+neg is 93.402
+2020-04-25 01:27:08 [INFO]: Val on validation set...
+2020-04-25 01:27:55 [INFO]: Start training epoch 644
+acc is 97
+pos is 98.401
+neg is 96.545
+2020-04-25 01:31:19 [INFO]: Val on validation set...
+2020-04-25 01:32:15 [INFO]: Start training epoch 645
+acc is 97
+pos is 98.884
+neg is 95.702
+2020-04-25 01:35:34 [INFO]: Val on validation set...
+2020-04-25 01:36:23 [INFO]: Start training epoch 646
+acc is 97
+pos is 99.142
+neg is 94.718
+2020-04-25 01:39:35 [INFO]: Val on validation set...
+2020-04-25 01:40:23 [INFO]: Start training epoch 647
+acc is 97
+pos is 98.182
+neg is 96.700
+2020-04-25 01:43:21 [INFO]: Val on validation set...
+2020-04-25 01:44:10 [INFO]: Start training epoch 648
+acc is 98
+pos is 98.710
+neg is 96.232
+2020-04-25 01:47:17 [INFO]: Val on validation set...
+2020-04-25 01:48:06 [INFO]: Start training epoch 649
+acc is 97
+pos is 98.976
+neg is 95.378
+2020-04-25 01:50:47 [INFO]: Val on validation set...
+2020-04-25 01:51:36 [INFO]: Start training epoch 650
+acc is 97
+pos is 99.214
+neg is 93.797
+Epoch   649: reducing learning rate of group 0 to 4.0960e-03.
+2020-04-25 01:54:45 [INFO]: Val on validation set...
+2020-04-25 01:55:40 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 01:55:40 [INFO]: Start training epoch 651
+acc is 97
+pos is 99.211
+neg is 93.598
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_650_97.61059893577527.pth
+2020-04-25 01:58:58 [INFO]: Val on validation set...
+2020-04-25 01:59:45 [INFO]: Start training epoch 652
+acc is 96
+pos is 99.417
+neg is 90.202
+2020-04-25 02:02:51 [INFO]: Val on validation set...
+2020-04-25 02:03:44 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 02:03:44 [INFO]: Start training epoch 653
+acc is 97
+pos is 98.655
+neg is 96.185
+2020-04-25 02:06:55 [INFO]: Val on validation set...
+2020-04-25 02:07:42 [INFO]: Start training epoch 654
+acc is 97
+pos is 99.207
+neg is 94.463
+2020-04-25 02:10:53 [INFO]: Val on validation set...
+2020-04-25 02:11:44 [INFO]: Start training epoch 655
+acc is 97
+pos is 99.047
+neg is 95.277
+2020-04-25 02:14:53 [INFO]: Val on validation set...
+2020-04-25 02:15:41 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 02:15:41 [INFO]: Start training epoch 656
+acc is 97
+pos is 98.686
+neg is 96.049
+2020-04-25 02:19:07 [INFO]: Val on validation set...
+2020-04-25 02:20:02 [INFO]: Start training epoch 657
+acc is 97
+pos is 99.309
+neg is 93.331
+2020-04-25 02:23:20 [INFO]: Val on validation set...
+2020-04-25 02:24:10 [INFO]: Start training epoch 658
+acc is 98
+pos is 98.916
+neg is 95.798
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_657_98.02669842841233.pth
+2020-04-25 02:27:20 [INFO]: Val on validation set...
+2020-04-25 02:28:05 [INFO]: Start training epoch 659
+acc is 98
+pos is 99.038
+neg is 95.469
+2020-04-25 02:31:10 [INFO]: Val on validation set...
+2020-04-25 02:31:59 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 02:31:59 [INFO]: Start training epoch 660
+acc is 97
+pos is 99.311
+neg is 92.297
+2020-04-25 02:35:05 [INFO]: Val on validation set...
+2020-04-25 02:35:54 [INFO]: Start training epoch 661
+acc is 96
+pos is 99.424
+neg is 90.052
+2020-04-25 02:39:00 [INFO]: Val on validation set...
+2020-04-25 02:39:46 [INFO]: Start training epoch 662
+acc is 97
+pos is 98.978
+neg is 95.500
+2020-04-25 02:43:08 [INFO]: Val on validation set...
+2020-04-25 02:44:06 [INFO]: Start training epoch 663
+acc is 97
+pos is 99.067
+neg is 95.235
+2020-04-25 02:47:16 [INFO]: Val on validation set...
+2020-04-25 02:48:06 [INFO]: Start training epoch 664
+acc is 97
+pos is 98.836
+neg is 95.423
+2020-04-25 02:51:13 [INFO]: Val on validation set...
+2020-04-25 02:52:00 [INFO]: Start training epoch 665
+acc is 97
+pos is 99.196
+neg is 94.746
+2020-04-25 02:55:09 [INFO]: Val on validation set...
+2020-04-25 02:56:01 [INFO]: Start training epoch 666
+acc is 97
+pos is 98.936
+neg is 95.381
+2020-04-25 02:58:58 [INFO]: Val on validation set...
+2020-04-25 02:59:47 [INFO]: Start training epoch 667
+acc is 97
+pos is 99.291
+neg is 93.399
+2020-04-25 03:02:55 [INFO]: Val on validation set...
+2020-04-25 03:03:45 [INFO]: Start training epoch 668
+acc is 97
+pos is 99.245
+neg is 94.019
+2020-04-25 03:07:11 [INFO]: Val on validation set...
+2020-04-25 03:08:07 [INFO]: Start training epoch 669
+acc is 97
+pos is 99.252
+neg is 94.230
+2020-04-25 03:11:17 [INFO]: Val on validation set...
+2020-04-25 03:12:05 [INFO]: Start training epoch 670
+acc is 97
+pos is 98.303
+neg is 96.527
+2020-04-25 03:15:12 [INFO]: Val on validation set...
+2020-04-25 03:16:00 [INFO]: Start training epoch 671
+acc is 97
+pos is 99.399
+neg is 91.208
+Epoch   670: reducing learning rate of group 0 to 3.2768e-03.
+2020-04-25 03:19:06 [INFO]: Val on validation set...
+2020-04-25 03:19:55 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 03:19:55 [INFO]: Start training epoch 672
+acc is 97
+pos is 99.146
+neg is 94.927
+2020-04-25 03:23:12 [INFO]: Val on validation set...
+2020-04-25 03:24:05 [INFO]: Start training epoch 673
+acc is 97
+pos is 99.287
+neg is 93.515
+2020-04-25 03:27:25 [INFO]: Val on validation set...
+2020-04-25 03:28:15 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 03:28:15 [INFO]: Start training epoch 674
+acc is 97
+pos is 98.543
+neg is 96.416
+2020-04-25 03:31:40 [INFO]: Val on validation set...
+2020-04-25 03:32:37 [INFO]: Start training epoch 675
+acc is 97
+pos is 98.716
+neg is 96.137
+2020-04-25 03:35:53 [INFO]: Val on validation set...
+2020-04-25 03:36:39 [INFO]: Start training epoch 676
+acc is 98
+pos is 98.956
+neg is 95.624
+2020-04-25 03:39:35 [INFO]: Val on validation set...
+2020-04-25 03:40:24 [INFO]: Start training epoch 677
+acc is 97
+pos is 99.088
+neg is 95.224
+2020-04-25 03:43:21 [INFO]: Val on validation set...
+2020-04-25 03:44:25 [INFO]: Start training epoch 678
+acc is 97
+pos is 99.104
+neg is 95.047
+2020-04-25 03:47:32 [INFO]: Val on validation set...
+2020-04-25 03:48:18 [INFO]: Found a better ckpt (0.049 -> 0.049), 
+2020-04-25 03:48:18 [INFO]: Start training epoch 679
+acc is 97
+pos is 99.132
+neg is 94.946
+2020-04-25 03:51:22 [INFO]: Val on validation set...
+2020-04-25 03:52:08 [INFO]: Found a better ckpt (0.049 -> 0.048), 
+2020-04-25 03:52:08 [INFO]: Start training epoch 680
+acc is 98
+pos is 99.063
+neg is 95.342
+2020-04-25 03:55:33 [INFO]: Val on validation set...
+2020-04-25 03:56:30 [INFO]: Start training epoch 681
+acc is 97
+pos is 99.273
+neg is 93.553
+2020-04-25 03:59:44 [INFO]: Val on validation set...
+2020-04-25 04:00:32 [INFO]: Start training epoch 682
+acc is 97
+pos is 98.952
+neg is 95.352
+2020-04-25 04:03:43 [INFO]: Val on validation set...
+2020-04-25 04:04:30 [INFO]: Start training epoch 683
+acc is 98
+pos is 98.867
+neg is 95.885
+2020-04-25 04:07:40 [INFO]: Val on validation set...
+2020-04-25 04:08:27 [INFO]: Start training epoch 684
+acc is 98
+pos is 98.984
+neg is 95.582
+2020-04-25 04:11:39 [INFO]: Val on validation set...
+2020-04-25 04:12:27 [INFO]: Start training epoch 685
+acc is 97
+pos is 99.137
+neg is 94.783
+2020-04-25 04:15:35 [INFO]: Val on validation set...
+2020-04-25 04:16:21 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 04:16:21 [INFO]: Start training epoch 686
+acc is 98
+pos is 98.885
+neg is 95.871
+2020-04-25 04:19:47 [INFO]: Val on validation set...
+2020-04-25 04:20:44 [INFO]: Start training epoch 687
+acc is 97
+pos is 99.333
+neg is 92.960
+2020-04-25 04:24:00 [INFO]: Val on validation set...
+2020-04-25 04:24:50 [INFO]: Start training epoch 688
+acc is 97
+pos is 98.920
+neg is 95.666
+2020-04-25 04:27:58 [INFO]: Val on validation set...
+2020-04-25 04:28:46 [INFO]: Start training epoch 689
+acc is 97
+pos is 98.687
+neg is 96.241
+2020-04-25 04:31:58 [INFO]: Val on validation set...
+2020-04-25 04:32:47 [INFO]: Start training epoch 690
+acc is 97
+pos is 99.012
+neg is 95.389
+2020-04-25 04:35:41 [INFO]: Val on validation set...
+2020-04-25 04:36:29 [INFO]: Start training epoch 691
+acc is 97
+pos is 99.026
+neg is 95.279
+2020-04-25 04:39:42 [INFO]: Val on validation set...
+2020-04-25 04:40:29 [INFO]: Start training epoch 692
+acc is 98
+pos is 98.931
+neg is 95.953
+Found a better model save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_691_98.08222992203935.pth
+2020-04-25 04:43:54 [INFO]: Val on validation set...
+2020-04-25 04:44:51 [INFO]: Start training epoch 693
+acc is 97
+pos is 99.412
+neg is 91.637
+2020-04-25 04:48:08 [INFO]: Val on validation set...
+2020-04-25 04:48:56 [INFO]: Start training epoch 694
+acc is 97
+pos is 99.337
+neg is 93.449
+2020-04-25 04:52:06 [INFO]: Val on validation set...
+2020-04-25 04:52:55 [INFO]: Start training epoch 695
+acc is 98
+pos is 98.939
+neg is 95.731
+2020-04-25 04:56:06 [INFO]: Val on validation set...
+2020-04-25 04:56:57 [INFO]: Start training epoch 696
+acc is 97
+pos is 98.670
+neg is 96.148
+2020-04-25 05:00:12 [INFO]: Val on validation set...
+2020-04-25 05:01:02 [INFO]: Start training epoch 697
+acc is 98
+pos is 98.735
+neg is 96.275
+Epoch   696: reducing learning rate of group 0 to 2.6214e-03.
+2020-04-25 05:04:12 [INFO]: Val on validation set...
+2020-04-25 05:05:04 [INFO]: Start training epoch 698
+acc is 97
+pos is 98.929
+neg is 95.582
+2020-04-25 05:08:23 [INFO]: Val on validation set...
+2020-04-25 05:09:20 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 05:09:20 [INFO]: Start training epoch 699
+acc is 98
+pos is 98.889
+neg is 95.926
+2020-04-25 05:12:28 [INFO]: Val on validation set...
+2020-04-25 05:13:17 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 05:13:18 [INFO]: Start training epoch 700
+acc is 97
+pos is 98.598
+neg is 96.355
+2020-04-25 05:16:26 [INFO]: Val on validation set...
+2020-04-25 05:17:12 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 05:17:12 [INFO]: Start training epoch 701
+acc is 97
+pos is 99.049
+neg is 95.027
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_700_97.90233263209998.pth
+2020-04-25 05:20:13 [INFO]: Val on validation set...
+2020-04-25 05:21:00 [INFO]: Start training epoch 702
+acc is 98
+pos is 99.004
+neg is 95.563
+2020-04-25 05:24:08 [INFO]: Val on validation set...
+2020-04-25 05:24:55 [INFO]: Start training epoch 703
+acc is 97
+pos is 99.006
+neg is 95.423
+2020-04-25 05:28:05 [INFO]: Val on validation set...
+2020-04-25 05:28:52 [INFO]: Start training epoch 704
+acc is 98
+pos is 98.982
+neg is 95.583
+2020-04-25 05:32:21 [INFO]: Val on validation set...
+2020-04-25 05:33:18 [INFO]: Start training epoch 705
+acc is 97
+pos is 98.837
+neg is 95.869
+2020-04-25 05:36:31 [INFO]: Val on validation set...
+2020-04-25 05:37:20 [INFO]: Start training epoch 706
+acc is 96
+pos is 99.403
+neg is 89.573
+2020-04-25 05:40:27 [INFO]: Val on validation set...
+2020-04-25 05:41:15 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 05:41:15 [INFO]: Start training epoch 707
+acc is 97
+pos is 99.249
+neg is 94.132
+2020-04-25 05:44:24 [INFO]: Val on validation set...
+2020-04-25 05:45:14 [INFO]: Start training epoch 708
+acc is 98
+pos is 99.051
+neg is 95.584
+2020-04-25 05:48:26 [INFO]: Val on validation set...
+2020-04-25 05:49:12 [INFO]: Start training epoch 709
+acc is 97
+pos is 99.201
+neg is 94.305
+2020-04-25 05:52:17 [INFO]: Val on validation set...
+2020-04-25 05:53:03 [INFO]: Start training epoch 710
+acc is 97
+pos is 99.301
+neg is 93.554
+2020-04-25 05:56:36 [INFO]: Val on validation set...
+2020-04-25 05:57:32 [INFO]: Start training epoch 711
+acc is 97
+pos is 99.163
+neg is 94.650
+2020-04-25 06:00:45 [INFO]: Val on validation set...
+2020-04-25 06:01:31 [INFO]: Start training epoch 712
+acc is 97
+pos is 99.188
+neg is 94.608
+2020-04-25 06:04:38 [INFO]: Val on validation set...
+2020-04-25 06:05:25 [INFO]: Start training epoch 713
+acc is 97
+pos is 99.114
+neg is 94.385
+2020-04-25 06:08:34 [INFO]: Val on validation set...
+2020-04-25 06:09:20 [INFO]: Start training epoch 714
+acc is 98
+pos is 98.896
+neg is 95.811
+2020-04-25 06:12:13 [INFO]: Val on validation set...
+2020-04-25 06:13:00 [INFO]: Start training epoch 715
+acc is 97
+pos is 99.198
+neg is 93.736
+2020-04-25 06:16:06 [INFO]: Val on validation set...
+2020-04-25 06:16:55 [INFO]: Start training epoch 716
+acc is 97
+pos is 99.229
+neg is 94.039
+2020-04-25 06:20:18 [INFO]: Val on validation set...
+2020-04-25 06:21:15 [INFO]: Start training epoch 717
+acc is 97
+pos is 99.122
+neg is 95.181
+2020-04-25 06:24:36 [INFO]: Val on validation set...
+2020-04-25 06:25:24 [INFO]: Start training epoch 718
+acc is 97
+pos is 99.290
+neg is 93.781
+Epoch   717: reducing learning rate of group 0 to 2.0972e-03.
+2020-04-25 06:28:31 [INFO]: Val on validation set...
+2020-04-25 06:29:18 [INFO]: Start training epoch 719
+acc is 97
+pos is 98.963
+neg is 95.450
+2020-04-25 06:32:28 [INFO]: Val on validation set...
+2020-04-25 06:33:17 [INFO]: Start training epoch 720
+acc is 97
+pos is 99.289
+neg is 93.190
+2020-04-25 06:36:19 [INFO]: Val on validation set...
+2020-04-25 06:37:08 [INFO]: Start training epoch 721
+acc is 98
+pos is 99.105
+neg is 95.236
+2020-04-25 06:40:14 [INFO]: Val on validation set...
+2020-04-25 06:41:03 [INFO]: Start training epoch 722
+acc is 97
+pos is 98.959
+neg is 95.517
+2020-04-25 06:44:29 [INFO]: Val on validation set...
+2020-04-25 06:45:26 [INFO]: Start training epoch 723
+acc is 98
+pos is 98.965
+neg is 95.660
+2020-04-25 06:48:43 [INFO]: Val on validation set...
+2020-04-25 06:49:30 [INFO]: Start training epoch 724
+acc is 98
+pos is 98.841
+neg is 96.074
+2020-04-25 06:52:41 [INFO]: Val on validation set...
+2020-04-25 06:53:32 [INFO]: Start training epoch 725
+acc is 98
+pos is 99.040
+neg is 95.464
+2020-04-25 06:56:38 [INFO]: Val on validation set...
+2020-04-25 06:57:25 [INFO]: Start training epoch 726
+acc is 97
+pos is 99.222
+neg is 94.445
+2020-04-25 07:00:28 [INFO]: Val on validation set...
+2020-04-25 07:01:17 [INFO]: Start training epoch 727
+acc is 97
+pos is 99.173
+neg is 94.750
+2020-04-25 07:04:22 [INFO]: Val on validation set...
+2020-04-25 07:05:13 [INFO]: Start training epoch 728
+acc is 97
+pos is 99.039
+neg is 95.216
+2020-04-25 07:08:33 [INFO]: Val on validation set...
+2020-04-25 07:09:28 [INFO]: Start training epoch 729
+acc is 97
+pos is 99.262
+neg is 92.802
+2020-04-25 07:12:43 [INFO]: Val on validation set...
+2020-04-25 07:13:34 [INFO]: Start training epoch 730
+acc is 97
+pos is 99.155
+neg is 94.767
+2020-04-25 07:16:41 [INFO]: Val on validation set...
+2020-04-25 07:17:31 [INFO]: Start training epoch 731
+acc is 98
+pos is 98.844
+neg is 95.986
+2020-04-25 07:20:42 [INFO]: Val on validation set...
+2020-04-25 07:21:30 [INFO]: Start training epoch 732
+acc is 98
+pos is 99.031
+neg is 95.504
+2020-04-25 07:24:34 [INFO]: Val on validation set...
+2020-04-25 07:25:23 [INFO]: Start training epoch 733
+acc is 98
+pos is 98.844
+neg is 96.012
+2020-04-25 07:28:33 [INFO]: Val on validation set...
+2020-04-25 07:29:20 [INFO]: Start training epoch 734
+acc is 97
+pos is 99.218
+neg is 93.566
+2020-04-25 07:32:43 [INFO]: Val on validation set...
+2020-04-25 07:33:39 [INFO]: Start training epoch 735
+acc is 97
+pos is 99.144
+neg is 94.845
+2020-04-25 07:36:55 [INFO]: Val on validation set...
+2020-04-25 07:37:43 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 07:37:43 [INFO]: Start training epoch 736
+acc is 97
+pos is 98.910
+neg is 95.712
+2020-04-25 07:40:53 [INFO]: Val on validation set...
+2020-04-25 07:41:43 [INFO]: Start training epoch 737
+acc is 97
+pos is 99.268
+neg is 93.771
+2020-04-25 07:44:48 [INFO]: Val on validation set...
+2020-04-25 07:45:36 [INFO]: Start training epoch 738
+acc is 97
+pos is 99.297
+neg is 93.352
+2020-04-25 07:48:43 [INFO]: Val on validation set...
+2020-04-25 07:49:32 [INFO]: Start training epoch 739
+acc is 97
+pos is 99.318
+neg is 93.683
+2020-04-25 07:52:41 [INFO]: Val on validation set...
+2020-04-25 07:53:34 [INFO]: Start training epoch 740
+acc is 97
+pos is 99.247
+neg is 93.609
+2020-04-25 07:56:42 [INFO]: Val on validation set...
+2020-04-25 07:57:30 [INFO]: Start training epoch 741
+acc is 98
+pos is 99.059
+neg is 95.353
+2020-04-25 08:00:38 [INFO]: Val on validation set...
+2020-04-25 08:01:26 [INFO]: Start training epoch 742
+acc is 97
+pos is 99.386
+neg is 92.743
+2020-04-25 08:04:33 [INFO]: Val on validation set...
+2020-04-25 08:05:22 [INFO]: Start training epoch 743
+acc is 97
+pos is 99.091
+neg is 94.639
+2020-04-25 08:08:27 [INFO]: Val on validation set...
+2020-04-25 08:09:15 [INFO]: Start training epoch 744
+acc is 97
+pos is 99.244
+neg is 94.085
+2020-04-25 08:12:19 [INFO]: Val on validation set...
+2020-04-25 08:13:05 [INFO]: Start training epoch 745
+acc is 98
+pos is 99.047
+neg is 95.436
+2020-04-25 08:16:11 [INFO]: Val on validation set...
+2020-04-25 08:17:01 [INFO]: Start training epoch 746
+acc is 97
+pos is 99.140
+neg is 94.995
+2020-04-25 08:20:11 [INFO]: Val on validation set...
+2020-04-25 08:21:03 [INFO]: Start training epoch 747
+acc is 97
+pos is 99.079
+neg is 95.237
+Epoch   746: reducing learning rate of group 0 to 1.6777e-03.
+2020-04-25 08:24:09 [INFO]: Val on validation set...
+2020-04-25 08:25:01 [INFO]: Start training epoch 748
+acc is 97
+pos is 99.103
+neg is 94.748
+2020-04-25 08:28:07 [INFO]: Val on validation set...
+2020-04-25 08:28:53 [INFO]: Start training epoch 749
+acc is 98
+pos is 99.088
+neg is 95.346
+2020-04-25 08:32:00 [INFO]: Val on validation set...
+2020-04-25 08:32:49 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 08:32:49 [INFO]: Start training epoch 750
+acc is 97
+pos is 99.224
+neg is 94.338
+2020-04-25 08:35:59 [INFO]: Val on validation set...
+2020-04-25 08:36:48 [INFO]: Start training epoch 751
+acc is 97
+pos is 98.727
+neg is 95.992
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_750_97.94734562554139.pth
+2020-04-25 08:39:57 [INFO]: Val on validation set...
+2020-04-25 08:40:46 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 08:40:46 [INFO]: Start training epoch 752
+acc is 98
+pos is 98.950
+neg is 95.717
+2020-04-25 08:43:53 [INFO]: Val on validation set...
+2020-04-25 08:44:41 [INFO]: Start training epoch 753
+acc is 98
+pos is 99.080
+neg is 95.360
+2020-04-25 08:47:49 [INFO]: Val on validation set...
+2020-04-25 08:48:41 [INFO]: Start training epoch 754
+acc is 97
+pos is 99.164
+neg is 94.856
+2020-04-25 08:51:50 [INFO]: Val on validation set...
+2020-04-25 08:52:40 [INFO]: Start training epoch 755
+acc is 97
+pos is 98.940
+neg is 95.589
+2020-04-25 08:55:47 [INFO]: Val on validation set...
+2020-04-25 08:56:35 [INFO]: Found a better ckpt (0.048 -> 0.048), 
+2020-04-25 08:56:36 [INFO]: Start training epoch 756
+acc is 97
+pos is 99.155
+neg is 94.661
+2020-04-25 08:59:31 [INFO]: Val on validation set...
+2020-04-25 09:00:22 [INFO]: Start training epoch 757
+acc is 98
+pos is 98.960
+neg is 95.635
+2020-04-25 09:03:25 [INFO]: Val on validation set...
+2020-04-25 09:04:14 [INFO]: Start training epoch 758
+acc is 97
+pos is 98.978
+neg is 95.450
+2020-04-25 09:07:18 [INFO]: Val on validation set...
+2020-04-25 09:08:06 [INFO]: Start training epoch 759
+acc is 97
+pos is 99.160
+neg is 94.845
+2020-04-25 09:11:13 [INFO]: Val on validation set...
+2020-04-25 09:12:01 [INFO]: Start training epoch 760
+acc is 97
+pos is 99.258
+neg is 93.707
+2020-04-25 09:15:11 [INFO]: Val on validation set...
+2020-04-25 09:15:59 [INFO]: Start training epoch 761
+acc is 98
+pos is 98.751
+neg is 96.239
+2020-04-25 09:19:07 [INFO]: Val on validation set...
+2020-04-25 09:19:54 [INFO]: Start training epoch 762
+acc is 97
+pos is 99.137
+neg is 94.919
+2020-04-25 09:22:56 [INFO]: Val on validation set...
+2020-04-25 09:23:46 [INFO]: Found a better ckpt (0.048 -> 0.047), 
+2020-04-25 09:23:46 [INFO]: Start training epoch 763
+acc is 97
+pos is 99.133
+neg is 95.123
+2020-04-25 09:26:53 [INFO]: Val on validation set...
+2020-04-25 09:27:41 [INFO]: Start training epoch 764
+acc is 98
+pos is 98.944
+neg is 95.879
+2020-04-25 09:30:52 [INFO]: Val on validation set...
+2020-04-25 09:31:40 [INFO]: Start training epoch 765
+acc is 97
+pos is 99.074
+neg is 95.269
+2020-04-25 09:34:42 [INFO]: Val on validation set...
+2020-04-25 09:35:30 [INFO]: Start training epoch 766
+acc is 98
+pos is 99.033
+neg is 95.475
+2020-04-25 09:38:35 [INFO]: Val on validation set...
+2020-04-25 09:39:24 [INFO]: Start training epoch 767
+acc is 97
+pos is 99.231
+neg is 94.275
+2020-04-25 09:42:23 [INFO]: Val on validation set...
+2020-04-25 09:43:13 [INFO]: Start training epoch 768
+acc is 97
+pos is 99.206
+neg is 94.492
+2020-04-25 09:46:20 [INFO]: Val on validation set...
+2020-04-25 09:47:09 [INFO]: Start training epoch 769
+acc is 97
+pos is 99.138
+neg is 95.052
+2020-04-25 09:50:16 [INFO]: Val on validation set...
+2020-04-25 09:51:02 [INFO]: Start training epoch 770
+acc is 97
+pos is 99.150
+neg is 94.939
+2020-04-25 09:54:09 [INFO]: Val on validation set...
+2020-04-25 09:54:55 [INFO]: Start training epoch 771
+acc is 97
+pos is 99.037
+neg is 95.219
+2020-04-25 09:58:04 [INFO]: Val on validation set...
+2020-04-25 09:58:53 [INFO]: Start training epoch 772
+acc is 98
+pos is 98.976
+neg is 95.650
+2020-04-25 10:02:03 [INFO]: Val on validation set...
+2020-04-25 10:02:49 [INFO]: Start training epoch 773
+acc is 98
+pos is 98.934
+neg is 95.683
+2020-04-25 10:05:56 [INFO]: Val on validation set...
+2020-04-25 10:06:45 [INFO]: Start training epoch 774
+acc is 97
+pos is 98.987
+neg is 95.500
+Epoch   773: reducing learning rate of group 0 to 1.3422e-03.
+2020-04-25 10:09:53 [INFO]: Val on validation set...
+2020-04-25 10:10:39 [INFO]: Start training epoch 775
+acc is 97
+pos is 99.159
+neg is 94.971
+2020-04-25 10:13:46 [INFO]: Val on validation set...
+2020-04-25 10:14:35 [INFO]: Start training epoch 776
+acc is 98
+pos is 98.993
+neg is 95.566
+2020-04-25 10:17:43 [INFO]: Val on validation set...
+2020-04-25 10:18:31 [INFO]: Start training epoch 777
+acc is 97
+pos is 99.059
+neg is 95.338
+2020-04-25 10:21:26 [INFO]: Val on validation set...
+2020-04-25 10:22:13 [INFO]: Start training epoch 778
+acc is 97
+pos is 99.170
+neg is 94.659
+2020-04-25 10:25:21 [INFO]: Val on validation set...
+2020-04-25 10:26:09 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 10:26:09 [INFO]: Start training epoch 779
+acc is 98
+pos is 98.955
+neg is 95.738
+2020-04-25 10:29:18 [INFO]: Val on validation set...
+2020-04-25 10:30:06 [INFO]: Start training epoch 780
+acc is 97
+pos is 99.145
+neg is 95.085
+2020-04-25 10:33:12 [INFO]: Val on validation set...
+2020-04-25 10:34:01 [INFO]: Start training epoch 781
+acc is 98
+pos is 99.017
+neg is 95.475
+2020-04-25 10:37:07 [INFO]: Val on validation set...
+2020-04-25 10:37:55 [INFO]: Start training epoch 782
+acc is 97
+pos is 99.126
+neg is 94.984
+2020-04-25 10:41:02 [INFO]: Val on validation set...
+2020-04-25 10:41:50 [INFO]: Start training epoch 783
+acc is 97
+pos is 99.151
+neg is 95.002
+2020-04-25 10:44:56 [INFO]: Val on validation set...
+2020-04-25 10:45:45 [INFO]: Start training epoch 784
+acc is 98
+pos is 98.874
+neg is 95.935
+2020-04-25 10:48:50 [INFO]: Val on validation set...
+2020-04-25 10:49:38 [INFO]: Start training epoch 785
+acc is 98
+pos is 98.948
+neg is 95.745
+2020-04-25 10:52:44 [INFO]: Val on validation set...
+2020-04-25 10:53:34 [INFO]: Start training epoch 786
+acc is 97
+pos is 99.137
+neg is 95.082
+2020-04-25 10:56:39 [INFO]: Val on validation set...
+2020-04-25 10:57:24 [INFO]: Start training epoch 787
+acc is 98
+pos is 98.962
+neg is 95.687
+2020-04-25 11:00:27 [INFO]: Val on validation set...
+2020-04-25 11:01:15 [INFO]: Start training epoch 788
+acc is 97
+pos is 99.144
+neg is 94.869
+2020-04-25 11:04:26 [INFO]: Val on validation set...
+2020-04-25 11:05:14 [INFO]: Start training epoch 789
+acc is 97
+pos is 99.153
+neg is 94.892
+2020-04-25 11:08:26 [INFO]: Val on validation set...
+2020-04-25 11:09:16 [INFO]: Start training epoch 790
+acc is 98
+pos is 99.074
+neg is 95.391
+2020-04-25 11:12:23 [INFO]: Val on validation set...
+2020-04-25 11:13:14 [INFO]: Start training epoch 791
+acc is 97
+pos is 99.200
+neg is 94.585
+2020-04-25 11:16:13 [INFO]: Val on validation set...
+2020-04-25 11:17:02 [INFO]: Start training epoch 792
+acc is 98
+pos is 98.956
+neg is 95.725
+2020-04-25 11:20:10 [INFO]: Val on validation set...
+2020-04-25 11:20:58 [INFO]: Start training epoch 793
+acc is 98
+pos is 99.059
+neg is 95.508
+2020-04-25 11:24:02 [INFO]: Val on validation set...
+2020-04-25 11:24:51 [INFO]: Start training epoch 794
+acc is 98
+pos is 99.032
+neg is 95.467
+2020-04-25 11:27:58 [INFO]: Val on validation set...
+2020-04-25 11:28:47 [INFO]: Start training epoch 795
+acc is 97
+pos is 99.321
+neg is 93.932
+Epoch   794: reducing learning rate of group 0 to 1.0737e-03.
+2020-04-25 11:31:56 [INFO]: Val on validation set...
+2020-04-25 11:32:44 [INFO]: Start training epoch 796
+acc is 98
+pos is 98.995
+neg is 95.639
+2020-04-25 11:35:48 [INFO]: Val on validation set...
+2020-04-25 11:36:37 [INFO]: Start training epoch 797
+acc is 97
+pos is 99.131
+neg is 95.117
+2020-04-25 11:39:44 [INFO]: Val on validation set...
+2020-04-25 11:40:32 [INFO]: Start training epoch 798
+acc is 98
+pos is 99.026
+neg is 95.526
+2020-04-25 11:43:39 [INFO]: Val on validation set...
+2020-04-25 11:44:28 [INFO]: Start training epoch 799
+acc is 97
+pos is 99.135
+neg is 94.927
+2020-04-25 11:47:35 [INFO]: Val on validation set...
+2020-04-25 11:48:24 [INFO]: Start training epoch 800
+acc is 97
+pos is 99.129
+neg is 95.039
+2020-04-25 11:51:26 [INFO]: Val on validation set...
+2020-04-25 11:52:14 [INFO]: Start training epoch 801
+acc is 98
+pos is 99.098
+neg is 95.407
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_800_98.04603390669472.pth
+2020-04-25 11:55:09 [INFO]: Val on validation set...
+2020-04-25 11:55:59 [INFO]: Start training epoch 802
+acc is 98
+pos is 99.120
+neg is 95.247
+2020-04-25 11:59:09 [INFO]: Val on validation set...
+2020-04-25 11:59:58 [INFO]: Start training epoch 803
+acc is 98
+pos is 99.028
+neg is 95.504
+2020-04-25 12:03:03 [INFO]: Val on validation set...
+2020-04-25 12:03:51 [INFO]: Start training epoch 804
+acc is 98
+pos is 98.972
+neg is 95.635
+2020-04-25 12:07:00 [INFO]: Val on validation set...
+2020-04-25 12:07:48 [INFO]: Start training epoch 805
+acc is 98
+pos is 99.118
+neg is 95.257
+2020-04-25 12:10:53 [INFO]: Val on validation set...
+2020-04-25 12:11:44 [INFO]: Start training epoch 806
+acc is 97
+pos is 99.116
+neg is 95.039
+2020-04-25 12:14:52 [INFO]: Val on validation set...
+2020-04-25 12:15:39 [INFO]: Start training epoch 807
+acc is 98
+pos is 98.926
+neg is 95.864
+2020-04-25 12:18:48 [INFO]: Val on validation set...
+2020-04-25 12:19:35 [INFO]: Start training epoch 808
+acc is 97
+pos is 99.176
+neg is 94.713
+2020-04-25 12:22:36 [INFO]: Val on validation set...
+2020-04-25 12:23:23 [INFO]: Start training epoch 809
+acc is 98
+pos is 98.972
+neg is 95.700
+2020-04-25 12:26:29 [INFO]: Val on validation set...
+2020-04-25 12:27:19 [INFO]: Start training epoch 810
+acc is 98
+pos is 98.914
+neg is 95.821
+2020-04-25 12:30:25 [INFO]: Val on validation set...
+2020-04-25 12:31:15 [INFO]: Start training epoch 811
+acc is 97
+pos is 99.157
+neg is 94.856
+2020-04-25 12:34:23 [INFO]: Val on validation set...
+2020-04-25 12:35:14 [INFO]: Start training epoch 812
+acc is 97
+pos is 99.035
+neg is 95.335
+2020-04-25 12:38:14 [INFO]: Val on validation set...
+2020-04-25 12:39:01 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 12:39:01 [INFO]: Start training epoch 813
+acc is 98
+pos is 98.884
+neg is 95.867
+2020-04-25 12:42:09 [INFO]: Val on validation set...
+2020-04-25 12:42:57 [INFO]: Start training epoch 814
+acc is 97
+pos is 99.131
+neg is 95.037
+2020-04-25 12:46:07 [INFO]: Val on validation set...
+2020-04-25 12:46:57 [INFO]: Start training epoch 815
+acc is 98
+pos is 99.024
+neg is 95.496
+2020-04-25 12:50:06 [INFO]: Val on validation set...
+2020-04-25 12:50:53 [INFO]: Start training epoch 816
+acc is 97
+pos is 99.230
+neg is 94.319
+2020-04-25 12:54:01 [INFO]: Val on validation set...
+2020-04-25 12:54:53 [INFO]: Start training epoch 817
+acc is 97
+pos is 99.134
+neg is 95.139
+2020-04-25 12:58:03 [INFO]: Val on validation set...
+2020-04-25 12:58:52 [INFO]: Start training epoch 818
+acc is 98
+pos is 98.974
+neg is 95.657
+2020-04-25 13:02:03 [INFO]: Val on validation set...
+2020-04-25 13:02:51 [INFO]: Start training epoch 819
+acc is 98
+pos is 99.117
+neg is 95.281
+2020-04-25 13:06:00 [INFO]: Val on validation set...
+2020-04-25 13:06:47 [INFO]: Start training epoch 820
+acc is 98
+pos is 98.852
+neg is 96.035
+2020-04-25 13:09:57 [INFO]: Val on validation set...
+2020-04-25 13:10:46 [INFO]: Start training epoch 821
+acc is 98
+pos is 99.044
+neg is 95.534
+2020-04-25 13:13:55 [INFO]: Val on validation set...
+2020-04-25 13:14:40 [INFO]: Start training epoch 822
+acc is 98
+pos is 99.024
+neg is 95.461
+2020-04-25 13:17:47 [INFO]: Val on validation set...
+2020-04-25 13:18:35 [INFO]: Start training epoch 823
+acc is 97
+pos is 99.143
+neg is 95.059
+2020-04-25 13:21:40 [INFO]: Val on validation set...
+2020-04-25 13:22:27 [INFO]: Start training epoch 824
+acc is 98
+pos is 99.058
+neg is 95.411
+Epoch   823: reducing learning rate of group 0 to 8.5899e-04.
+2020-04-25 13:25:38 [INFO]: Val on validation set...
+2020-04-25 13:26:26 [INFO]: Start training epoch 825
+acc is 98
+pos is 99.058
+neg is 95.458
+2020-04-25 13:29:31 [INFO]: Val on validation set...
+2020-04-25 13:30:22 [INFO]: Start training epoch 826
+acc is 98
+pos is 99.021
+neg is 95.582
+2020-04-25 13:33:31 [INFO]: Val on validation set...
+2020-04-25 13:34:22 [INFO]: Start training epoch 827
+acc is 97
+pos is 99.144
+neg is 95.045
+2020-04-25 13:37:32 [INFO]: Val on validation set...
+2020-04-25 13:38:19 [INFO]: Start training epoch 828
+acc is 97
+pos is 99.169
+neg is 94.708
+2020-04-25 13:41:25 [INFO]: Val on validation set...
+2020-04-25 13:42:12 [INFO]: Start training epoch 829
+acc is 97
+pos is 99.261
+neg is 94.205
+2020-04-25 13:45:15 [INFO]: Val on validation set...
+2020-04-25 13:46:04 [INFO]: Start training epoch 830
+acc is 97
+pos is 99.127
+neg is 95.051
+2020-04-25 13:49:11 [INFO]: Val on validation set...
+2020-04-25 13:49:59 [INFO]: Start training epoch 831
+acc is 98
+pos is 99.001
+neg is 95.698
+2020-04-25 13:53:09 [INFO]: Val on validation set...
+2020-04-25 13:53:56 [INFO]: Start training epoch 832
+acc is 98
+pos is 98.849
+neg is 95.996
+2020-04-25 13:56:57 [INFO]: Val on validation set...
+2020-04-25 13:57:43 [INFO]: Start training epoch 833
+acc is 97
+pos is 99.165
+neg is 95.007
+2020-04-25 14:00:49 [INFO]: Val on validation set...
+2020-04-25 14:01:36 [INFO]: Start training epoch 834
+acc is 97
+pos is 99.140
+neg is 94.963
+2020-04-25 14:04:44 [INFO]: Val on validation set...
+2020-04-25 14:05:33 [INFO]: Start training epoch 835
+acc is 97
+pos is 99.155
+neg is 95.004
+2020-04-25 14:08:43 [INFO]: Val on validation set...
+2020-04-25 14:09:29 [INFO]: Start training epoch 836
+acc is 98
+pos is 99.036
+neg is 95.497
+2020-04-25 14:12:35 [INFO]: Val on validation set...
+2020-04-25 14:13:25 [INFO]: Start training epoch 837
+acc is 98
+pos is 98.985
+neg is 95.675
+2020-04-25 14:16:36 [INFO]: Val on validation set...
+2020-04-25 14:17:26 [INFO]: Start training epoch 838
+acc is 98
+pos is 98.953
+neg is 95.880
+2020-04-25 14:20:07 [INFO]: Val on validation set...
+2020-04-25 14:20:56 [INFO]: Start training epoch 839
+acc is 98
+pos is 98.961
+neg is 95.790
+2020-04-25 14:24:02 [INFO]: Val on validation set...
+2020-04-25 14:24:48 [INFO]: Start training epoch 840
+acc is 97
+pos is 99.114
+neg is 95.174
+2020-04-25 14:27:56 [INFO]: Val on validation set...
+2020-04-25 14:28:46 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 14:28:46 [INFO]: Start training epoch 841
+acc is 97
+pos is 99.106
+neg is 95.190
+2020-04-25 14:31:51 [INFO]: Val on validation set...
+2020-04-25 14:32:41 [INFO]: Start training epoch 842
+acc is 97
+pos is 99.146
+neg is 94.998
+2020-04-25 14:35:46 [INFO]: Val on validation set...
+2020-04-25 14:36:31 [INFO]: Start training epoch 843
+acc is 97
+pos is 99.124
+neg is 95.024
+2020-04-25 14:39:39 [INFO]: Val on validation set...
+2020-04-25 14:40:30 [INFO]: Start training epoch 844
+acc is 97
+pos is 99.087
+neg is 95.181
+2020-04-25 14:43:35 [INFO]: Val on validation set...
+2020-04-25 14:44:21 [INFO]: Start training epoch 845
+acc is 98
+pos is 98.875
+neg is 95.949
+2020-04-25 14:47:26 [INFO]: Val on validation set...
+2020-04-25 14:48:14 [INFO]: Start training epoch 846
+acc is 98
+pos is 99.094
+neg is 95.263
+2020-04-25 14:51:22 [INFO]: Val on validation set...
+2020-04-25 14:52:10 [INFO]: Start training epoch 847
+acc is 97
+pos is 99.093
+neg is 95.217
+2020-04-25 14:55:19 [INFO]: Val on validation set...
+2020-04-25 14:56:10 [INFO]: Start training epoch 848
+acc is 98
+pos is 99.107
+neg is 95.303
+2020-04-25 14:59:16 [INFO]: Val on validation set...
+2020-04-25 15:00:04 [INFO]: Start training epoch 849
+acc is 98
+pos is 99.049
+neg is 95.500
+2020-04-25 15:03:05 [INFO]: Val on validation set...
+2020-04-25 15:03:54 [INFO]: Start training epoch 850
+acc is 98
+pos is 98.875
+neg is 95.848
+2020-04-25 15:06:59 [INFO]: Val on validation set...
+2020-04-25 15:07:46 [INFO]: Start training epoch 851
+acc is 97
+pos is 99.150
+neg is 95.061
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_850_97.98431506001732.pth
+2020-04-25 15:10:52 [INFO]: Val on validation set...
+2020-04-25 15:11:41 [INFO]: Start training epoch 852
+acc is 97
+pos is 99.114
+neg is 95.167
+Epoch   851: reducing learning rate of group 0 to 6.8719e-04.
+2020-04-25 15:14:47 [INFO]: Val on validation set...
+2020-04-25 15:15:38 [INFO]: Start training epoch 853
+acc is 97
+pos is 99.159
+neg is 94.941
+2020-04-25 15:18:45 [INFO]: Val on validation set...
+2020-04-25 15:19:33 [INFO]: Start training epoch 854
+acc is 97
+pos is 99.079
+neg is 95.293
+2020-04-25 15:22:42 [INFO]: Val on validation set...
+2020-04-25 15:23:33 [INFO]: Start training epoch 855
+acc is 98
+pos is 99.007
+neg is 95.635
+2020-04-25 15:26:41 [INFO]: Val on validation set...
+2020-04-25 15:27:29 [INFO]: Start training epoch 856
+acc is 97
+pos is 99.204
+neg is 94.570
+2020-04-25 15:30:38 [INFO]: Val on validation set...
+2020-04-25 15:31:26 [INFO]: Start training epoch 857
+acc is 97
+pos is 99.122
+neg is 95.127
+2020-04-25 15:34:33 [INFO]: Val on validation set...
+2020-04-25 15:35:20 [INFO]: Start training epoch 858
+acc is 97
+pos is 99.114
+neg is 95.047
+2020-04-25 15:38:26 [INFO]: Val on validation set...
+2020-04-25 15:39:15 [INFO]: Start training epoch 859
+acc is 98
+pos is 99.106
+neg is 95.289
+2020-04-25 15:42:25 [INFO]: Val on validation set...
+2020-04-25 15:43:16 [INFO]: Start training epoch 860
+acc is 97
+pos is 99.118
+neg is 95.185
+2020-04-25 15:46:26 [INFO]: Val on validation set...
+2020-04-25 15:47:14 [INFO]: Start training epoch 861
+acc is 97
+pos is 99.123
+neg is 95.162
+2020-04-25 15:50:19 [INFO]: Val on validation set...
+2020-04-25 15:51:07 [INFO]: Start training epoch 862
+acc is 97
+pos is 99.184
+neg is 94.760
+2020-04-25 15:54:13 [INFO]: Val on validation set...
+2020-04-25 15:55:01 [INFO]: Start training epoch 863
+acc is 98
+pos is 99.023
+neg is 95.506
+2020-04-25 15:58:08 [INFO]: Val on validation set...
+2020-04-25 15:58:55 [INFO]: Start training epoch 864
+acc is 97
+pos is 99.134
+neg is 94.972
+2020-04-25 16:02:05 [INFO]: Val on validation set...
+2020-04-25 16:02:52 [INFO]: Start training epoch 865
+acc is 98
+pos is 98.950
+neg is 95.734
+2020-04-25 16:06:01 [INFO]: Val on validation set...
+2020-04-25 16:06:50 [INFO]: Start training epoch 866
+acc is 97
+pos is 99.126
+neg is 95.164
+2020-04-25 16:09:58 [INFO]: Val on validation set...
+2020-04-25 16:10:45 [INFO]: Start training epoch 867
+acc is 97
+pos is 99.192
+neg is 94.704
+2020-04-25 16:13:44 [INFO]: Val on validation set...
+2020-04-25 16:14:32 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 16:14:32 [INFO]: Start training epoch 868
+acc is 98
+pos is 99.116
+neg is 95.218
+2020-04-25 16:17:43 [INFO]: Val on validation set...
+2020-04-25 16:18:32 [INFO]: Start training epoch 869
+acc is 97
+pos is 99.228
+neg is 94.595
+2020-04-25 16:21:36 [INFO]: Val on validation set...
+2020-04-25 16:22:23 [INFO]: Start training epoch 870
+acc is 98
+pos is 99.061
+neg is 95.394
+2020-04-25 16:25:31 [INFO]: Val on validation set...
+2020-04-25 16:26:19 [INFO]: Start training epoch 871
+acc is 98
+pos is 99.102
+neg is 95.291
+2020-04-25 16:29:30 [INFO]: Val on validation set...
+2020-04-25 16:30:20 [INFO]: Start training epoch 872
+acc is 97
+pos is 99.064
+neg is 95.283
+2020-04-25 16:33:26 [INFO]: Val on validation set...
+2020-04-25 16:34:13 [INFO]: Start training epoch 873
+acc is 97
+pos is 99.087
+neg is 95.260
+Epoch   872: reducing learning rate of group 0 to 5.4976e-04.
+2020-04-25 16:37:17 [INFO]: Val on validation set...
+2020-04-25 16:38:03 [INFO]: Start training epoch 874
+acc is 98
+pos is 99.001
+neg is 95.585
+2020-04-25 16:41:14 [INFO]: Val on validation set...
+2020-04-25 16:42:03 [INFO]: Start training epoch 875
+acc is 97
+pos is 99.140
+neg is 94.956
+2020-04-25 16:45:11 [INFO]: Val on validation set...
+2020-04-25 16:46:00 [INFO]: Start training epoch 876
+acc is 97
+pos is 99.202
+neg is 94.577
+2020-04-25 16:49:07 [INFO]: Val on validation set...
+2020-04-25 16:49:56 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 16:49:56 [INFO]: Start training epoch 877
+acc is 97
+pos is 99.124
+neg is 95.147
+2020-04-25 16:53:04 [INFO]: Val on validation set...
+2020-04-25 16:53:52 [INFO]: Start training epoch 878
+acc is 98
+pos is 99.049
+neg is 95.562
+2020-04-25 16:56:57 [INFO]: Val on validation set...
+2020-04-25 16:57:44 [INFO]: Start training epoch 879
+acc is 98
+pos is 99.071
+neg is 95.360
+2020-04-25 17:00:44 [INFO]: Val on validation set...
+2020-04-25 17:01:31 [INFO]: Start training epoch 880
+acc is 97
+pos is 99.078
+neg is 95.247
+2020-04-25 17:04:35 [INFO]: Val on validation set...
+2020-04-25 17:05:26 [INFO]: Start training epoch 881
+acc is 97
+pos is 99.165
+neg is 94.858
+2020-04-25 17:08:33 [INFO]: Val on validation set...
+2020-04-25 17:09:22 [INFO]: Start training epoch 882
+acc is 98
+pos is 99.088
+neg is 95.308
+2020-04-25 17:12:31 [INFO]: Val on validation set...
+2020-04-25 17:13:20 [INFO]: Start training epoch 883
+acc is 97
+pos is 99.073
+neg is 95.291
+2020-04-25 17:16:28 [INFO]: Val on validation set...
+2020-04-25 17:17:17 [INFO]: Start training epoch 884
+acc is 98
+pos is 99.080
+neg is 95.328
+2020-04-25 17:20:23 [INFO]: Val on validation set...
+2020-04-25 17:21:14 [INFO]: Start training epoch 885
+acc is 98
+pos is 99.091
+neg is 95.282
+2020-04-25 17:24:22 [INFO]: Val on validation set...
+2020-04-25 17:25:12 [INFO]: Start training epoch 886
+acc is 97
+pos is 99.174
+neg is 94.657
+2020-04-25 17:28:15 [INFO]: Val on validation set...
+2020-04-25 17:29:03 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 17:29:03 [INFO]: Start training epoch 887
+acc is 97
+pos is 99.204
+neg is 94.648
+2020-04-25 17:32:13 [INFO]: Val on validation set...
+2020-04-25 17:33:01 [INFO]: Start training epoch 888
+acc is 98
+pos is 99.056
+neg is 95.472
+2020-04-25 17:36:11 [INFO]: Val on validation set...
+2020-04-25 17:36:59 [INFO]: Start training epoch 889
+acc is 97
+pos is 99.175
+neg is 94.931
+2020-04-25 17:40:02 [INFO]: Val on validation set...
+2020-04-25 17:40:49 [INFO]: Start training epoch 890
+acc is 97
+pos is 99.094
+neg is 95.211
+2020-04-25 17:43:57 [INFO]: Val on validation set...
+2020-04-25 17:44:47 [INFO]: Start training epoch 891
+acc is 97
+pos is 99.165
+neg is 94.803
+2020-04-25 17:47:56 [INFO]: Val on validation set...
+2020-04-25 17:48:44 [INFO]: Start training epoch 892
+acc is 98
+pos is 99.054
+neg is 95.510
+2020-04-25 17:51:51 [INFO]: Val on validation set...
+2020-04-25 17:52:37 [INFO]: Start training epoch 893
+acc is 97
+pos is 99.088
+neg is 95.217
+2020-04-25 17:55:43 [INFO]: Val on validation set...
+2020-04-25 17:56:30 [INFO]: Start training epoch 894
+acc is 98
+pos is 99.076
+neg is 95.352
+2020-04-25 17:59:39 [INFO]: Val on validation set...
+2020-04-25 18:00:28 [INFO]: Start training epoch 895
+acc is 98
+pos is 99.102
+neg is 95.258
+2020-04-25 18:03:36 [INFO]: Val on validation set...
+2020-04-25 18:04:25 [INFO]: Start training epoch 896
+acc is 98
+pos is 99.001
+neg is 95.738
+2020-04-25 18:07:29 [INFO]: Val on validation set...
+2020-04-25 18:08:20 [INFO]: Start training epoch 897
+acc is 97
+pos is 99.157
+neg is 94.890
+2020-04-25 18:11:29 [INFO]: Val on validation set...
+2020-04-25 18:12:21 [INFO]: Start training epoch 898
+acc is 97
+pos is 99.100
+neg is 95.242
+Epoch   897: reducing learning rate of group 0 to 4.3980e-04.
+2020-04-25 18:15:27 [INFO]: Val on validation set...
+2020-04-25 18:16:14 [INFO]: Start training epoch 899
+acc is 97
+pos is 99.134
+neg is 95.069
+2020-04-25 18:19:24 [INFO]: Val on validation set...
+2020-04-25 18:20:09 [INFO]: Start training epoch 900
+acc is 97
+pos is 99.093
+neg is 95.255
+2020-04-25 18:23:15 [INFO]: Val on validation set...
+2020-04-25 18:24:02 [INFO]: Start training epoch 901
+acc is 98
+pos is 99.111
+neg is 95.232
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_900_98.00519737656231.pth
+2020-04-25 18:27:04 [INFO]: Val on validation set...
+2020-04-25 18:27:52 [INFO]: Start training epoch 902
+acc is 98
+pos is 99.085
+neg is 95.317
+2020-04-25 18:31:04 [INFO]: Val on validation set...
+2020-04-25 18:31:54 [INFO]: Start training epoch 903
+acc is 97
+pos is 99.160
+neg is 94.976
+2020-04-25 18:35:01 [INFO]: Val on validation set...
+2020-04-25 18:35:49 [INFO]: Start training epoch 904
+acc is 97
+pos is 99.106
+neg is 95.122
+2020-04-25 18:38:57 [INFO]: Val on validation set...
+2020-04-25 18:39:46 [INFO]: Start training epoch 905
+acc is 98
+pos is 99.033
+neg is 95.557
+2020-04-25 18:42:50 [INFO]: Val on validation set...
+2020-04-25 18:43:40 [INFO]: Start training epoch 906
+acc is 98
+pos is 99.057
+neg is 95.499
+2020-04-25 18:46:44 [INFO]: Val on validation set...
+2020-04-25 18:47:31 [INFO]: Start training epoch 907
+acc is 97
+pos is 99.110
+neg is 95.209
+2020-04-25 18:50:37 [INFO]: Val on validation set...
+2020-04-25 18:51:24 [INFO]: Start training epoch 908
+acc is 98
+pos is 99.060
+neg is 95.421
+2020-04-25 18:54:28 [INFO]: Val on validation set...
+2020-04-25 18:55:16 [INFO]: Start training epoch 909
+acc is 98
+pos is 99.038
+neg is 95.445
+2020-04-25 18:58:27 [INFO]: Val on validation set...
+2020-04-25 18:59:16 [INFO]: Start training epoch 910
+acc is 97
+pos is 99.130
+neg is 95.123
+2020-04-25 19:02:22 [INFO]: Val on validation set...
+2020-04-25 19:03:12 [INFO]: Start training epoch 911
+acc is 98
+pos is 99.049
+neg is 95.386
+2020-04-25 19:06:20 [INFO]: Val on validation set...
+2020-04-25 19:07:08 [INFO]: Start training epoch 912
+acc is 97
+pos is 99.115
+neg is 95.179
+2020-04-25 19:10:18 [INFO]: Val on validation set...
+2020-04-25 19:11:05 [INFO]: Start training epoch 913
+acc is 98
+pos is 99.101
+neg is 95.249
+2020-04-25 19:14:05 [INFO]: Val on validation set...
+2020-04-25 19:14:55 [INFO]: Start training epoch 914
+acc is 98
+pos is 98.972
+neg is 95.765
+2020-04-25 19:18:06 [INFO]: Val on validation set...
+2020-04-25 19:18:53 [INFO]: Start training epoch 915
+acc is 98
+pos is 99.025
+neg is 95.592
+2020-04-25 19:22:03 [INFO]: Val on validation set...
+2020-04-25 19:22:50 [INFO]: Start training epoch 916
+acc is 97
+pos is 99.075
+neg is 95.256
+2020-04-25 19:26:01 [INFO]: Val on validation set...
+2020-04-25 19:26:49 [INFO]: Start training epoch 917
+acc is 98
+pos is 99.054
+neg is 95.456
+2020-04-25 19:29:57 [INFO]: Val on validation set...
+2020-04-25 19:30:45 [INFO]: Start training epoch 918
+acc is 98
+pos is 98.985
+neg is 95.711
+2020-04-25 19:33:56 [INFO]: Val on validation set...
+2020-04-25 19:34:43 [INFO]: Start training epoch 919
+acc is 98
+pos is 99.087
+neg is 95.288
+Epoch   918: reducing learning rate of group 0 to 3.5184e-04.
+2020-04-25 19:37:49 [INFO]: Val on validation set...
+2020-04-25 19:38:40 [INFO]: Start training epoch 920
+acc is 98
+pos is 99.078
+neg is 95.305
+2020-04-25 19:41:46 [INFO]: Val on validation set...
+2020-04-25 19:42:33 [INFO]: Start training epoch 921
+acc is 98
+pos is 99.030
+neg is 95.473
+2020-04-25 19:45:40 [INFO]: Val on validation set...
+2020-04-25 19:46:27 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 19:46:27 [INFO]: Start training epoch 922
+acc is 98
+pos is 99.103
+neg is 95.277
+2020-04-25 19:49:35 [INFO]: Val on validation set...
+2020-04-25 19:50:23 [INFO]: Start training epoch 923
+acc is 98
+pos is 99.073
+neg is 95.330
+2020-04-25 19:53:32 [INFO]: Val on validation set...
+2020-04-25 19:54:21 [INFO]: Start training epoch 924
+acc is 98
+pos is 99.113
+neg is 95.230
+2020-04-25 19:57:32 [INFO]: Val on validation set...
+2020-04-25 19:58:21 [INFO]: Start training epoch 925
+acc is 97
+pos is 99.046
+neg is 95.345
+2020-04-25 20:01:27 [INFO]: Val on validation set...
+2020-04-25 20:02:26 [INFO]: Start training epoch 926
+acc is 98
+pos is 99.079
+neg is 95.349
+2020-04-25 20:05:30 [INFO]: Val on validation set...
+2020-04-25 20:06:18 [INFO]: Start training epoch 927
+acc is 97
+pos is 99.103
+neg is 95.158
+2020-04-25 20:09:28 [INFO]: Val on validation set...
+2020-04-25 20:10:16 [INFO]: Start training epoch 928
+acc is 97
+pos is 99.035
+neg is 95.405
+2020-04-25 20:13:25 [INFO]: Val on validation set...
+2020-04-25 20:14:25 [INFO]: Start training epoch 929
+acc is 98
+pos is 98.973
+neg is 95.739
+2020-04-25 20:17:35 [INFO]: Val on validation set...
+2020-04-25 20:18:27 [INFO]: Start training epoch 930
+acc is 98
+pos is 99.057
+neg is 95.444
+2020-04-25 20:21:36 [INFO]: Val on validation set...
+2020-04-25 20:22:23 [INFO]: Start training epoch 931
+acc is 97
+pos is 99.136
+neg is 95.052
+2020-04-25 20:25:28 [INFO]: Val on validation set...
+2020-04-25 20:26:18 [INFO]: Start training epoch 932
+acc is 97
+pos is 99.118
+neg is 95.157
+2020-04-25 20:29:26 [INFO]: Val on validation set...
+2020-04-25 20:30:13 [INFO]: Start training epoch 933
+acc is 98
+pos is 99.051
+neg is 95.381
+2020-04-25 20:33:22 [INFO]: Val on validation set...
+2020-04-25 20:34:11 [INFO]: Start training epoch 934
+acc is 98
+pos is 99.051
+neg is 95.415
+2020-04-25 20:37:19 [INFO]: Val on validation set...
+2020-04-25 20:38:05 [INFO]: Start training epoch 935
+acc is 98
+pos is 99.064
+neg is 95.358
+2020-04-25 20:41:17 [INFO]: Val on validation set...
+2020-04-25 20:42:08 [INFO]: Start training epoch 936
+acc is 97
+pos is 99.156
+neg is 94.826
+2020-04-25 20:45:14 [INFO]: Val on validation set...
+2020-04-25 20:46:04 [INFO]: Start training epoch 937
+acc is 98
+pos is 99.053
+neg is 95.427
+2020-04-25 20:49:08 [INFO]: Val on validation set...
+2020-04-25 20:49:55 [INFO]: Start training epoch 938
+acc is 98
+pos is 99.067
+neg is 95.406
+2020-04-25 20:53:01 [INFO]: Val on validation set...
+2020-04-25 20:53:52 [INFO]: Start training epoch 939
+acc is 97
+pos is 99.099
+neg is 95.236
+2020-04-25 20:56:58 [INFO]: Val on validation set...
+2020-04-25 20:57:46 [INFO]: Start training epoch 940
+acc is 98
+pos is 99.083
+neg is 95.380
+Epoch   939: reducing learning rate of group 0 to 2.8147e-04.
+2020-04-25 21:00:52 [INFO]: Val on validation set...
+2020-04-25 21:01:54 [INFO]: Start training epoch 941
+acc is 97
+pos is 99.125
+neg is 95.117
+2020-04-25 21:05:03 [INFO]: Val on validation set...
+2020-04-25 21:05:51 [INFO]: Start training epoch 942
+acc is 97
+pos is 99.095
+neg is 95.246
+2020-04-25 21:08:57 [INFO]: Val on validation set...
+2020-04-25 21:09:44 [INFO]: Start training epoch 943
+acc is 98
+pos is 99.077
+neg is 95.347
+2020-04-25 21:12:43 [INFO]: Val on validation set...
+2020-04-25 21:13:45 [INFO]: Start training epoch 944
+acc is 98
+pos is 99.062
+neg is 95.405
+2020-04-25 21:16:55 [INFO]: Val on validation set...
+2020-04-25 21:17:45 [INFO]: Start training epoch 945
+acc is 98
+pos is 99.078
+neg is 95.325
+2020-04-25 21:20:50 [INFO]: Val on validation set...
+2020-04-25 21:21:37 [INFO]: Start training epoch 946
+acc is 97
+pos is 99.177
+neg is 94.776
+2020-04-25 21:24:48 [INFO]: Val on validation set...
+2020-04-25 21:25:40 [INFO]: Start training epoch 947
+acc is 98
+pos is 99.068
+neg is 95.404
+2020-04-25 21:28:48 [INFO]: Val on validation set...
+2020-04-25 21:29:39 [INFO]: Start training epoch 948
+acc is 97
+pos is 99.127
+neg is 95.037
+2020-04-25 21:32:46 [INFO]: Val on validation set...
+2020-04-25 21:33:36 [INFO]: Start training epoch 949
+acc is 97
+pos is 99.129
+neg is 95.141
+2020-04-25 21:36:47 [INFO]: Val on validation set...
+2020-04-25 21:37:35 [INFO]: Start training epoch 950
+acc is 98
+pos is 99.101
+neg is 95.290
+2020-04-25 21:40:41 [INFO]: Val on validation set...
+2020-04-25 21:41:30 [INFO]: Start training epoch 951
+acc is 98
+pos is 99.054
+neg is 95.458
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_950_98.02886400197995.pth
+2020-04-25 21:44:31 [INFO]: Val on validation set...
+2020-04-25 21:45:21 [INFO]: Start training epoch 952
+acc is 97
+pos is 99.109
+neg is 95.215
+2020-04-25 21:48:28 [INFO]: Val on validation set...
+2020-04-25 21:49:17 [INFO]: Start training epoch 953
+acc is 98
+pos is 99.076
+neg is 95.405
+2020-04-25 21:52:26 [INFO]: Val on validation set...
+2020-04-25 21:53:18 [INFO]: Start training epoch 954
+acc is 98
+pos is 99.030
+neg is 95.546
+2020-04-25 21:56:24 [INFO]: Val on validation set...
+2020-04-25 21:57:12 [INFO]: Start training epoch 955
+acc is 98
+pos is 99.116
+neg is 95.234
+2020-04-25 22:00:19 [INFO]: Val on validation set...
+2020-04-25 22:01:07 [INFO]: Start training epoch 956
+acc is 97
+pos is 99.138
+neg is 95.069
+2020-04-25 22:04:17 [INFO]: Val on validation set...
+2020-04-25 22:05:07 [INFO]: Start training epoch 957
+acc is 98
+pos is 99.068
+neg is 95.387
+2020-04-25 22:08:18 [INFO]: Val on validation set...
+2020-04-25 22:09:07 [INFO]: Start training epoch 958
+acc is 98
+pos is 99.114
+neg is 95.213
+2020-04-25 22:12:16 [INFO]: Val on validation set...
+2020-04-25 22:13:05 [INFO]: Start training epoch 959
+acc is 98
+pos is 99.070
+neg is 95.349
+2020-04-25 22:16:13 [INFO]: Val on validation set...
+2020-04-25 22:17:00 [INFO]: Start training epoch 960
+acc is 98
+pos is 99.052
+neg is 95.430
+2020-04-25 22:20:03 [INFO]: Val on validation set...
+2020-04-25 22:20:51 [INFO]: Found a better ckpt (0.047 -> 0.047), 
+2020-04-25 22:20:51 [INFO]: Start training epoch 961
+acc is 97
+pos is 99.158
+neg is 94.931
+2020-04-25 22:23:57 [INFO]: Val on validation set...
+2020-04-25 22:24:47 [INFO]: Start training epoch 962
+acc is 98
+pos is 99.045
+neg is 95.443
+2020-04-25 22:27:57 [INFO]: Val on validation set...
+2020-04-25 22:28:47 [INFO]: Start training epoch 963
+acc is 98
+pos is 99.078
+neg is 95.346
+2020-04-25 22:31:57 [INFO]: Val on validation set...
+2020-04-25 22:32:43 [INFO]: Start training epoch 964
+acc is 98
+pos is 99.084
+neg is 95.295
+2020-04-25 22:35:52 [INFO]: Val on validation set...
+2020-04-25 22:36:39 [INFO]: Start training epoch 965
+acc is 97
+pos is 99.064
+neg is 95.313
+2020-04-25 22:39:49 [INFO]: Val on validation set...
+2020-04-25 22:40:37 [INFO]: Start training epoch 966
+acc is 97
+pos is 99.132
+neg is 95.094
+2020-04-25 22:43:44 [INFO]: Val on validation set...
+2020-04-25 22:44:31 [INFO]: Start training epoch 967
+acc is 98
+pos is 99.060
+neg is 95.423
+2020-04-25 22:47:39 [INFO]: Val on validation set...
+2020-04-25 22:48:28 [INFO]: Start training epoch 968
+acc is 97
+pos is 99.124
+neg is 95.068
+2020-04-25 22:51:40 [INFO]: Val on validation set...
+2020-04-25 22:52:31 [INFO]: Start training epoch 969
+acc is 97
+pos is 99.129
+neg is 95.029
+2020-04-25 22:55:38 [INFO]: Val on validation set...
+2020-04-25 22:56:25 [INFO]: Start training epoch 970
+acc is 97
+pos is 99.106
+neg is 95.136
+2020-04-25 22:59:31 [INFO]: Val on validation set...
+2020-04-25 23:00:23 [INFO]: Start training epoch 971
+acc is 98
+pos is 99.070
+neg is 95.368
+2020-04-25 23:03:32 [INFO]: Val on validation set...
+2020-04-25 23:04:20 [INFO]: Start training epoch 972
+acc is 98
+pos is 99.074
+neg is 95.379
+Epoch   971: reducing learning rate of group 0 to 2.2518e-04.
+2020-04-25 23:07:31 [INFO]: Val on validation set...
+2020-04-25 23:08:20 [INFO]: Start training epoch 973
+acc is 97
+pos is 99.095
+neg is 95.236
+2020-04-25 23:11:27 [INFO]: Val on validation set...
+2020-04-25 23:12:15 [INFO]: Start training epoch 974
+acc is 98
+pos is 99.095
+neg is 95.332
+2020-04-25 23:15:20 [INFO]: Val on validation set...
+2020-04-25 23:16:12 [INFO]: Start training epoch 975
+acc is 97
+pos is 99.100
+neg is 95.196
+2020-04-25 23:19:21 [INFO]: Val on validation set...
+2020-04-25 23:20:09 [INFO]: Start training epoch 976
+acc is 98
+pos is 99.100
+neg is 95.284
+2020-04-25 23:23:14 [INFO]: Val on validation set...
+2020-04-25 23:24:03 [INFO]: Start training epoch 977
+acc is 97
+pos is 99.107
+neg is 95.182
+2020-04-25 23:27:12 [INFO]: Val on validation set...
+2020-04-25 23:28:00 [INFO]: Start training epoch 978
+acc is 98
+pos is 99.121
+neg is 95.192
+2020-04-25 23:31:10 [INFO]: Val on validation set...
+2020-04-25 23:31:58 [INFO]: Start training epoch 979
+acc is 97
+pos is 99.147
+neg is 95.017
+2020-04-25 23:35:05 [INFO]: Val on validation set...
+2020-04-25 23:35:53 [INFO]: Start training epoch 980
+acc is 97
+pos is 99.094
+neg is 95.225
+2020-04-25 23:39:01 [INFO]: Val on validation set...
+2020-04-25 23:40:08 [INFO]: Start training epoch 981
+acc is 98
+pos is 99.080
+neg is 95.348
+2020-04-25 23:43:18 [INFO]: Val on validation set...
+2020-04-25 23:44:06 [INFO]: Start training epoch 982
+acc is 98
+pos is 99.056
+neg is 95.426
+2020-04-25 23:47:18 [INFO]: Val on validation set...
+2020-04-25 23:48:08 [INFO]: Start training epoch 983
+acc is 98
+pos is 99.094
+neg is 95.261
+2020-04-25 23:51:13 [INFO]: Val on validation set...
+2020-04-25 23:52:02 [INFO]: Start training epoch 984
+acc is 98
+pos is 99.063
+neg is 95.382
+2020-04-25 23:55:06 [INFO]: Val on validation set...
+2020-04-25 23:55:54 [INFO]: Start training epoch 985
+acc is 98
+pos is 99.068
+neg is 95.362
+2020-04-25 23:59:03 [INFO]: Val on validation set...
+2020-04-25 23:59:52 [INFO]: Start training epoch 986
+acc is 98
+pos is 99.077
+neg is 95.384
+2020-04-26 00:02:58 [INFO]: Val on validation set...
+2020-04-26 00:03:48 [INFO]: Start training epoch 987
+acc is 97
+pos is 99.103
+neg is 95.209
+2020-04-26 00:06:53 [INFO]: Val on validation set...
+2020-04-26 00:07:42 [INFO]: Start training epoch 988
+acc is 98
+pos is 99.091
+neg is 95.339
+2020-04-26 00:10:50 [INFO]: Val on validation set...
+2020-04-26 00:11:40 [INFO]: Start training epoch 989
+acc is 97
+pos is 99.110
+neg is 95.139
+2020-04-26 00:14:16 [INFO]: Val on validation set...
+2020-04-26 00:15:07 [INFO]: Start training epoch 990
+acc is 98
+pos is 99.106
+neg is 95.231
+2020-04-26 00:18:10 [INFO]: Val on validation set...
+2020-04-26 00:18:57 [INFO]: Start training epoch 991
+acc is 98
+pos is 99.081
+neg is 95.321
+2020-04-26 00:22:03 [INFO]: Val on validation set...
+2020-04-26 00:22:53 [INFO]: Start training epoch 992
+acc is 97
+pos is 99.117
+neg is 95.165
+2020-04-26 00:26:01 [INFO]: Val on validation set...
+2020-04-26 00:26:51 [INFO]: Start training epoch 993
+acc is 98
+pos is 99.081
+neg is 95.323
+Epoch   992: reducing learning rate of group 0 to 1.8014e-04.
+2020-04-26 00:29:57 [INFO]: Val on validation set...
+2020-04-26 00:30:50 [INFO]: Start training epoch 994
+acc is 97
+pos is 99.144
+neg is 94.998
+2020-04-26 00:33:53 [INFO]: Val on validation set...
+2020-04-26 00:34:40 [INFO]: Start training epoch 995
+acc is 98
+pos is 99.055
+neg is 95.471
+2020-04-26 00:37:47 [INFO]: Val on validation set...
+2020-04-26 00:38:36 [INFO]: Start training epoch 996
+acc is 98
+pos is 99.090
+neg is 95.284
+2020-04-26 00:41:40 [INFO]: Val on validation set...
+2020-04-26 00:42:29 [INFO]: Start training epoch 997
+acc is 97
+pos is 99.107
+neg is 95.202
+2020-04-26 00:45:34 [INFO]: Val on validation set...
+2020-04-26 00:46:23 [INFO]: Start training epoch 998
+acc is 98
+pos is 99.096
+neg is 95.287
+2020-04-26 00:49:32 [INFO]: Val on validation set...
+2020-04-26 00:50:21 [INFO]: Start training epoch 999
+acc is 98
+pos is 99.100
+neg is 95.243
+2020-04-26 00:53:26 [INFO]: Val on validation set...
+2020-04-26 00:54:14 [INFO]: Start training epoch 1000
+acc is 97
+pos is 99.151
+neg is 94.943
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_999_97.95090335354536.pth
+2020-04-26 00:57:22 [INFO]: Val on validation set...
+acc is 98
+pos is 99.051
+neg is 95.403
+save model: ./models/models_new_all_data/models_0.25/ckpt_epoch_1000_98.01107536196015.pth
